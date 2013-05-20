@@ -1,24 +1,19 @@
-- Basic escapes intro, with an example including timings, demonstrating
-  various terminal effects, with timings, run first without, then with
-  --replay --halts (or a shell script), then demonstrating how it
-  worked, using cat -A and teseq
-    - OR -
-  mess around in vim or similar, with syntax highlighting, and mouse
-  use, and then do it with pipe-pane to cat -A, and then teseq
+- [ Interactive demo featuring vim manipulations, nethack, starwars, nyan ]
+  - vim:
 - Overview of what I hope to cover
 - Catting a binary file can be dangerous!
-  - Cat or head a file I know will produce what I want.
+  - [ Cat or head a file I know will produce what I want. ]
     . With a prepared terminal that got ': Esc ) 0', most terms seem
       less susceptible to this than I remember
   - Mention I had to prep the term for this case.
 - Flow control with ^S and ^Q
   - stty for controlling this.
+  [ demonstration:
+      while : ; do echo $RANDOM; sleep 0.5; done
+  ]
 - ASCII / Ecma-6 / ISO-646
-  - Why 7-bit? Bytes weren't always octets. They used to be defined in
-    terms of character sets, and early character sets had as few as 5
-    bits.
   - Comes from background of punchtape, teletypes (ttys)
-    [ pictures of punch cards, line printers ]
+    [ pictures of punch tape, line printers ]
   - How control characters are formed at the keyboard
   - Your computer understands Ctrl+Anything, but terms are much more
     limited
@@ -28,10 +23,15 @@
       highlighted. ]
     - The special DEL character, not with the other controls.
     - Control representations: ^X or C-x
-  - CR and LF
+    - other things can use control, like arrow keys, but it works very
+      differently.
+  - CR and LF (or NL)
     - meanings for a line printer
     - what gets sent by the keyboard, versus what the terminal sends to
       app, how to control with stty
+      - Briefly explain pseudo terminal files
+      - Normally line-buffered, tty lets you edit in-place, then sends
+        on return.
   - shift out/in with ^N/^O
     - How to recover from catting a binary file: reset ^J
   - DEL/^? vs BS/^H, and stty
@@ -46,7 +46,7 @@
     - saving and restoring stty settings
   - Graphical effects using BS/^H or CR/^M
     - Ecma 6 § 7
-    - man example
+    - [ man example ]
       - man man
       - man man | less (lose formatting, because no tty)
       - MAN_KEEP_FORMATTING=1 man man | less -R (get formatting again)
@@ -54,25 +54,19 @@
       - explain the backspace notation
   - "composite" characters using BS
     [ note from relevant Ecma standard ]
-- Other 7-bit Ecma encodings/ASCII variants, and which chars were
-  allowed to change, which aren't. ISO 646 / Ecma 6
-  - Did you ever visit a text documenton a web page, and it had funky
-    characters, like ¥ or Ñ, where you had expected punctuation, like
-    maybe backslashes? ...That was an ISO-646 / Ecma-6 variant.
-  - example swapping to Japanese or Spanish 7-bit charsets, luit or vte.
-  - ISO-IR
-  - ISO 646 was the reason why C introduced trigraphs and words like
-    "and" and "or".
 - Why can't I do the man example directly to terminal? Because video
   terminals and emulators aren't like teletypes: they don't do
   overstrikes. What they use is escape sequences, like the ones we saw
   before.
 - A focus on graphical rendition effects, especially color, in prompts
+  - How to print escape sequences yourself
+    - Mention that echo can do it, but it's not portable.
+    - printf -- '%b' '\033...'
+      - '\x1B' (C-style) is NOT portable.
   - Relation between ^[[3Xm, and RGB values.
   - bold effects (or not) on 8-color values
   - 16-color values (non-standard)
   - 256-color values (non-standard)
-    - Are based on "Open Document Architecture"
   - Note about shells' static buffers, and long-color values
 - The terminfo database, a portable way to handle terminal differences
   - How to tell how many colors a terminal supports, and how to portably
@@ -84,6 +78,7 @@
   - other features of note:
     - application mode
     - keyboard transmit mode
+    - special keys with modifiers
     - mouse (doesn't really communicate anything other than basic
       support, protocol has to be communicated elsewhere)
     - mouse testing example? -- printf '\033[?1000h'; STTY=$(stty -g); stty -echo -icanon min 1 time 0; cat -A; sleep 1; stty "$STTY"; printf '\033[?1000l'
@@ -97,6 +92,7 @@
     actually operates
   - Compiling custom terminfos with tic
     - Add a color whenever something gets made bold or underlined.
+    - condense the example to a one-liner
   - termcap:
     - can communicate via env var (which can run out of space)
     - can't communicate conditionals (use 256-color setaf example)
@@ -110,7 +106,7 @@
   - It's bad to cat binary files to the terminal, BUT we can recover
     with ^J reset ^J
   - Terminal frozen? Try ^Q! (And also try a term that deals gracefully
-    with flow control, or disable it with stty in your .bashrc)
+    with flow control, or defang it with stty in your .bashrc)
   - stty is great for a number of other things, too
     - summary list
   - Terminfo:
@@ -148,6 +144,15 @@
 
 
 (At end, if there's time:)
+- Other 7-bit Ecma encodings/ASCII variants, and which chars were
+  allowed to change, which aren't. ISO 646 / Ecma 6
+  - Did you ever visit a text documenton a web page, and it had funky
+    characters, like ¥ or Ñ, where you had expected punctuation, like
+    maybe backslashes? ...That was an ISO-646 / Ecma-6 variant.
+  - example swapping to Japanese or Spanish 7-bit charsets, luit or vte.
+  - ISO-IR
+  - ISO 646 was the reason why C introduced trigraphs and words like
+    "and" and "or".
 - 8-bit ISO-8859 encodings, and Ecma-35 / ISO 2022
   - Most people know about "latin1". Do they know that an app can send
     codes to switch to another charset, or even swap the lower portion
