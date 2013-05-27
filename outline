@@ -1,20 +1,53 @@
+- tmux/screen
+  - Loss of connection
+  - Multiple windows you can switch between
+  - Split terminals
+  - Setting up workspaces (my tmux, plines, or niwt examples)
 - [ Interactive demo featuring vim manipulations, nethack, starwars, nyan ]
-  - vim:
-- Overview of what I hope to cover
-- Catting a binary file can be dangerous!
-  - [ Cat or head a file I know will produce what I want. ]
-    . With a prepared terminal that got ': Esc ) 0', most terms seem
-      less susceptible to this than I remember
-  - Mention I had to prep the term for this case.
-- Flow control with ^S and ^Q
-  - stty for controlling this.
-  [ demonstration:
-      while : ; do echo $RANDOM; sleep 0.5; done
-  ]
+- Terminal problems you can find yourself in
+  - Catting a binary file can be dangerous!
+    - [ Cat or head a file I know will produce what I want. ]
+      . With a prepared terminal that got ': Esc ) 0', most terms seem
+        less susceptible to this than I remember
+    - Mention I had to prep the term for this case.
+  - Flow control with ^S and ^Q
+    - stty for controlling this.
+    [ demonstration:
+        while : ; do echo $RANDOM; sleep 0.5; done
+    ]
+  - stty -echo
+  - Most of these, except flow control, solved with ^J reset ^J
+- Pseudo-terminal files, every emulated terminal has one
+  - what do I mean "emulated"? Originally, terminals were hardware. Just
+    enough computing power to do what a terminal does, and connect via
+    serial cable or what not.
+  - Pseudo-terminals are pairs of files:
+    - one file is used by the terminal to send characters as input to
+      programs, and may not actually be accessible on the filesystem
+      - terminal opens it, kernel constructs a new file descriptor;
+        opening it again gives a completely different terminal pair
+    - the other file is found on the filesystem, and if you write to it,
+      it shows up graphically on the terminal.
+    - More on these file pairs later
+  - Example: echo Hello there > /dev/pts/XX
+- Sending terminal controls with tput
+  - tput examples: graphic rendition: bold, underline, standout, setaf,
+    setab, sgr0
+    [ Pre-recorded demo ]
+  - tput examples, cmd output from one term going into another set in "raw" mode
+    [ Interactive demo: ]
+    - stty raw < $T  # Will explain this later
+    - tput cdd1; printf a   # It did move down, but it also moved forward
+    - printf 'a\b'  # Stays same place after printing 'a'
+    - tput cdd1; printf 'a\b' # Works now!
+    - Now use [ special script ] to facilitate demonstrating tput:
+      prints a where it is, performs new command, or last one, prints a
+      with standout, then removes standout.
+  - terminfo(5) is where to find various features and descriptions
+  - The TERM environment variable
 - ASCII / Ecma-6 / ISO-646
   - Comes from background of punchtape, teletypes (ttys)
     [ pictures of punch tape, line printers ]
-  - How control characters are formed at the keyboard
   - Your computer understands Ctrl+Anything, but terms are much more
     limited
     [ show hex-based ascii table, with each pair of columns highlighted,
@@ -25,15 +58,21 @@
     - Control representations: ^X or C-x
     - other things can use control, like arrow keys, but it works very
       differently.
+  - meta key was used for setting the high bit of a typed byte; now more
+    typically prefixes it with Esc. 
   - CR and LF (or NL)
     - meanings for a line printer
+    - LF is usually called NL these days, which is a graphical
+      terminal-oriented name. The LF designation is a teletype-oriented
+      name.
     - what gets sent by the keyboard, versus what the terminal sends to
       app, how to control with stty
       - Briefly explain pseudo terminal files
       - Normally line-buffered, tty lets you edit in-place, then sends
         on return.
   - shift out/in with ^N/^O
-    - How to recover from catting a binary file: reset ^J
+    - Shift character sets in/out, most often used for DEC special
+      characters (as seen in our previous munged-screen example)
   - DEL/^? vs BS/^H, and stty
     - DEL's original meaning with punch tape, Ecma 6 § 6.5
     - BS = ^H is problematic for some apps, such as Emacs
@@ -41,7 +80,7 @@
       based on stty.
     - quick diversion, to mention a few other things stty is
       useful for, such as raw and cooked mode, and how to redirect
-      standard input from a different tty
+      standard input from a different tty.
     - Why terminal apps can screw up the stty settings
     - saving and restoring stty settings
   - Graphical effects using BS/^H or CR/^M
@@ -58,38 +97,26 @@
   terminals and emulators aren't like teletypes: they don't do
   overstrikes. What they use is escape sequences, like the ones we saw
   before.
-- A focus on graphical rendition effects, especially color, in prompts
-  - How to print escape sequences yourself
-    - Mention that echo can do it, but it's not portable.
-    - printf -- '%b' '\033...'
-      - '\x1B' (C-style) is NOT portable.
-  - Relation between ^[[3Xm, and RGB values.
-  - bold effects (or not) on 8-color values
-  - 16-color values (non-standard)
-  - 256-color values (non-standard)
-  - Note about shells' static buffers, and long-color values
-- The terminfo database, a portable way to handle terminal differences
-  - How to tell how many colors a terminal supports, and how to portably
-    set the colors
-  - The TERM environment variable
+- Terminfo database/infocmp
   - auto-updated cols and lines, keeps up with resizes.
-  - terminfo(5) is where to find various features and descriptions
   - Ecma 48 is where to find standardized feature descriptions
   - other features of note:
     - application mode
     - keyboard transmit mode
-    - special keys with modifiers
+    - function keys.
+    - special keys with modifiers (refer to terminfo source doc's descr)
     - mouse (doesn't really communicate anything other than basic
       support, protocol has to be communicated elsewhere)
-    - mouse testing example? -- printf '\033[?1000h'; STTY=$(stty -g); stty -echo -icanon min 1 time 0; cat -A; sleep 1; stty "$STTY"; printf '\033[?1000l'
+    - mouse testing example? -- [ printf '\033[?1000h'; STTY=$(stty -g); stty -echo -icanon min 1 time 0; cat -A; sleep 1; stty "$STTY"; printf '\033[?1000l' ]
     - what happens if mouse mode left on?
-    - function keys. Refer to terminfo source doc's description of these.
   - ``Notice how many feature strings begin with "\E["...'' - explain
     the CSI sequence and how its end is detected.
   - What happens when my terminfo file isn't available on a remote
     machine
   - What happens when the terminfo file disagrees with how my terminal
     actually operates
+  - tmux/screen: Twice as many terminfo entries, twice as much
+    opportunity for things to wrong...
   - Compiling custom terminfos with tic
     - Add a color whenever something gets made bold or underlined.
     - condense the example to a one-liner
@@ -97,40 +124,13 @@
     - can communicate via env var (which can run out of space)
     - can't communicate conditionals (use 256-color setaf example)
     - uses 2-character labels, instead of arbitrary-length
-- prompt-jobs.sh
-  - Simple example
-  - configuring .pjobsrc with tput commands
-  - prompt-jobs: treating your existing complex prompt with respect.
-- Feeling Overwhelmed? A summary of what we know so far:
-  . (Everything everyone who uses terminals ought to know)
-  - It's bad to cat binary files to the terminal, BUT we can recover
-    with ^J reset ^J
-  - Terminal frozen? Try ^Q! (And also try a term that deals gracefully
-    with flow control, or defang it with stty in your .bashrc)
-  - stty is great for a number of other things, too
-    - summary list
-  - Terminfo:
-    - TERM tells apps how to do stuff
-    - tput for portable controls
-    - infocmp to find capabilities
-    - "man 5 terminfo" to look them up
-  - (Shameless plugs:)
-    - Teseq is great for trying to figure out what your term is being
-      asked to do
-    - prompt-jobs.sh. Makes a colored prompt with built-in job list,
-      easy!
-- tmux/screen
-  - Loss of connection
-  - Multiple windows you can switch between
-  - Split terminals
-  - Setting up workspaces (my tmux, plines, or niwt examples)
-  - pipe-pane example with teseq
+- teseq:
+  - tmux pipe-pane example with teseq, with prompt first, then vim or
+    something
+    [ Pre-recorded demo ]
   - Example showing teseq showing what an app sends to tmux, versus what
     tmux sends to the term (this is what I invented teseq for!)
     - Good opportunity to introduce script
-  - Twice as many terminfo entries, twice as much opportunity for things
-    to wrong...
-  - Italics and tmux/screen
 - introducing reseq
   - Using teseq and reseq together to provide terminal bug reproduction
     (don't spend much time here, who else needs to know that?!)
@@ -144,6 +144,23 @@
 
 
 (At end, if there's time:)
+- prompt-jobs.sh
+  [ Interactive demo for this ]
+  - Simple example
+  - configuring .pjobsrc with tput commands
+  - prompt-jobs: treating your existing complex prompt with respect.
+- More on color, and using them in prompts (without prompt-jobs)
+  [ Use reseq --replay example for this ]
+  - Use infocmp or tput to determine how many colors are supported.
+  - How to print escape sequences yourself
+    - Mention that echo can do it, but it's not portable.
+    - printf -- '%b' '\033...'
+      - '\x1B' (C-style) is easier but NOT portable.
+  - Relation between ^[[3Xm, and RGB values.
+  - bold effects (or not) on 8-color values
+  - 16-color values (non-standard)
+  - 256-color values (non-standard)
+  - Note about shells' static buffers, and long-color values
 - Other 7-bit Ecma encodings/ASCII variants, and which chars were
   allowed to change, which aren't. ISO 646 / Ecma 6
   - Did you ever visit a text documenton a web page, and it had funky
