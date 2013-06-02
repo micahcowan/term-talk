@@ -8,7 +8,10 @@
   - Split terminals
   - My manpage/infopage shortcuts
   - Setting up workspaces (my tmux, plines, or niwt examples)
-- [ Interactive demo featuring vim manipulations, nethack, starwars, nyan ]
+- [ Interactive demo featuring vim manipulations, nethack, starwars, nyan:
+    ansi/all.sh ]
+  - Provide links for where to telnet for starwars and nyan, and where
+    to get 
 - Terminal problems you can find yourself in
   - Catting a binary file can be dangerous!
     - [ Cat or head a file I know will produce what I want. ]
