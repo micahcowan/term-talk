@@ -1,7 +1,12 @@
-- tmux/screen
+- Basics of tmux/screen
+  . Demonstrate these manually
   - Loss of connection
   - Multiple windows you can switch between
+    - The C-b or C-a prefix. Why C-a may not be best choice for
+      emacs/bash users.
+    - C-a a -> C-a
   - Split terminals
+  - My manpage/infopage shortcuts
   - Setting up workspaces (my tmux, plines, or niwt examples)
 - [ Interactive demo featuring vim manipulations, nethack, starwars, nyan ]
 - Terminal problems you can find yourself in
@@ -97,6 +102,23 @@
   terminals and emulators aren't like teletypes: they don't do
   overstrikes. What they use is escape sequences, like the ones we saw
   before.
+- teseq:
+  - tmux pipe-pane example with teseq, with prompt first, then vim or
+    something
+    [ Pre-recorded demo ]
+  - Example showing teseq showing what an app sends to tmux, versus what
+    tmux sends to the term (this is what I invented teseq for!)
+    - Good opportunity to introduce script
+- introducing reseq
+  - Using teseq and reseq together to provide terminal bug reproduction
+    (don't spend much time here, who else needs to know that?!)
+  - script -t for timing info
+  - scriptreplay to play it back
+  - Play initial section of wget demo, "auto-retries.seq"
+  - ^C is safe - reseq restores the terminal first
+  - Creating a simple interactive demo with script -t, teseq, and reseq.
+    [ Do it using an interactive demo itself! ]
+  - ttyrec
 - Terminfo database/infocmp
   - auto-updated cols and lines, keeps up with resizes.
   - Ecma 48 is where to find standardized feature descriptions
@@ -124,23 +146,6 @@
     - can communicate via env var (which can run out of space)
     - can't communicate conditionals (use 256-color setaf example)
     - uses 2-character labels, instead of arbitrary-length
-- teseq:
-  - tmux pipe-pane example with teseq, with prompt first, then vim or
-    something
-    [ Pre-recorded demo ]
-  - Example showing teseq showing what an app sends to tmux, versus what
-    tmux sends to the term (this is what I invented teseq for!)
-    - Good opportunity to introduce script
-- introducing reseq
-  - Using teseq and reseq together to provide terminal bug reproduction
-    (don't spend much time here, who else needs to know that?!)
-  - script -t for timing info
-  - scriptreplay to play it back
-  - Play initial section of wget demo, "auto-retries.seq"
-  - ^C is safe - reseq restores the terminal first
-  - Creating a simple interactive demo with script -t, teseq, and reseq.
-    [ Do it using an interactive demo itself! ]
-  - ttyrec
 
 
 (At end, if there's time:)
@@ -149,18 +154,6 @@
   - Simple example
   - configuring .pjobsrc with tput commands
   - prompt-jobs: treating your existing complex prompt with respect.
-- More on color, and using them in prompts (without prompt-jobs)
-  [ Use reseq --replay example for this ]
-  - Use infocmp or tput to determine how many colors are supported.
-  - How to print escape sequences yourself
-    - Mention that echo can do it, but it's not portable.
-    - printf -- '%b' '\033...'
-      - '\x1B' (C-style) is easier but NOT portable.
-  - Relation between ^[[3Xm, and RGB values.
-  - bold effects (or not) on 8-color values
-  - 16-color values (non-standard)
-  - 256-color values (non-standard)
-  - Note about shells' static buffers, and long-color values
 - Other 7-bit Ecma encodings/ASCII variants, and which chars were
   allowed to change, which aren't. ISO 646 / Ecma 6
   - Did you ever visit a text documenton a web page, and it had funky
@@ -178,8 +171,22 @@
     [ set of simple tools to invoke charsets to different areas, shift
     different areas into GL and GR. Ready printable that exercises GL
     and GR, and maybe all of G0 thru G3 as well. ]
+(
+- More on color, and using them in prompts (without prompt-jobs)
+  [ Use reseq --replay example for this ]
+  - Use infocmp or tput to determine how many colors are supported.
+  - How to print escape sequences yourself
+    - Mention that echo can do it, but it's not portable.
+    - printf -- '%b' '\033...'
+      - '\x1B' (C-style) is easier but NOT portable.
+  - Relation between ^[[3Xm, and RGB values.
+  - bold effects (or not) on 8-color values
+  - 16-color values (non-standard)
+  - 256-color values (non-standard)
+  - Note about shells' static buffers, and long-color values
 
 - Final slides:
+  - Summary
   - List of specifications and tools referenced.
   - Link to website with the examples I used.
 
