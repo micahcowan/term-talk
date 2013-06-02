@@ -3345,97 +3345,97 @@
 : Esc [ 25 ; 1 H
 |1 change; before #7  9 seconds ago|
 : Esc [ 25 ; 53 H
-: Esc [ K
-: Esc [ 4 ; 3 H
-|I can move the cursor up and down, left and right|
-: Esc [ 25 ; 63 H
-|4,3|
-: Esc [ 11 C
-|All|
-: Esc [ 4 ; 3 H
-: Esc [ ? 12 l
-: Esc [ ? 25 h
-@ 0.010114
-: Esc [ ? 25 l
-: Esc [ 25 ; 53 H
-|i|
-: Esc [ 4 ; 3 H
-: Esc [ 25 ; 53 H
-| |
-: Esc [ 4 ; 3 H
-: Esc [ 25 ; 1 H
-: Esc [ 1 m
-|-- INSERT --|
-: Esc [ m
-: Esc [ 25 ; 13 H
-: Esc [ K
-: Esc [ 25 ; 63 H
-|4,3|
-: Esc [ 11 C
-|All|
-: Esc [ 4 ; 3 H
-: Esc [ ? 12 l
-: Esc [ ? 25 h
-@ 0.683029
-: Esc [ 25 ; 1 H
-: Esc [ K
-: Esc [ ? 25 l
-: Esc [ 25 ; 63 H
-|4,2|
-: Esc [ 11 C
-|All|
-: Esc [ 4 ; 2 H
-: Esc [ ? 12 l
-: Esc [ ? 25 h
-@ 0.269710
-: Esc [ ? 25 l
-: Esc [ 25 ; 53 H
-|u|
-: Esc [ 4 ; 2 H
-: Esc [ 25 ; 1 H
-|1 change; before #6  29 seconds ago|
-: Esc [ 25 ; 53 H
-: Esc [ K
-: Esc [ 4 ; 3 H
-|I can skip by word:|
-: Esc [ 4 ; 22 H
-: Esc [ K
-: Esc [ 25 ; 63 H
-|4,3|
-: Esc [ 11 C
-|All|
-: Esc [ 4 ; 3 H
-: Esc [ ? 12 l
-: Esc [ ? 25 h
-@ 1.322902
-: Esc [ ? 25 l
-: Esc [ 25 ; 53 H
-|^R|
-: Esc [ 4 ; 3 H
-: Esc [ 25 ; 11 H
-|after #6  30 seconds ago|
-: Esc [ 25 ; 35 H
-: Esc [ K
-: Esc [ 4 ; 3 H
-|I can move the cursor up and down, left and right|
-: Esc [ 25 ; 63 H
-|4,3|
-: Esc [ 11 C
-|All|
-: Esc [ 4 ; 3 H
-: Esc [ ? 12 l
-: Esc [ ? 25 h
-@ 0.942211
-: Esc [ ? 25 l
-: Esc [ 25 ; 53 H
-|^R|
-: Esc [ 4 ; 3 H
-: Esc [ 25 ; 18 H
-|7  12|
-: Esc [ 25 ; 53 H
-: Esc [ K
-: Esc [ 4 ; 3 H
-|I can insert text in the middle of a line|
+    : Esc [ K
+    : Esc [ 4 ; 3 H
+    |I can move the cursor up and down, left and right|
+    : Esc [ 25 ; 63 H
+    |4,3|
+    : Esc [ 11 C
+    |All|
+    : Esc [ 4 ; 3 H
+    : Esc [ ? 12 l
+    : Esc [ ? 25 h
+    @ 0.010114
+    : Esc [ ? 25 l
+    : Esc [ 25 ; 53 H
+    |i|
+    : Esc [ 4 ; 3 H
+    : Esc [ 25 ; 53 H
+    | |
+    : Esc [ 4 ; 3 H
+    : Esc [ 25 ; 1 H
+    : Esc [ 1 m
+    |-- INSERT --|
+    : Esc [ m
+    : Esc [ 25 ; 13 H
+    : Esc [ K
+    : Esc [ 25 ; 63 H
+    |4,3|
+    : Esc [ 11 C
+    |All|
+    : Esc [ 4 ; 3 H
+    : Esc [ ? 12 l
+    : Esc [ ? 25 h
+    @ 0.683029
+    : Esc [ 25 ; 1 H
+    : Esc [ K
+    : Esc [ ? 25 l
+    : Esc [ 25 ; 63 H
+    |4,2|
+    : Esc [ 11 C
+    |All|
+    : Esc [ 4 ; 2 H
+    : Esc [ ? 12 l
+    : Esc [ ? 25 h
+    @ 0.269710
+    : Esc [ ? 25 l
+    : Esc [ 25 ; 53 H
+    |u|
+    : Esc [ 4 ; 2 H
+    : Esc [ 25 ; 1 H
+    |1 change; before #6  29 seconds ago|
+    : Esc [ 25 ; 53 H
+    : Esc [ K
+    : Esc [ 4 ; 3 H
+    |I can skip by word:|
+    : Esc [ 4 ; 22 H
+    : Esc [ K
+    : Esc [ 25 ; 63 H
+    |4,3|
+    : Esc [ 11 C
+    |All|
+    : Esc [ 4 ; 3 H
+    : Esc [ ? 12 l
+    : Esc [ ? 25 h
+    @ 1.322902
+    : Esc [ ? 25 l
+    : Esc [ 25 ; 53 H
+    |^R|
+    : Esc [ 4 ; 3 H
+    : Esc [ 25 ; 11 H
+    |after #6  30 seconds ago|
+    : Esc [ 25 ; 35 H
+    : Esc [ K
+    : Esc [ 4 ; 3 H
+    |I can move the cursor up and down, left and right|
+    : Esc [ 25 ; 63 H
+    |4,3|
+    : Esc [ 11 C
+    |All|
+    : Esc [ 4 ; 3 H
+    : Esc [ ? 12 l
+    : Esc [ ? 25 h
+    @ 0.942211
+    : Esc [ ? 25 l
+    : Esc [ 25 ; 53 H
+    |^R|
+    : Esc [ 4 ; 3 H
+    : Esc [ 25 ; 18 H
+    |7  12|
+    : Esc [ 25 ; 53 H
+    : Esc [ K
+    : Esc [ 4 ; 3 H
+    |I can insert text in the middle of a line|
 : Esc [ 4 ; 44 H
 : Esc [ K
 : Esc [ 25 ; 63 H
