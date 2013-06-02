@@ -1,0 +1,3674 @@
+|Script started on Sun 02 Jun 2013 03:15:45 PM PDT|.
+@ 0.832503
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|micah-compaq-xubuntu|
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|$ |
+: Esc ( B
+: Esc [ m
+@ 1.119234
+. CR/^M LF/^J
+@ 0.132851
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|micah-compaq-xubuntu|
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|$ |
+: Esc ( B
+: Esc [ m
+@ 0.197739
+. CR/^M LF/^J
+@ 0.142337
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|micah-compaq-xubuntu|
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|$ |
+: Esc ( B
+: Esc [ m
+@ 0.259251
+|v|
+@ 0.096437
+|i|
+@ 0.059933
+|m|
+@ 1.959167
+| |
+@ 0.644316
+|h|
+@ 0.085382
+|e|
+@ 0.154237
+|l|
+@ 0.144305
+|l|
+@ 0.221270
+|o|
+@ 0.197898
+|.|
+@ 0.082093
+|t|
+@ 0.131688
+|x|
+@ 0.182001
+|t|
+@ 0.637918
+. CR/^M LF/^J
+@ 1.082144
+: Esc [ ? 1049 h
+: Esc [ ? 1 h
+: Esc =
+@ 0.004687
+: Esc [ 1 ; 25 r
+: Esc [ ? 12 ; 25 h
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+: Esc [ 27 m
+: Esc [ m
+: Esc [ H
+: Esc [ 2 J
+@ 0.001925
+: Esc [ ? 25 l
+: Esc [ 25 ; 1 H
+|"hello.txt" [New File]|
+@ 0.248871
+: Esc [ 2 ; 1 H
+: Esc [ 94 m
+|~                                                                          |-
+-|     |
+: Esc [ 3 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 4 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 5 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 6 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 7 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 8 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 9 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 10 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 11 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 12 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 13 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 14 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 15 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 16 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 17 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 18 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 19 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 20 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 21 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 22 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 23 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ 24 ; 1 H
+|~                                                                          |-
+-|     |
+: Esc [ m
+: Esc [ 25 ; 63 H
+|0,0-1|
+: Esc [ 9 C
+|All|
+: Esc ]
+|2;hello.txt (~/term-talk/ansi/vim) - VIM|
+. BEL/^G
+@ 0.000028
+: Esc [ 1 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 1.751144
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|c|
+: Esc [ 1 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.157373
+: Esc [ ? 25 l
+: Esc [ 25 ; 54 H
+|c|
+: Esc [ 1 ; 1 H
+@ 0.014616
+: Esc [ 25 ; 53 H
+|  |
+: Esc [ 1 ; 1 H
+: Esc [ 25 ; 1 H
+: Esc [ 1 m
+|-- INSERT --|
+: Esc [ m
+: Esc [ 25 ; 13 H
+: Esc [ K
+: Esc [ 25 ; 63 H
+|0,1|
+: Esc [ 11 C
+|All|
+: Esc [ 1 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.388818
+: Esc [ ? 25 l
+|H|
+: Esc [ 25 ; 63 H
+|1,2|
+: Esc ]
+|2;hello.txt + (~/term-talk/ansi/vim) - VIM|
+. BEL/^G
+: Esc [ 1 ; 2 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.216273
+: Esc [ ? 25 l
+. BS/^H
+|He|
+: Esc [ 25 ; 65 H
+|3|
+: Esc [ 1 ; 3 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.126483
+: Esc [ ? 25 l
+. BS/^H
+|el|
+: Esc [ 25 ; 65 H
+|4|
+: Esc [ 1 ; 4 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.196966
+: Esc [ ? 25 l
+. BS/^H
+|ll|
+: Esc [ 25 ; 65 H
+|5|
+: Esc [ 1 ; 5 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.138370
+: Esc [ ? 25 l
+. BS/^H
+|ll|
+: Esc [ 25 ; 65 H
+|6|
+: Esc [ 1 ; 6 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.400653
+: Esc [ ? 25 l
+: Esc [ 1 ; 5 H
+: Esc [ K
+: Esc [ 25 ; 65 H
+|5|
+: Esc [ 1 ; 5 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.267446
+: Esc [ ? 25 l
+. BS/^H
+|lo|
+: Esc [ 25 ; 65 H
+|6|
+: Esc [ 1 ; 6 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.213202
+: Esc [ ? 25 l
+. BS/^H
+|o,|
+: Esc [ 25 ; 65 H
+|7|
+: Esc [ 1 ; 7 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.099104
+: Esc [ ? 25 l
+: Esc [ 25 ; 65 H
+|8|
+: Esc [ 1 ; 8 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.155279
+: Esc [ ? 25 l
+. BS/^H
+| w|
+: Esc [ 25 ; 65 H
+|9|
+: Esc [ 1 ; 9 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.157612
+: Esc [ ? 25 l
+. BS/^H
+|wo|
+: Esc [ 25 ; 65 H
+|10|
+: Esc [ 1 ; 10 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.054087
+: Esc [ ? 25 l
+. BS/^H
+|or|
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 1 ; 11 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.153705
+: Esc [ ? 25 l
+. BS/^H
+|rl|
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 1 ; 12 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.083482
+: Esc [ ? 25 l
+. BS/^H
+|ld|
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 1 ; 13 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.260036
+: Esc [ ? 25 l
+. BS/^H
+|d!|
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 1 ; 14 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.172557
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 1 ; 15 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.376327
+: Esc [ ? 25 l
+. BS/^H
+| H|
+: Esc [ 25 ; 66 H
+|6|
+: Esc [ 1 ; 16 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.161978
+: Esc [ ? 25 l
+. BS/^H
+|He|
+: Esc [ 25 ; 66 H
+|7|
+: Esc [ 1 ; 17 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.027604
+: Esc [ ? 25 l
+. BS/^H
+|er|
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 1 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.092773
+: Esc [ ? 25 l
+. BS/^H
+|re|
+: Esc [ 25 ; 66 H
+|9|
+: Esc [ 1 ; 19 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.118812
+: Esc [ ? 25 l
+: Esc [ 25 ; 65 H
+|20|
+: Esc [ 1 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.095701
+: Esc [ ? 25 l
+. BS/^H
+| i|
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 1 ; 21 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.039975
+: Esc [ ? 25 l
+. BS/^H
+|is|
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 1 ; 22 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.126636
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 1 ; 23 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.074276
+: Esc [ ? 25 l
+. BS/^H
+| s|
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 1 ; 24 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.119776
+: Esc [ ? 25 l
+. BS/^H
+|so|
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 1 ; 25 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.087325
+: Esc [ ? 25 l
+. BS/^H
+|om|
+: Esc [ 25 ; 66 H
+|6|
+: Esc [ 1 ; 26 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.053129
+: Esc [ ? 25 l
+. BS/^H
+|me|
+: Esc [ 25 ; 66 H
+|7|
+: Esc [ 1 ; 27 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.094071
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 1 ; 28 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.268229
+: Esc [ ? 25 l
+. BS/^H
+| s|
+: Esc [ 25 ; 66 H
+|9|
+: Esc [ 1 ; 29 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.138459
+: Esc [ ? 25 l
+. BS/^H
+|sa|
+: Esc [ 25 ; 65 H
+|30|
+: Esc [ 1 ; 30 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.094336
+: Esc [ ? 25 l
+. BS/^H
+|am|
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 1 ; 31 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.116638
+: Esc [ ? 25 l
+. BS/^H
+|mp|
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 1 ; 32 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.131197
+: Esc [ ? 25 l
+. BS/^H
+|pl|
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 1 ; 33 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.008498
+: Esc [ ? 25 l
+. BS/^H
+|le|
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 1 ; 34 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.198230
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 1 ; 35 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.186958
+: Esc [ ? 25 l
+. BS/^H
+| t|
+: Esc [ 25 ; 66 H
+|6|
+: Esc [ 1 ; 36 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.115272
+: Esc [ ? 25 l
+. BS/^H
+|te|
+: Esc [ 25 ; 66 H
+|7|
+: Esc [ 1 ; 37 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.152567
+: Esc [ ? 25 l
+. BS/^H
+|ex|
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 1 ; 38 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.160402
+: Esc [ ? 25 l
+. BS/^H
+|xt|
+: Esc [ 25 ; 66 H
+|9|
+: Esc [ 1 ; 39 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.738681
+: Esc [ ? 25 l
+. BS/^H
+|t.|
+: Esc [ 25 ; 65 H
+|40|
+: Esc [ 1 ; 40 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.162944
+: Esc [ ? 25 l
+: Esc [ 2 ; 1 H
+: Esc [ K
+: Esc [ 25 ; 63 H
+|2,1 |
+: Esc [ 2 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.274216
+: Esc [ ? 25 l
+|I|
+: Esc [ 25 ; 65 H
+|2|
+: Esc [ 2 ; 2 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.201340
+: Esc [ ? 25 l
+. BS/^H
+|I'|
+: Esc [ 25 ; 65 H
+|3|
+: Esc [ 2 ; 3 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.117556
+: Esc [ ? 25 l
+. BS/^H
+|'m|
+: Esc [ 25 ; 65 H
+|4|
+: Esc [ 2 ; 4 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.105930
+: Esc [ ? 25 l
+: Esc [ 25 ; 65 H
+|5|
+: Esc [ 2 ; 5 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.143838
+: Esc [ ? 25 l
+. BS/^H
+| w|
+: Esc [ 25 ; 65 H
+|6|
+: Esc [ 2 ; 6 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.094946
+: Esc [ ? 25 l
+. BS/^H
+|wr|
+: Esc [ 25 ; 65 H
+|7|
+: Esc [ 2 ; 7 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.284083
+: Esc [ ? 25 l
+. BS/^H
+|ri|
+: Esc [ 25 ; 65 H
+|8|
+: Esc [ 2 ; 8 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.087089
+: Esc [ ? 25 l
+. BS/^H
+|it|
+: Esc [ 25 ; 65 H
+|9|
+: Esc [ 2 ; 9 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.097950
+: Esc [ ? 25 l
+. BS/^H
+|ti|
+: Esc [ 25 ; 65 H
+|10|
+: Esc [ 2 ; 10 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.071169
+: Esc [ ? 25 l
+. BS/^H
+|in|
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 2 ; 11 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.084277
+: Esc [ ? 25 l
+. BS/^H
+|ng|
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 2 ; 12 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.112538
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 2 ; 13 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.117852
+: Esc [ ? 25 l
+. BS/^H
+| i|
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 2 ; 14 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.742709
+: Esc [ ? 25 l
+. BS/^H
+|it|
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 2 ; 15 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.198816
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|6|
+: Esc [ 2 ; 16 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.331710
+: Esc [ ? 25 l
+. BS/^H
+| w|
+: Esc [ 25 ; 66 H
+|7|
+: Esc [ 2 ; 17 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.096946
+: Esc [ ? 25 l
+. BS/^H
+|wi|
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 2 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.073676
+: Esc [ ? 25 l
+. BS/^H
+|it|
+: Esc [ 25 ; 66 H
+|9|
+: Esc [ 2 ; 19 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.086963
+: Esc [ ? 25 l
+. BS/^H
+|th|
+: Esc [ 25 ; 65 H
+|20|
+: Esc [ 2 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.096053
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 2 ; 21 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.143856
+: Esc [ ? 25 l
+. BS/^H
+| m|
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 2 ; 22 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.187862
+: Esc [ ? 25 l
+. BS/^H
+|my|
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 2 ; 23 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.108273
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 2 ; 24 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.104568
+: Esc [ ? 25 l
+. BS/^H
+| t|
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 2 ; 25 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.158016
+: Esc [ ? 25 l
+. BS/^H
+|te|
+: Esc [ 25 ; 66 H
+|6|
+: Esc [ 2 ; 26 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.160226
+: Esc [ ? 25 l
+. BS/^H
+|ex|
+: Esc [ 25 ; 66 H
+|7|
+: Esc [ 2 ; 27 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.162488
+: Esc [ ? 25 l
+. BS/^H
+|xt|
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 2 ; 28 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.169931
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|9|
+: Esc [ 2 ; 29 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.119002
+: Esc [ ? 25 l
+. BS/^H
+| e|
+: Esc [ 25 ; 65 H
+|30|
+: Esc [ 2 ; 30 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.190191
+: Esc [ ? 25 l
+. BS/^H
+|ed|
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 2 ; 31 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.070856
+: Esc [ ? 25 l
+. BS/^H
+|di|
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 2 ; 32 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.091975
+: Esc [ ? 25 l
+. BS/^H
+|it|
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 2 ; 33 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.114773
+: Esc [ ? 25 l
+. BS/^H
+|to|
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 2 ; 34 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.062905
+: Esc [ ? 25 l
+. BS/^H
+|or|
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 2 ; 35 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.268637
+: Esc [ ? 25 l
+. BS/^H
+|r.|
+: Esc [ 25 ; 66 H
+|6|
+: Esc [ 2 ; 36 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.672701
+: Esc [ ? 25 l
+: Esc [ 3 ; 1 H
+: Esc [ K
+: Esc [ 25 ; 63 H
+|3,1 |
+: Esc [ 3 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.150673
+: Esc [ ? 25 l
+: Esc [ 4 ; 1 H
+: Esc [ K
+: Esc [ 25 ; 63 H
+|4|
+: Esc [ 4 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 4.166156
+: Esc [ 25 ; 1 H
+: Esc [ K
+: Esc [ ? 25 l
+: Esc [ 25 ; 63 H
+|4,0-1|
+: Esc [ 9 C
+|All|
+: Esc [ 4 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.293345
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 4 ; 1 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 3 ; 1 H
+: Esc [ 25 ; 63 H
+|3|
+: Esc [ 3 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.156368
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 3 ; 1 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 2 ; 1 H
+: Esc [ 25 ; 63 H
+|2,1  |
+: Esc [ 2 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.161462
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 2 ; 1 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 1 ; 1 H
+: Esc [ 25 ; 63 H
+|1|
+: Esc [ 1 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.172799
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|y|
+: Esc [ 1 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.127743
+: Esc [ ? 25 l
+: Esc [ 25 ; 54 H
+|y|
+: Esc [ 1 ; 1 H
+: Esc [ 25 ; 53 H
+|  |
+: Esc [ 1 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.140767
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|j|
+: Esc [ 1 ; 1 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 2 ; 1 H
+: Esc [ 25 ; 63 H
+|2|
+: Esc [ 2 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.151936
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|j|
+: Esc [ 2 ; 1 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 3 ; 1 H
+: Esc [ 25 ; 63 H
+|3,0-1|
+: Esc [ 3 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.159377
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|j|
+: Esc [ 3 ; 1 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 1 H
+: Esc [ 25 ; 63 H
+|4|
+: Esc [ 4 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.422676
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|1|
+: Esc [ 4 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.148235
+: Esc [ ? 25 l
+: Esc [ 25 ; 54 H
+|0|
+: Esc [ 4 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.207023
+: Esc [ ? 25 l
+: Esc [ 25 ; 55 H
+|p|
+: Esc [ 4 ; 1 H
+@ 0.002311
+: Esc [ 25 ; 1 H
+|10 more lines|
+: Esc [ 25 ; 53 H
+: Esc [ K
+: Esc [ 5 ; 1 H
+|Hello, world! Here is some sample text.|
+: Esc [ 5 ; 40 H
+: Esc [ K
+: Esc [ 6 ; 1 H
+|Hello, world! Here is some sample text.|
+: Esc [ 6 ; 40 H
+: Esc [ K
+: Esc [ 7 ; 1 H
+|Hello, world! Here is some sample text.|
+: Esc [ 7 ; 40 H
+: Esc [ K
+: Esc [ 8 ; 1 H
+|Hello, world! Here is some sample text.|
+: Esc [ 8 ; 40 H
+: Esc [ K
+: Esc [ 9 ; 1 H
+|Hello, world! Here is some sample text.|
+: Esc [ 9 ; 40 H
+: Esc [ K
+: Esc [ 10 ; 1 H
+|Hello, world! Here is some sample text.|
+: Esc [ 10 ; 40 H
+: Esc [ K
+: Esc [ 11 ; 1 H
+|Hello, world! Here is some sample text.|
+: Esc [ 11 ; 40 H
+: Esc [ K
+: Esc [ 12 ; 1 H
+|Hello, world! Here is some sample text.|
+: Esc [ 12 ; 40 H
+: Esc [ K
+: Esc [ 13 ; 1 H
+|Hello, world! Here is some sample text.|
+: Esc [ 13 ; 40 H
+: Esc [ K
+: Esc [ 14 ; 1 H
+|Hello, world! Here is some sample text.|
+: Esc [ 14 ; 40 H
+: Esc [ K
+: Esc [ 25 ; 63 H
+|5,1|
+: Esc [ 11 C
+|All|
+: Esc [ 25 ; 63 H
+: Esc [ K
+: Esc [ 25 ; 63 H
+|5,1|
+: Esc [ 11 C
+|All|
+: Esc [ 5 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.009485
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|o|
+: Esc [ 5 ; 1 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 6 ; 1 H
+: Esc [ 25 ; 1 H
+: Esc [ 1 m
+|-- INSERT --|
+: Esc [ m
+: Esc [ 25 ; 13 H
+: Esc [ K
+: Esc [ 25 ; 63 H
+|6,1|
+: Esc [ 11 C
+|Top|
+: Esc [ 6 ; 24 r
+: Esc [ 6 ; 1 H
+: Esc [ L
+: Esc [ 1 ; 25 r
+: Esc [ 25 ; 63 H
+: Esc [ K
+: Esc [ 25 ; 63 H
+|6,1|
+: Esc [ 11 C
+|All|
+: Esc [ 6 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.841897
+: Esc [ ? 25 l
+|d|
+: Esc [ 25 ; 65 H
+|2|
+: Esc [ 6 ; 2 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.117980
+: Esc [ ? 25 l
+. BS/^H
+|dd|
+: Esc [ 25 ; 65 H
+|3|
+: Esc [ 6 ; 3 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.545939
+: Esc [ 25 ; 1 H
+: Esc [ K
+: Esc [ ? 25 l
+: Esc [ 25 ; 63 H
+|6,2|
+: Esc [ 11 C
+|All|
+: Esc [ 6 ; 2 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.174976
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|d|
+: Esc [ 6 ; 2 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.116939
+: Esc [ ? 25 l
+: Esc [ 25 ; 54 H
+|d|
+: Esc [ 6 ; 2 H
+: Esc [ 25 ; 53 H
+|  |
+: Esc [ 6 ; 1 H
+: Esc [ 6 ; 24 r
+: Esc [ 24 ; 1 H
+. CR/^M LF/^J
+: Esc [ 1 ; 25 r
+: Esc [ 24 ; 1 H
+: Esc [ 94 m
+|~                                                                          |-
+-|     |
+: Esc [ m
+: Esc [ 25 ; 63 H
+: Esc [ K
+: Esc [ 25 ; 63 H
+|6,1|
+: Esc [ 11 C
+|All|
+: Esc [ 6 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.474657
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 6 ; 1 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 1 H
+: Esc [ 25 ; 63 H
+|5|
+: Esc [ 5 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.482997
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 5 ; 1 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 1 H
+: Esc [ 25 ; 63 H
+|4,0-1|
+: Esc [ 4 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 1.709546
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|j|
+: Esc [ 4 ; 1 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 1 H
+: Esc [ 25 ; 63 H
+|5,1  |
+: Esc [ 5 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.301393
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|j|
+: Esc [ 5 ; 1 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 6 ; 1 H
+: Esc [ 25 ; 63 H
+|6|
+: Esc [ 6 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.822374
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|W|
+: Esc [ 6 ; 1 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 6 ; 8 H
+: Esc [ 25 ; 65 H
+|8|
+: Esc [ 6 ; 8 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.467613
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|E|
+: Esc [ 6 ; 8 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 6 ; 13 H
+: Esc [ 25 ; 65 H
+|13|
+: Esc [ 6 ; 13 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.291914
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|E|
+: Esc [ 6 ; 13 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 6 ; 18 H
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 6 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.787803
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|j|
+: Esc [ 6 ; 18 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 7 ; 18 H
+: Esc [ 25 ; 63 H
+|7|
+: Esc [ 7 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.187568
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|j|
+: Esc [ 7 ; 18 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 8 ; 18 H
+: Esc [ 25 ; 63 H
+|8|
+: Esc [ 8 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.371686
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 8 ; 18 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 7 ; 18 H
+: Esc [ 25 ; 63 H
+|7|
+: Esc [ 7 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.379604
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 7 ; 18 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 6 ; 18 H
+: Esc [ 25 ; 63 H
+|6|
+: Esc [ 6 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.162306
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 6 ; 18 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 18 H
+: Esc [ 25 ; 63 H
+|5|
+: Esc [ 5 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.154006
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 5 ; 18 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 1 H
+: Esc [ 25 ; 63 H
+|4,0-1|
+: Esc [ 4 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.663688
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|c|
+: Esc [ 4 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.124139
+: Esc [ ? 25 l
+: Esc [ 25 ; 54 H
+|c|
+: Esc [ 4 ; 1 H
+: Esc [ 25 ; 53 H
+|  |
+: Esc [ 4 ; 1 H
+: Esc [ 25 ; 1 H
+: Esc [ 1 m
+|-- INSERT --|
+: Esc [ m
+: Esc [ 25 ; 63 H
+: Esc [ K
+: Esc [ 25 ; 63 H
+|4,1|
+: Esc [ 11 C
+|All|
+: Esc [ 4 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.422067
+: Esc [ ? 25 l
+|#|
+: Esc [ 25 ; 65 H
+|2|
+: Esc [ 4 ; 2 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.154388
+: Esc [ ? 25 l
+: Esc [ 25 ; 65 H
+|3|
+: Esc [ 4 ; 3 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.217748
+: Esc [ ? 25 l
+. BS/^H
+| I|
+: Esc [ 25 ; 65 H
+|4|
+: Esc [ 4 ; 4 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.143214
+: Esc [ ? 25 l
+: Esc [ 25 ; 65 H
+|5|
+: Esc [ 4 ; 5 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.108275
+: Esc [ ? 25 l
+. BS/^H
+| c|
+: Esc [ 25 ; 65 H
+|6|
+: Esc [ 4 ; 6 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.083167
+: Esc [ ? 25 l
+. BS/^H
+|ca|
+: Esc [ 25 ; 65 H
+|7|
+: Esc [ 4 ; 7 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.047012
+: Esc [ ? 25 l
+. BS/^H
+|an|
+: Esc [ 25 ; 65 H
+|8|
+: Esc [ 4 ; 8 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.094021
+: Esc [ ? 25 l
+: Esc [ 25 ; 65 H
+|9|
+: Esc [ 4 ; 9 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.107497
+: Esc [ ? 25 l
+. BS/^H
+| s|
+: Esc [ 25 ; 65 H
+|10|
+: Esc [ 4 ; 10 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.131584
+: Esc [ ? 25 l
+. BS/^H
+|sk|
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 4 ; 11 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.187030
+: Esc [ ? 25 l
+. BS/^H
+|ki|
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 4 ; 12 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.095642
+: Esc [ ? 25 l
+. BS/^H
+|ip|
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 4 ; 13 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.111644
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 4 ; 14 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.253292
+: Esc [ ? 25 l
+. BS/^H
+| b|
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 4 ; 15 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.098441
+: Esc [ ? 25 l
+. BS/^H
+|by|
+: Esc [ 25 ; 66 H
+|6|
+: Esc [ 4 ; 16 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.111009
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|7|
+: Esc [ 4 ; 17 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.097598
+: Esc [ ? 25 l
+. BS/^H
+| w|
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 4 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.114606
+: Esc [ ? 25 l
+. BS/^H
+|wo|
+: Esc [ 25 ; 66 H
+|9|
+: Esc [ 4 ; 19 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.056191
+: Esc [ ? 25 l
+. BS/^H
+|or|
+: Esc [ 25 ; 65 H
+|20|
+: Esc [ 4 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.171992
+: Esc [ ? 25 l
+. BS/^H
+|rd|
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 4 ; 21 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.430522
+: Esc [ ? 25 l
+. BS/^H
+|d:|
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 4 ; 22 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.130241
+: Esc [ 25 ; 1 H
+: Esc [ K
+: Esc [ ? 25 l
+: Esc [ 25 ; 63 H
+|4,21|
+: Esc [ 10 C
+|All|
+: Esc [ 4 ; 21 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.561217
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|e|
+: Esc [ 4 ; 21 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 5 H
+: Esc [ 25 ; 63 H
+|5,5 |
+: Esc [ 5 ; 5 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.152281
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|e|
+: Esc [ 5 ; 5 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 6 H
+: Esc [ 25 ; 65 H
+|6|
+: Esc [ 5 ; 6 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.228712
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|e|
+: Esc [ 5 ; 6 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 12 H
+: Esc [ 25 ; 65 H
+|12|
+: Esc [ 5 ; 12 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.157392
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|e|
+: Esc [ 5 ; 12 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 13 H
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 5 ; 13 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.332902
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|e|
+: Esc [ 5 ; 13 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 18 H
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 5 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.392348
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|E|
+: Esc [ 5 ; 18 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 21 H
+: Esc [ 25 ; 65 H
+|21|
+: Esc [ 5 ; 21 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.202384
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|E|
+: Esc [ 5 ; 21 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 26 H
+: Esc [ 25 ; 66 H
+|6|
+: Esc [ 5 ; 26 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.211765
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|E|
+: Esc [ 5 ; 26 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 33 H
+: Esc [ 25 ; 65 H
+|33|
+: Esc [ 5 ; 33 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.220515
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|E|
+: Esc [ 5 ; 33 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 39 H
+: Esc [ 25 ; 66 H
+|9|
+: Esc [ 5 ; 39 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.441657
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|B|
+: Esc [ 5 ; 39 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 35 H
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 5 ; 35 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.153165
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|B|
+: Esc [ 5 ; 35 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 28 H
+: Esc [ 25 ; 65 H
+|28|
+: Esc [ 5 ; 28 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.161440
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|B|
+: Esc [ 5 ; 28 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 23 H
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 5 ; 23 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.144680
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|B|
+: Esc [ 5 ; 23 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 20 H
+: Esc [ 25 ; 66 H
+|0|
+: Esc [ 5 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.308004
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|B|
+: Esc [ 5 ; 20 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 15 H
+: Esc [ 25 ; 65 H
+|15|
+: Esc [ 5 ; 15 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 1.545761
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 5 ; 15 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 15 H
+: Esc [ 25 ; 63 H
+|4|
+: Esc [ 4 ; 15 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.282665
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|0|
+: Esc [ 4 ; 15 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 1 H
+: Esc [ 25 ; 66 H
+| |
+: Esc [ 4 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.191652
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|w|
+: Esc [ 4 ; 1 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 3 H
+: Esc [ 25 ; 65 H
+|3|
+: Esc [ 4 ; 3 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.316672
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|C|
+: Esc [ 4 ; 3 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 3 H
+: Esc [ 25 ; 53 H
+|c$|
+: Esc [ 4 ; 3 H
+: Esc [ 25 ; 53 H
+|  |
+: Esc [ 4 ; 3 H
+: Esc [ 25 ; 1 H
+: Esc [ 1 m
+|-- INSERT --|
+: Esc [ m
+: Esc [ 25 ; 63 H
+: Esc [ K
+: Esc [ 25 ; 63 H
+|4,3|
+: Esc [ 11 C
+|All|
+: Esc [ 4 ; 3 H
+: Esc [ K
+: Esc [ 4 ; 3 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.514292
+: Esc [ ? 25 l
+. BS/^H
+| I|
+: Esc [ 25 ; 65 H
+|4|
+: Esc [ 4 ; 4 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.216864
+: Esc [ ? 25 l
+: Esc [ 25 ; 65 H
+|5|
+: Esc [ 4 ; 5 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.174041
+: Esc [ ? 25 l
+. BS/^H
+| c|
+: Esc [ 25 ; 65 H
+|6|
+: Esc [ 4 ; 6 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.087591
+: Esc [ ? 25 l
+. BS/^H
+|ca|
+: Esc [ 25 ; 65 H
+|7|
+: Esc [ 4 ; 7 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.155249
+: Esc [ ? 25 l
+. BS/^H
+|an|
+: Esc [ 25 ; 65 H
+|8|
+: Esc [ 4 ; 8 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.362359
+: Esc [ ? 25 l
+: Esc [ 25 ; 65 H
+|9|
+: Esc [ 4 ; 9 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.406627
+: Esc [ ? 25 l
+. BS/^H
+| m|
+: Esc [ 25 ; 65 H
+|10|
+: Esc [ 4 ; 10 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.162213
+: Esc [ ? 25 l
+. BS/^H
+|mo|
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 4 ; 11 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.091166
+: Esc [ ? 25 l
+. BS/^H
+|ov|
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 4 ; 12 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.077834
+: Esc [ ? 25 l
+. BS/^H
+|ve|
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 4 ; 13 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.058402
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 4 ; 14 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.120184
+: Esc [ ? 25 l
+. BS/^H
+| t|
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 4 ; 15 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.039449
+: Esc [ ? 25 l
+. BS/^H
+|th|
+: Esc [ 25 ; 66 H
+|6|
+: Esc [ 4 ; 16 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.118388
+: Esc [ ? 25 l
+. BS/^H
+|he|
+: Esc [ 25 ; 66 H
+|7|
+: Esc [ 4 ; 17 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.100111
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 4 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.123767
+: Esc [ ? 25 l
+. BS/^H
+| c|
+: Esc [ 25 ; 66 H
+|9|
+: Esc [ 4 ; 19 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.085983
+: Esc [ ? 25 l
+. BS/^H
+|cu|
+: Esc [ 25 ; 65 H
+|20|
+: Esc [ 4 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.119831
+: Esc [ ? 25 l
+. BS/^H
+|ur|
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 4 ; 21 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.124513
+: Esc [ ? 25 l
+. BS/^H
+|rs|
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 4 ; 22 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.097768
+: Esc [ ? 25 l
+. BS/^H
+|so|
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 4 ; 23 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.092276
+: Esc [ ? 25 l
+. BS/^H
+|or|
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 4 ; 24 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.133866
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 4 ; 25 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.183815
+: Esc [ ? 25 l
+. BS/^H
+| u|
+: Esc [ 25 ; 66 H
+|6|
+: Esc [ 4 ; 26 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.110360
+: Esc [ ? 25 l
+. BS/^H
+|up|
+: Esc [ 25 ; 66 H
+|7|
+: Esc [ 4 ; 27 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.100466
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 4 ; 28 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.159614
+: Esc [ ? 25 l
+. BS/^H
+| a|
+: Esc [ 25 ; 66 H
+|9|
+: Esc [ 4 ; 29 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.089226
+: Esc [ ? 25 l
+. BS/^H
+|an|
+: Esc [ 25 ; 65 H
+|30|
+: Esc [ 4 ; 30 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.067223
+: Esc [ ? 25 l
+. BS/^H
+|nd|
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 4 ; 31 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.103069
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 4 ; 32 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.095289
+: Esc [ ? 25 l
+. BS/^H
+| d|
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 4 ; 33 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.104179
+: Esc [ ? 25 l
+. BS/^H
+|do|
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 4 ; 34 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.074736
+: Esc [ ? 25 l
+. BS/^H
+|ow|
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 4 ; 35 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.098455
+: Esc [ ? 25 l
+. BS/^H
+|wn|
+: Esc [ 25 ; 66 H
+|6|
+: Esc [ 4 ; 36 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.199318
+: Esc [ ? 25 l
+. BS/^H
+|n,|
+: Esc [ 25 ; 66 H
+|7|
+: Esc [ 4 ; 37 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.314728
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 4 ; 38 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.289820
+: Esc [ ? 25 l
+. BS/^H
+| l|
+: Esc [ 25 ; 66 H
+|9|
+: Esc [ 4 ; 39 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.097369
+: Esc [ ? 25 l
+. BS/^H
+|le|
+: Esc [ 25 ; 65 H
+|40|
+: Esc [ 4 ; 40 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.060710
+: Esc [ ? 25 l
+. BS/^H
+|ef|
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 4 ; 41 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.152584
+: Esc [ ? 25 l
+. BS/^H
+|ft|
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 4 ; 42 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.149249
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 4 ; 43 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.128202
+: Esc [ ? 25 l
+. BS/^H
+| a|
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 4 ; 44 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.111720
+: Esc [ ? 25 l
+. BS/^H
+|an|
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 4 ; 45 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.163951
+: Esc [ ? 25 l
+. BS/^H
+|nd|
+: Esc [ 25 ; 66 H
+|6|
+: Esc [ 4 ; 46 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.087160
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|7|
+: Esc [ 4 ; 47 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.129131
+: Esc [ ? 25 l
+. BS/^H
+| r|
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 4 ; 48 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.094495
+: Esc [ ? 25 l
+. BS/^H
+|ri|
+: Esc [ 25 ; 66 H
+|9|
+: Esc [ 4 ; 49 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.095451
+: Esc [ ? 25 l
+. BS/^H
+|ig|
+: Esc [ 25 ; 65 H
+|50|
+: Esc [ 4 ; 50 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.054333
+: Esc [ ? 25 l
+. BS/^H
+|gh|
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 4 ; 51 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.117215
+: Esc [ ? 25 l
+. BS/^H
+|ht|
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 4 ; 52 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.104165
+: Esc [ 25 ; 1 H
+: Esc [ K
+: Esc [ ? 25 l
+: Esc [ 25 ; 63 H
+|4,51|
+: Esc [ 10 C
+|All|
+: Esc [ 4 ; 51 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.661682
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|j|
+: Esc [ 4 ; 51 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 39 H
+: Esc [ 25 ; 63 H
+|5,39|
+: Esc [ 5 ; 39 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.381340
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|j|
+: Esc [ 5 ; 39 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 6 ; 39 H
+: Esc [ 25 ; 63 H
+|6|
+: Esc [ 6 ; 39 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.195804
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|j|
+: Esc [ 6 ; 39 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 7 ; 39 H
+: Esc [ 25 ; 63 H
+|7|
+: Esc [ 7 ; 39 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.793819
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|B|
+: Esc [ 7 ; 39 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 7 ; 35 H
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 7 ; 35 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.144934
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|B|
+: Esc [ 7 ; 35 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 7 ; 28 H
+: Esc [ 25 ; 65 H
+|28|
+: Esc [ 7 ; 28 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.145031
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|B|
+: Esc [ 7 ; 28 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 7 ; 23 H
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 7 ; 23 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.156927
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|B|
+: Esc [ 7 ; 23 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 7 ; 20 H
+: Esc [ 25 ; 66 H
+|0|
+: Esc [ 7 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.381972
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|j|
+: Esc [ 7 ; 20 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 8 ; 20 H
+: Esc [ 25 ; 63 H
+|8|
+: Esc [ 8 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.182465
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|j|
+: Esc [ 8 ; 20 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 20 H
+: Esc [ 25 ; 63 H
+|9|
+: Esc [ 9 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.140143
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|j|
+: Esc [ 9 ; 20 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 10 ; 20 H
+: Esc [ 25 ; 63 H
+|10,20|
+: Esc [ 10 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.210545
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|j|
+: Esc [ 10 ; 20 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 11 ; 20 H
+: Esc [ 25 ; 64 H
+|1|
+: Esc [ 11 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.323366
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 11 ; 20 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 10 ; 20 H
+: Esc [ 25 ; 64 H
+|0|
+: Esc [ 10 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.168314
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 10 ; 20 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 20 H
+: Esc [ 25 ; 63 H
+|9,20 |
+: Esc [ 9 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.135295
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 9 ; 20 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 8 ; 20 H
+: Esc [ 25 ; 63 H
+|8|
+: Esc [ 8 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.157596
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 8 ; 20 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 7 ; 20 H
+: Esc [ 25 ; 63 H
+|7|
+: Esc [ 7 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.317233
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|j|
+: Esc [ 7 ; 20 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 8 ; 20 H
+: Esc [ 25 ; 63 H
+|8|
+: Esc [ 8 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.164181
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|j|
+: Esc [ 8 ; 20 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 20 H
+: Esc [ 25 ; 63 H
+|9|
+: Esc [ 9 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.457561
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|e|
+: Esc [ 9 ; 20 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 21 H
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 9 ; 21 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.751423
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|l|
+: Esc [ 9 ; 21 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 22 H
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 9 ; 22 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.159697
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|l|
+: Esc [ 9 ; 22 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 23 H
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 9 ; 23 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.162903
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|l|
+: Esc [ 9 ; 23 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 24 H
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 9 ; 24 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.157530
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|l|
+: Esc [ 9 ; 24 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 25 H
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 9 ; 25 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.398317
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|h|
+: Esc [ 9 ; 25 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 24 H
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 9 ; 24 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.178282
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|h|
+: Esc [ 9 ; 24 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 23 H
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 9 ; 23 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.164792
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|h|
+: Esc [ 9 ; 23 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 22 H
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 9 ; 22 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.148652
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|h|
+: Esc [ 9 ; 22 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 21 H
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 9 ; 21 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.142014
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|h|
+: Esc [ 9 ; 21 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 20 H
+: Esc [ 25 ; 66 H
+|0|
+: Esc [ 9 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.145036
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|h|
+: Esc [ 9 ; 20 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 19 H
+: Esc [ 25 ; 65 H
+|19|
+: Esc [ 9 ; 19 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.147999
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|h|
+: Esc [ 9 ; 19 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 18 H
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 9 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.144466
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|h|
+: Esc [ 9 ; 18 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 17 H
+: Esc [ 25 ; 66 H
+|7|
+: Esc [ 9 ; 17 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.147899
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|h|
+: Esc [ 9 ; 17 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 16 H
+: Esc [ 25 ; 66 H
+|6|
+: Esc [ 9 ; 16 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.148423
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|h|
+: Esc [ 9 ; 16 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 15 H
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 9 ; 15 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.208328
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|h|
+: Esc [ 9 ; 15 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 14 H
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 9 ; 14 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.329513
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|l|
+: Esc [ 9 ; 14 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 15 H
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 9 ; 15 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.187644
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|l|
+: Esc [ 9 ; 15 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 16 H
+: Esc [ 25 ; 66 H
+|6|
+: Esc [ 9 ; 16 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.170476
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|l|
+: Esc [ 9 ; 16 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 17 H
+: Esc [ 25 ; 66 H
+|7|
+: Esc [ 9 ; 17 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.162127
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|l|
+: Esc [ 9 ; 17 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 9 ; 18 H
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 9 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.185516
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 9 ; 18 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 8 ; 18 H
+: Esc [ 25 ; 63 H
+|8|
+: Esc [ 8 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.210197
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 8 ; 18 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 7 ; 18 H
+: Esc [ 25 ; 63 H
+|7|
+: Esc [ 7 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.177255
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 7 ; 18 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 6 ; 18 H
+: Esc [ 25 ; 63 H
+|6|
+: Esc [ 6 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.143495
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 6 ; 18 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 5 ; 18 H
+: Esc [ 25 ; 63 H
+|5|
+: Esc [ 5 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.156043
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 5 ; 18 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 18 H
+: Esc [ 25 ; 63 H
+|4|
+: Esc [ 4 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.153093
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|k|
+: Esc [ 4 ; 18 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 3 ; 1 H
+: Esc [ 25 ; 63 H
+|3,0-1|
+: Esc [ 3 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.355320
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|j|
+: Esc [ 3 ; 1 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 18 H
+: Esc [ 25 ; 63 H
+|4,18 |
+: Esc [ 4 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.271778
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|9|
+: Esc [ 4 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.626402
+: Esc [ ? 25 l
+: Esc [ 25 ; 54 H
+|^[|
+: Esc [ 4 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.269070
+: Esc [ ? 25 l
+: Esc [ 25 ; 54 H
+|  |
+: Esc [ 4 ; 18 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|0|
+: Esc [ 4 ; 18 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 1 H
+: Esc [ 25 ; 66 H
+| |
+: Esc [ 4 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.357468
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|w|
+: Esc [ 4 ; 1 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 3 H
+: Esc [ 25 ; 65 H
+|3|
+: Esc [ 4 ; 3 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.338657
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|C|
+: Esc [ 4 ; 3 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 3 H
+: Esc [ 25 ; 53 H
+|c$|
+: Esc [ 4 ; 3 H
+: Esc [ 25 ; 53 H
+|  |
+: Esc [ 4 ; 3 H
+: Esc [ 25 ; 1 H
+: Esc [ 1 m
+|-- INSERT --|
+: Esc [ m
+: Esc [ 25 ; 63 H
+: Esc [ K
+: Esc [ 25 ; 63 H
+|4,3|
+: Esc [ 11 C
+|All|
+: Esc [ 4 ; 3 H
+: Esc [ K
+: Esc [ 4 ; 3 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.279326
+: Esc [ ? 25 l
+. BS/^H
+| U|
+: Esc [ 25 ; 65 H
+|4|
+: Esc [ 4 ; 4 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.008492
+: Esc [ ? 25 l
+. BS/^H
+|UI|
+: Esc [ 25 ; 65 H
+|5|
+: Esc [ 4 ; 5 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.367768
+: Esc [ ? 25 l
+: Esc [ 4 ; 4 H
+: Esc [ K
+: Esc [ 25 ; 65 H
+|4|
+: Esc [ 4 ; 4 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.140015
+: Esc [ ? 25 l
+: Esc [ 4 ; 3 H
+: Esc [ K
+: Esc [ 25 ; 65 H
+|3|
+: Esc [ 4 ; 3 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.203672
+: Esc [ ? 25 l
+. BS/^H
+| I|
+: Esc [ 25 ; 65 H
+|4|
+: Esc [ 4 ; 4 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.114159
+: Esc [ ? 25 l
+: Esc [ 25 ; 65 H
+|5|
+: Esc [ 4 ; 5 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.071707
+: Esc [ ? 25 l
+. BS/^H
+| c|
+: Esc [ 25 ; 65 H
+|6|
+: Esc [ 4 ; 6 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.085138
+: Esc [ ? 25 l
+. BS/^H
+|ca|
+: Esc [ 25 ; 65 H
+|7|
+: Esc [ 4 ; 7 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.069818
+: Esc [ ? 25 l
+. BS/^H
+|an|
+: Esc [ 25 ; 65 H
+|8|
+: Esc [ 4 ; 8 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.052818
+: Esc [ ? 25 l
+: Esc [ 25 ; 65 H
+|9|
+: Esc [ 4 ; 9 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 2.204822
+: Esc [ ? 25 l
+. BS/^H
+| i|
+: Esc [ 25 ; 65 H
+|10|
+: Esc [ 4 ; 10 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.076966
+: Esc [ ? 25 l
+. BS/^H
+|in|
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 4 ; 11 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.078146
+: Esc [ ? 25 l
+. BS/^H
+|ns|
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 4 ; 12 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.112786
+: Esc [ ? 25 l
+. BS/^H
+|se|
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 4 ; 13 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.064516
+: Esc [ ? 25 l
+. BS/^H
+|er|
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 4 ; 14 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.145035
+: Esc [ ? 25 l
+. BS/^H
+|rt|
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 4 ; 15 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.112271
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|6|
+: Esc [ 4 ; 16 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.111335
+: Esc [ ? 25 l
+. BS/^H
+| t|
+: Esc [ 25 ; 66 H
+|7|
+: Esc [ 4 ; 17 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.117509
+: Esc [ ? 25 l
+. BS/^H
+|te|
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 4 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.211475
+: Esc [ ? 25 l
+. BS/^H
+|ex|
+: Esc [ 25 ; 66 H
+|9|
+: Esc [ 4 ; 19 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.129872
+: Esc [ ? 25 l
+. BS/^H
+|xt|
+: Esc [ 25 ; 65 H
+|20|
+: Esc [ 4 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.139080
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 4 ; 21 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.110883
+: Esc [ ? 25 l
+. BS/^H
+| i|
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 4 ; 22 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.105520
+: Esc [ ? 25 l
+. BS/^H
+|in|
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 4 ; 23 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.021845
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 4 ; 24 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.058044
+: Esc [ ? 25 l
+. BS/^H
+| t|
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 4 ; 25 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.097259
+: Esc [ ? 25 l
+. BS/^H
+|th|
+: Esc [ 25 ; 66 H
+|6|
+: Esc [ 4 ; 26 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.072709
+: Esc [ ? 25 l
+. BS/^H
+|he|
+: Esc [ 25 ; 66 H
+|7|
+: Esc [ 4 ; 27 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.044281
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 4 ; 28 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.125253
+: Esc [ ? 25 l
+. BS/^H
+| m|
+: Esc [ 25 ; 66 H
+|9|
+: Esc [ 4 ; 29 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.082648
+: Esc [ ? 25 l
+. BS/^H
+|mi|
+: Esc [ 25 ; 65 H
+|30|
+: Esc [ 4 ; 30 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.055148
+: Esc [ ? 25 l
+. BS/^H
+|id|
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 4 ; 31 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.103665
+: Esc [ ? 25 l
+. BS/^H
+|dd|
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 4 ; 32 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.165412
+: Esc [ ? 25 l
+. BS/^H
+|dl|
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 4 ; 33 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.094425
+: Esc [ ? 25 l
+. BS/^H
+|le|
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 4 ; 34 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.108038
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|5|
+: Esc [ 4 ; 35 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.118067
+: Esc [ ? 25 l
+. BS/^H
+| o|
+: Esc [ 25 ; 66 H
+|6|
+: Esc [ 4 ; 36 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.138697
+: Esc [ ? 25 l
+. BS/^H
+|of|
+: Esc [ 25 ; 66 H
+|7|
+: Esc [ 4 ; 37 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.161701
+: Esc [ ? 25 l
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 4 ; 38 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.107092
+: Esc [ ? 25 l
+. BS/^H
+| a|
+: Esc [ 25 ; 66 H
+|9|
+: Esc [ 4 ; 39 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.079159
+: Esc [ ? 25 l
+: Esc [ 25 ; 65 H
+|40|
+: Esc [ 4 ; 40 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.179427
+: Esc [ ? 25 l
+. BS/^H
+| l|
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 4 ; 41 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.094364
+: Esc [ ? 25 l
+. BS/^H
+|li|
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 4 ; 42 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.068067
+: Esc [ ? 25 l
+. BS/^H
+|in|
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 4 ; 43 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.066203
+: Esc [ ? 25 l
+. BS/^H
+|ne|
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 4 ; 44 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.420143
+: Esc [ 25 ; 1 H
+: Esc [ K
+: Esc [ ? 25 l
+: Esc [ 25 ; 63 H
+|4,43|
+: Esc [ 10 C
+|All|
+: Esc [ 4 ; 43 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.245392
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|0|
+: Esc [ 4 ; 43 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 1 H
+: Esc [ 25 ; 65 H
+|1 |
+: Esc [ 4 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.300083
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|w|
+: Esc [ 4 ; 1 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 3 H
+: Esc [ 25 ; 65 H
+|3|
+: Esc [ 4 ; 3 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.149103
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|w|
+: Esc [ 4 ; 3 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 5 H
+: Esc [ 25 ; 65 H
+|5|
+: Esc [ 4 ; 5 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.153932
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|w|
+: Esc [ 4 ; 5 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 9 H
+: Esc [ 25 ; 65 H
+|9|
+: Esc [ 4 ; 9 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.134436
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|w|
+: Esc [ 4 ; 9 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 16 H
+: Esc [ 25 ; 65 H
+|16|
+: Esc [ 4 ; 16 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.446697
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|u|
+: Esc [ 4 ; 16 H
+: Esc [ 25 ; 1 H
+|1 change; before #7  9 seconds ago|
+: Esc [ 25 ; 53 H
+: Esc [ K
+: Esc [ 4 ; 3 H
+|I can move the cursor up and down, left and right|
+: Esc [ 25 ; 63 H
+|4,3|
+: Esc [ 11 C
+|All|
+: Esc [ 4 ; 3 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.010114
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|i|
+: Esc [ 4 ; 3 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 3 H
+: Esc [ 25 ; 1 H
+: Esc [ 1 m
+|-- INSERT --|
+: Esc [ m
+: Esc [ 25 ; 13 H
+: Esc [ K
+: Esc [ 25 ; 63 H
+|4,3|
+: Esc [ 11 C
+|All|
+: Esc [ 4 ; 3 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.683029
+: Esc [ 25 ; 1 H
+: Esc [ K
+: Esc [ ? 25 l
+: Esc [ 25 ; 63 H
+|4,2|
+: Esc [ 11 C
+|All|
+: Esc [ 4 ; 2 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.269710
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|u|
+: Esc [ 4 ; 2 H
+: Esc [ 25 ; 1 H
+|1 change; before #6  29 seconds ago|
+: Esc [ 25 ; 53 H
+: Esc [ K
+: Esc [ 4 ; 3 H
+|I can skip by word:|
+: Esc [ 4 ; 22 H
+: Esc [ K
+: Esc [ 25 ; 63 H
+|4,3|
+: Esc [ 11 C
+|All|
+: Esc [ 4 ; 3 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 1.322902
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|^R|
+: Esc [ 4 ; 3 H
+: Esc [ 25 ; 11 H
+|after #6  30 seconds ago|
+: Esc [ 25 ; 35 H
+: Esc [ K
+: Esc [ 4 ; 3 H
+|I can move the cursor up and down, left and right|
+: Esc [ 25 ; 63 H
+|4,3|
+: Esc [ 11 C
+|All|
+: Esc [ 4 ; 3 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.942211
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|^R|
+: Esc [ 4 ; 3 H
+: Esc [ 25 ; 18 H
+|7  12|
+: Esc [ 25 ; 53 H
+: Esc [ K
+: Esc [ 4 ; 3 H
+|I can insert text in the middle of a line|
+: Esc [ 4 ; 44 H
+: Esc [ K
+: Esc [ 25 ; 63 H
+|4,3|
+: Esc [ 11 C
+|All|
+: Esc [ 4 ; 3 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 1.383172
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|W|
+: Esc [ 4 ; 3 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 5 H
+: Esc [ 25 ; 65 H
+|5|
+: Esc [ 4 ; 5 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.152790
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|W|
+: Esc [ 4 ; 5 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 9 H
+: Esc [ 25 ; 65 H
+|9|
+: Esc [ 4 ; 9 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.143909
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|W|
+: Esc [ 4 ; 9 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 16 H
+: Esc [ 25 ; 65 H
+|16|
+: Esc [ 4 ; 16 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.924644
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|i|
+: Esc [ 4 ; 16 H
+: Esc [ 25 ; 53 H
+| |
+: Esc [ 4 ; 16 H
+: Esc [ 25 ; 1 H
+: Esc [ 1 m
+|-- INSERT --|
+: Esc [ m
+: Esc [ 25 ; 13 H
+: Esc [ K
+: Esc [ 25 ; 63 H
+|4,16|
+: Esc [ 10 C
+|All|
+: Esc [ 4 ; 16 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.162115
+: Esc [ ? 25 l
+. BS/^H
+| atext in the middle of a line|
+: Esc [ 25 ; 66 H
+|7|
+: Esc [ 4 ; 17 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.081321
+: Esc [ ? 25 l
+. BS/^H
+|awtext in the middle of a line|
+: Esc [ 25 ; 66 H
+|8|
+: Esc [ 4 ; 18 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.125924
+: Esc [ ? 25 l
+. BS/^H
+|wetext in the middle of a line|
+: Esc [ 25 ; 66 H
+|9|
+: Esc [ 4 ; 19 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.098785
+: Esc [ ? 25 l
+. BS/^H
+|estext in the middle of a line|
+: Esc [ 25 ; 65 H
+|20|
+: Esc [ 4 ; 20 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.127993
+: Esc [ ? 25 l
+. BS/^H
+|sotext in the middle of a line|
+: Esc [ 25 ; 66 H
+|1|
+: Esc [ 4 ; 21 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.065033
+: Esc [ ? 25 l
+. BS/^H
+|omtext in the middle of a line|
+: Esc [ 25 ; 66 H
+|2|
+: Esc [ 4 ; 22 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.059624
+: Esc [ ? 25 l
+. BS/^H
+|metext in the middle of a line|
+: Esc [ 25 ; 66 H
+|3|
+: Esc [ 4 ; 23 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.391078
+: Esc [ ? 25 l
+. BS/^H
+|e text in the middle of a line|
+: Esc [ 25 ; 66 H
+|4|
+: Esc [ 4 ; 24 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.396927
+: Esc [ 25 ; 1 H
+: Esc [ K
+: Esc [ ? 25 l
+: Esc [ 25 ; 63 H
+|4,23|
+: Esc [ 10 C
+|All|
+: Esc [ 4 ; 23 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 3.087732
+: Esc [ ? 25 l
+: Esc [ 25 ; 53 H
+|:|
+: Esc [ 4 ; 23 H
+: Esc [ 25 ; 53 H
+: Esc [ K
+: Esc [ 25 ; 1 H
+|:|
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.535418
+|x|
+: Esc [ ? 25 l
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.056613
+|a|
+: Esc [ ? 25 l
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 1.989650
+: Esc [ ? 25 l
+: Esc [ 25 ; 3 H
+: Esc [ K
+: Esc [ 25 ; 3 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.175399
+: Esc [ ? 25 l
+: Esc [ 25 ; 2 H
+: Esc [ K
+: Esc [ 25 ; 2 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 1.438611
+|q|
+: Esc [ ? 25 l
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.159529
+|a|
+: Esc [ ? 25 l
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.231287
+|!|
+: Esc [ ? 25 l
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.585224
+. CR/^M
+: Esc [ ? 25 l
+@ 0.000347
+: Esc ]
+|2;vim : script |
+. xE2 x80 x93
+| Konsole|
+. BEL/^G
+@ 0.000125
+: Esc [ 25 ; 1 H
+: Esc [ K
+: Esc [ 25 ; 1 H
+: Esc [ ? 1 l
+: Esc >
+@ 0.000078
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+: Esc [ ? 1049 l
+@ 0.264057
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|micah-compaq-xubuntu|
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|$ |
+: Esc ( B
+: Esc [ m
+@ 0.000000
+|exit|
+. CR/^M LF/^J LF/^J
+|Script done on Sun 02 Jun 2013 03:17:19 PM PDT|.
