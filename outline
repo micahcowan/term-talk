@@ -53,7 +53,8 @@
     - tput cdd1; printf 'a\b' # Works now!
     - Now use [ special script ] to facilitate demonstrating tput:
       prints a where it is, performs new command, or last one, prints a
-      with standout, then removes standout.
+      with standout, then removes standout. Prints the command it's
+      going to send to the tty in the controlling tty.
   - terminfo(5) is where to find various features and descriptions
   - The TERM environment variable
 - ASCII / Ecma-6 / ISO-646
@@ -69,6 +70,9 @@
     - Control representations: ^X or C-x
     - other things can use control, like arrow keys, but it works very
       differently.
+  - Basic controls
+    [ Demo of things like ^C, ^D, ^G, ^I, ^W, ^U ]
+    Brief discussion of terminal buffering for ^W and ^U
   - meta key was used for setting the high bit of a typed byte; now more
     typically prefixes it with Esc. 
   - CR and LF (or NL)
