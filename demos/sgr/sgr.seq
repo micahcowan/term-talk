@@ -186,7 +186,7 @@ ifelse(`$#', `0', `', ` `$1' ###')'dnl
 @ 1.101677
 . CR/^M LF/^J
 
-    BREATHE(`Explain')
+    `BREATHE(`Explain')'
 
 |Here is some |
 @ 0.061007
@@ -497,19 +497,23 @@ ifelse(`$#', `0', `', ` `$1' ###')'dnl
     BREATHE
 : Esc [ 1 m
 
-. BS/^H
-@ 0.624919
-. CR/^M
-: Esc [ C
-& CUF: CURSOR RIGHT
-" Move the cursor right 1 character.
-: Esc [ C
-& CUF: CURSOR RIGHT
-" Move the cursor right 1 character.
-@ 0.476305
-: Esc [ K
-& EL: ERASE IN LINE
-" Clear from the cursor to the end of the line.
+    -- Added to put whoops on its own line.
+. CR/^M LF/^J
+|$ |
+
+    . BS/^H
+    @ 0.624919
+    . CR/^M
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    @ 0.476305
+    : Esc [ K
+    & EL: ERASE IN LINE
+    " Clear from the cursor to the end of the line.
 |t|
 @ 0.109699
 |p|
@@ -538,8 +542,12 @@ ifelse(`$#', `0', `', ` `$1' ###')'dnl
 " Clear graphic rendition to defaults.
 |$ |
 @ 1.045834
-|T|
+|#|
 @ 0.167999
+| |
+@ 0.053525
+|T|
+@ 0.053525
 |h|
 @ 0.053525
 |a|
@@ -568,19 +576,21 @@ ifelse(`$#', `0', `', ` `$1' ###')'dnl
 
     BREATHE
 
-. BS/^H
-@ 1.021417
-. CR/^M
-: Esc [ C
-& CUF: CURSOR RIGHT
-" Move the cursor right 1 character.
-: Esc [ C
-& CUF: CURSOR RIGHT
-" Move the cursor right 1 character.
-: Esc [ K
-& EL: ERASE IN LINE
+    -- Added to put whoops on its own line.
+. CR/^M LF/^J
+|$ |
 
-  -- Now we're at blank prompt again.
+    . BS/^H
+    @ 1.021417
+    . CR/^M
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ K
+    & EL: ERASE IN LINE
 
 |echo -n 'Here is some '; tput bold; echo -n 'bold'; tput sgr0; echo ' text.|-
 -|'|
