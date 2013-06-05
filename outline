@@ -20,9 +20,12 @@
     - Mention I had to prep the term for this case.
   - Flow control with ^S and ^Q
     - stty for controlling this.
-    [ demonstration:
-        while : ; do echo $RANDOM; sleep 0.5; done
-    ]
+    [ demonstration: demos/problems/infout ]
+      Why a problem? Because you can easily type it without meaning to,
+      and then assume your term froze.
+    [ demonstration: vim and flow control; note: won't work with Emacs ]
+      Note nano's response as well.
+      Preventative measures given later.
   - stty -echo
   - Most of these, except flow control, solved with ^J reset ^J
 - Pseudo-terminal files, every emulated terminal has one
@@ -41,7 +44,7 @@
 - Sending terminal controls with tput
   - tput examples: graphic rendition: bold, underline, standout, setaf,
     setab, sgr0
-    [ Pre-recorded demo ]
+    [ Pre-recorded demo: demos/sgr/cmd.sh ]
   - tput examples, cmd output from one term going into another set in "raw" mode
     [ Interactive demo: ]
     - stty raw < $T  # Will explain this later
@@ -121,6 +124,8 @@
   - ^C is safe - reseq restores the terminal first
   - Creating a simple interactive demo with script -t, teseq, and reseq.
     [ Do it using an interactive demo itself! ]
+    - Demonstrate editing out pauses (and how to find them), mistakes,
+      adding delays, comments, disabling blocks by indenting, 
   - ttyrec
 - Terminfo database/infocmp
   - auto-updated cols and lines, keeps up with resizes.
