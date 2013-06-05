@@ -1,0 +1,387 @@
+|$ |
+@ 0.8
+|/|
+@ 0.099033
+|b|
+@ 0.114925
+|o|
+@ 0.119147
+|l|
+@ 0.070634
+|d|
+@ 0.134340
+. CR/^M
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+|echo -n 'Here is some '; tput bold; echo -n 'bold'; tput sgr0; echo ' text.|-
+-|'|
+. CR/^M
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+@ 8.168545
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+@ 1.027503
+. BS/^H BS/^H BS/^H BS/^H BS/^H
+@ 0.152451
+. BS/^H BS/^H
+@ 0.139326
+. BS/^H BS/^H BS/^H BS/^H BS/^H
+@ 0.152270
+. BS/^H BS/^H BS/^H BS/^H BS/^H BS/^H
+@ 0.314651
+. BS/^H BS/^H BS/^H BS/^H BS/^H
+@ 0.626205
+: Esc [ 10 P
+& DCH: DELETE CHARACTER
+" Delete 10 characters, shifting the following characters left.
+@ 0.124836
+: Esc [ 1 P
+& DCH: DELETE CHARACTER
+" Delete 1 character, shifting the following characters left.
+@ 2.108368
+. CR/^M LF/^J
+|Here is some |
+@ 0.056449
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|bold text.|
+. CR/^M LF/^J
+|$ |
+@ 2.295449
+|#|
+@ 0.162988
+| |
+@ 0.327124
+|W|
+@ 0.117685
+|h|
+@ 0.131013
+|o|
+@ 0.124436
+|o|
+@ 0.295796
+|p|
+@ 0.115797
+|s|
+@ 0.465813
+|!|
+@ 3.586212
+. BS/^H
+@ 0.624919
+. CR/^M
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+@ 0.476305
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+@ 2.515457
+|t|
+@ 0.109699
+|p|
+@ 0.093910
+|u|
+@ 0.049024
+|t|
+@ 0.147584
+| |
+@ 0.130226
+|s|
+@ 0.088527
+|g|
+@ 0.154486
+|r|
+@ 0.173589
+|0|
+@ 0.798077
+. CR/^M LF/^J
+@ 0.035605
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|$ |
+@ 1.045834
+|T|
+@ 0.167999
+|h|
+@ 0.053525
+|a|
+@ 0.085376
+|t|
+@ 0.416947
+|'|
+@ 0.069325
+|s|
+@ 0.104113
+| |
+@ 0.097762
+|b|
+@ 0.108687
+|e|
+@ 0.112583
+|t|
+@ 0.117477
+|t|
+@ 0.106129
+|e|
+@ 0.071653
+|r|
+@ 0.571419
+|!|
+@ 0.763760
+. BS/^H
+@ 1.021417
+. CR/^M
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+@ 0.000000
+|exit|
+. CR/^M LF/^J LF/^J
+|Script done on Tue 04 Jun 2013 08:26:49 PM PDT|.
