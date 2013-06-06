@@ -1,0 +1,3532 @@
+|Script started on Wed 05 Jun 2013 06:45:56 PM PDT|.
+@ 0.020808
+: Esc [ ? 1049 h
+& SM: SET MODE (private params)
+" (Xterm) Save the cursor position and use the alternate screen buffer,
+"  clearing it first.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ ? 1 l
+& RM: RESET MODE (private params)
+" (DEC) Cursor key mode off.
+: Esc >
+& DECKPNM: KEYPAD NORMAL MODE
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 J
+& ED: ERASE IN PAGE
+" Clear the screen.
+: Esc [ ? 12 l
+& RM: RESET MODE (private params)
+" (Att610) Stop blinkin cursor.
+: Esc [ ? 25 h
+& SM: SET MODE (private params)
+" (DEC) Show cursor.
+: Esc [ ? 1000 l
+& RM: RESET MODE (private params)
+" (Xterm) Don't send mouse X & Y on button press and release.
+: Esc ]
+& OSC: OPERATING SYSTEM COMMAND
+|112|
+. BEL/^G
+: Esc [ ? 25 l
+& RM: RESET MODE (private params)
+" (DEC) Hide cursor.
+: Esc [ 1 ; 1 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ 38 ; 5 ; 17 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 17.
+: Esc [ 48 ; 5 ; 147 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set background color to index 147.
+|0:bash*|
+: Esc [ 38 ; 5 ; 105 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 105.
+: Esc [ 48 ; 5 ; 17 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set background color to index 17.
+|                                                                         |
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ 25 ; 1 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 25, column 1.
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ ? 12 l
+& RM: RESET MODE (private params)
+" (Att610) Stop blinkin cursor.
+: Esc [ ? 25 h
+& SM: SET MODE (private params)
+" (DEC) Show cursor.
+: Esc [ ? 1005 h
+& SM: SET MODE (private params)
+: Esc [ ? 1000 h
+& SM: SET MODE (private params)
+" (Xterm) Send mouse X & Y on button press and release.
+@ 0.314995
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 22 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 22 characters.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.678119
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 22 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 22 characters.
+|t|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 23 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 23 characters.
+@ 0.111208
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 23 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 23 characters.
+|t|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 24 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 24 characters.
+@ 0.041366
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 24 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 24 characters.
+|y|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 25 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 25 characters.
+@ 0.130898
+. CR/^M LF/^J
+@ 0.002304
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+. CR/^M LF/^J
+|/dev/pts/14|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 12 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 12.
+@ 0.000190
+. CR/^M LF/^J
+@ 0.093371
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 B
+& CUD: CURSOR DOWN
+" Move the cursor down 2 lines.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 23 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 23.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.483093
+: Esc [ 38 ; 5 ; 105 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 105.
+: Esc [ 1 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 41.
+. xE2 x94 x82
+: Esc [ 2 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 41.
+. xE2 x94 x82
+: Esc [ 3 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 41.
+. xE2 x94 x82
+: Esc [ 4 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 4, column 41.
+. xE2 x94 x82
+: Esc [ 5 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 41.
+. xE2 x94 x82
+: Esc [ 6 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 41.
+. xE2 x94 x82
+: Esc [ 7 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 7, column 41.
+. xE2 x94 x82
+: Esc [ 8 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 41.
+. xE2 x94 x82
+: Esc [ 9 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 9, column 41.
+. xE2 x94 x82
+: Esc [ 10 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 10, column 41.
+. xE2 x94 x82
+: Esc [ 11 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 11, column 41.
+. xE2 x94 x82
+: Esc [ 12 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 12, column 41.
+. xE2 x94 x82
+: Esc [ 13 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 13, column 41.
+. xE2 x94 x82
+: Esc [ 14 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 14, column 41.
+. xE2 x94 x82
+: Esc [ 15 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 15, column 41.
+. xE2 x94 x82
+: Esc [ 16 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 16, column 41.
+. xE2 x94 x82
+: Esc [ 17 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 17, column 41.
+. xE2 x94 x82
+: Esc [ 18 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 18, column 41.
+. xE2 x94 x82
+: Esc [ 19 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 19, column 41.
+. xE2 x94 x82
+: Esc [ 20 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 20, column 41.
+. xE2 x94 x82
+: Esc [ 21 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 21, column 41.
+. xE2 x94 x82
+: Esc [ 22 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 22, column 41.
+. xE2 x94 x82
+: Esc [ 23 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 23, column 41.
+. xE2 x94 x82
+: Esc [ 24 ; 41 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 24, column 41.
+. xE2 x94 x82
+: Esc [ ? 25 l
+& RM: RESET MODE (private params)
+" (DEC) Hide cursor.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 39 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color default.
+|tty               |
+. CR/^M LF/^J
+|/dev/pts/14                             |
+. CR/^M LF/^J
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|                  |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+: Esc [ 1 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 42.
+|                                       |
+: Esc [ 2 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 42.
+|                                       |
+: Esc [ 3 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 42.
+|                                       |
+: Esc [ 4 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 4, column 42.
+|                                       |
+: Esc [ 5 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 42.
+|                                       |
+: Esc [ 6 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 42.
+|                                       |
+: Esc [ 7 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 7, column 42.
+|                                       |
+: Esc [ 8 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 42.
+|                                       |
+: Esc [ 9 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 9, column 42.
+|                                       |
+: Esc [ 10 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 10, column 42.
+|                                       |
+: Esc [ 11 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 11, column 42.
+|                                       |
+: Esc [ 12 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 12, column 42.
+|                                       |
+: Esc [ 13 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 13, column 42.
+|                                       |
+: Esc [ 14 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 14, column 42.
+|                                       |
+: Esc [ 15 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 15, column 42.
+|                                       |
+: Esc [ 16 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 16, column 42.
+|                                       |
+: Esc [ 17 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 17, column 42.
+|                                       |
+: Esc [ 18 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 18, column 42.
+|                                       |
+: Esc [ 19 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 19, column 42.
+|                                       |
+: Esc [ 20 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 20, column 42.
+|                                       |
+: Esc [ 21 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 21, column 42.
+|                                       |
+: Esc [ 22 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 22, column 42.
+|                                       |
+: Esc [ 23 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 23, column 42.
+|                                       |
+: Esc [ 24 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 24, column 42.
+|                                       |
+: Esc [ 25 ; 1 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 25, column 1.
+: Esc [ 38 ; 5 ; 17 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 17.
+: Esc [ 48 ; 5 ; 147 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set background color to index 147.
+|0:bash*|
+: Esc [ 38 ; 5 ; 105 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 105.
+: Esc [ 48 ; 5 ; 17 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set background color to index 17.
+|                                                                         |
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ 1 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 42.
+: Esc [ ? 12 l
+& RM: RESET MODE (private params)
+" (Att610) Stop blinkin cursor.
+: Esc [ ? 25 h
+& SM: SET MODE (private params)
+" (DEC) Show cursor.
+@ 0.000241
+: Esc [ 3 ; 1 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 1.
+|                                        |
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 B
+& CUD: CURSOR DOWN
+" Move the cursor down 2 lines.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 41 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 41 characters.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.337539
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 41 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 41 characters.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 63 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 63 characters.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 1.003659
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 63 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 63 characters.
+|T|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 64 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 64 characters.
+@ 0.308870
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 64 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 64 characters.
+|=|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 65 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 65 characters.
+@ 0.863226
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 65 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 65 characters.
+|/|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 66 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 66 characters.
+@ 0.054738
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 66 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 66 characters.
+|d|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 67 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 67 characters.
+@ 0.118019
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 67 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 67 characters.
+|e|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 68 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 68 characters.
+@ 0.098759
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 68 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 68 characters.
+|f|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 69 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 69 characters.
+@ 0.022402
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 69 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 69 characters.
+|v|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 70 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 70 characters.
+@ 0.073194
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 70 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 70 characters.
+|/|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 71 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 71 characters.
+@ 0.174819
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 71 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 71 characters.
+|p|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 72 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 72 characters.
+@ 0.127952
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 72 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 72 characters.
+|t|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 73 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 73 characters.
+@ 0.097222
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 73 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 73 characters.
+|s|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 74 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 74 characters.
+@ 0.316828
+. BS/^H
+|       |
+: Esc [ 1 ; 74 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 74.
+@ 0.175356
+. BS/^H
+|        |
+: Esc [ 1 ; 73 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 73.
+@ 0.124241
+. BS/^H
+|         |
+: Esc [ 1 ; 72 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 72.
+@ 0.137581
+. BS/^H
+|          |
+: Esc [ 1 ; 71 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 71.
+@ 0.127198
+. BS/^H
+|           |
+: Esc [ 1 ; 70 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 70.
+@ 0.140445
+. BS/^H
+|            |
+: Esc [ 1 ; 69 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 69.
+@ 0.149009
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 68 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 68 characters.
+|v|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 69 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 69 characters.
+@ 0.191695
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 69 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 69 characters.
+|/|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 70 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 70 characters.
+@ 0.257563
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 70 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 70 characters.
+|p|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 71 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 71 characters.
+@ 0.053866
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 71 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 71 characters.
+|t|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 72 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 72 characters.
+@ 0.075980
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 72 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 72 characters.
+|s|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 73 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 73 characters.
+@ 0.334549
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 73 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 73 characters.
+|/|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 74 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 74 characters.
+@ 0.215372
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 74 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 74 characters.
+|1|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 75 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 75 characters.
+@ 0.099360
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 75 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 75 characters.
+|4|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 76 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 76 characters.
+@ 1.107517
+: Esc [ 2 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 42.
+@ 0.196498
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.450018
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 64.
+|s|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 65 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 65.
+@ 0.142985
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 65 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 65.
+|t|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 66 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 66.
+@ 0.119531
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 66 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 66.
+|t|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 67 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 67.
+@ 0.070209
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 67 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 67.
+|y|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 68 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 68.
+@ 0.088536
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 68 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 68.
+| |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 69 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 69.
+@ 0.053569
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 69 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 69.
+|r|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 70 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 70.
+@ 0.090297
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 70 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 70.
+|a|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 71 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 71.
+@ 0.032942
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 71 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 71.
+|w|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 72 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 72.
+@ 0.154770
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 72 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 72.
+| |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 73 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 73.
+@ 0.140000
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 73 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 73.
+|<|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 74 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 74.
+@ 0.088354
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 74 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 74.
+| |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 75 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 75.
+@ 0.129080
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 75 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 75.
+|$|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 76 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 76.
+@ 0.221181
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 76 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 76.
+|T|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 ; 77 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 2, column 77.
+@ 0.712204
+: Esc [ 3 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 42.
+@ 0.116200
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 2.391553
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 64.
+|p|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 65 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 65.
+@ 0.080007
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 65 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 65.
+|r|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 66 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 66.
+@ 0.080868
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 66 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 66.
+|i|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 67 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 67.
+@ 0.068978
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 67 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 67.
+|n|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 68 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 68.
+@ 0.054977
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 68 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 68.
+|t|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 69 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 69.
+@ 0.152016
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 69 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 69.
+|f|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 70 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 70.
+@ 0.123250
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 70 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 70.
+| |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 71 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 71.
+@ 0.123739
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 71 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 71.
+|a|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 72 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 72.
+@ 0.204216
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 72 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 72.
+| |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 73 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 73.
+@ 0.164884
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 73 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 73.
+|>|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 74 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 74.
+@ 0.093159
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 74 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 74.
+| |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 75 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 75.
+@ 0.176678
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 75 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 75.
+|$|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 76 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 76.
+@ 0.193963
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 76 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 76.
+|T|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 77 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 77.
+@ 0.726257
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 23 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 23.
+|a|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 4 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 4, column 42.
+@ 0.089508
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 4 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 4, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 4 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 4, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 3.213353
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 4 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 4, column 64.
+|printf a > $T|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 4 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 4, column 64.
+@ 0.428200
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 3 ; 24 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 3, column 24.
+|a|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 42.
+@ 0.079797
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 4.915281
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 64.
+|t|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 65 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 65.
+@ 0.082273
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 65 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 65.
+|p|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 66 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 66.
+@ 0.046737
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 66 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 66.
+|u|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 67 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 67.
+@ 0.038748
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 67 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 67.
+|t|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 68 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 68.
+@ 0.170157
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 68 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 68.
+| |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 69 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 69.
+@ 0.663343
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 69 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 69.
+|c|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 70 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 70.
+@ 0.169083
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 70 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 70.
+|u|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 71 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 71.
+@ 0.260698
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 71 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 71.
+|d|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 72 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 72.
+@ 0.260569
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 72 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 72.
+|1|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 73 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 73.
+@ 0.869384
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 73 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 73.
+| |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 74 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 74.
+@ 0.334371
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 74 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 74.
+|>|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 75 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 75.
+@ 0.105675
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 75 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 75.
+| |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 76 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 76.
+@ 0.392448
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 76 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 76.
+|$|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 77 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 77.
+@ 0.327163
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 77 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 77.
+|T|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 78 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 78.
+@ 1.117991
+: Esc [ 6 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 42.
+@ 0.123591
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.266180
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 64.
+|p|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 65 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 65.
+@ 0.072487
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 65 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 65.
+|r|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 66 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 66.
+@ 0.106442
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 66 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 66.
+|i|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 67 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 67.
+@ 0.083684
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 67 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 67.
+|n|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 68 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 68.
+@ 0.042278
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 68 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 68.
+|t|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 69 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 69.
+@ 0.145824
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 69 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 69.
+|f|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 70 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 70.
+@ 0.070226
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 70 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 70.
+| |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 71 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 71.
+@ 0.097332
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 71 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 71.
+|a|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 72 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 72.
+@ 0.152744
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 72 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 72.
+| |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 73 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 73.
+@ 0.274519
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 73 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 73.
+|>|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 74 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 74.
+@ 0.188542
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 74 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 74.
+| |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 75 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 75.
+@ 0.316915
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 75 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 75.
+|$|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 76 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 76.
+@ 0.202005
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 76 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 76.
+|T|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 77 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 77.
+@ 0.383383
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 4 ; 25 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 4, column 25.
+|a|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 7 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 7, column 42.
+@ 0.184093
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 7 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 7, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 7 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 7, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 1.756826
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 7 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 7, column 64.
+|#|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 7 ; 65 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 7, column 65.
+@ 0.304804
+: Esc [ 8 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 42.
+@ 0.077245
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 8 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 8 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 5.887388
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 8 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 64.
+|#|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 8 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 64.
+@ 0.654860
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 8 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 64.
+|printf a > $T|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 8 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 64.
+@ 2.925492
+: Esc [ 5 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 5 characters.
+@ 0.211622
+: Esc [ 2 C
+& CUF: CURSOR RIGHT
+" Move the cursor right 2 characters.
+@ 1.549256
+: Esc [ ? 25 l
+& RM: RESET MODE (private params)
+" (DEC) Hide cursor.
+: Esc [ 29 D
+& CUB: CURSOR LEFT
+" Move the cursor left 29 characters.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 39 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color default.
+|printf  > $T     |
+: Esc [ 8 ; 80 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 80.
+: Esc [ 9 D
+& CUB: CURSOR LEFT
+" Move the cursor left 9 characters.
+: Esc [ ? 12 l
+& RM: RESET MODE (private params)
+" (Att610) Stop blinkin cursor.
+: Esc [ ? 25 h
+& SM: SET MODE (private params)
+" (DEC) Show cursor.
+@ 0.725632
+: Esc [ ? 25 l
+& RM: RESET MODE (private params)
+" (DEC) Hide cursor.
+: Esc [ 29 D
+& CUB: CURSOR LEFT
+" Move the cursor left 29 characters.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 39 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color default.
+|printf   > $T    |
+: Esc [ 8 ; 80 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 80.
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 8 ; 71 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 71.
+|'|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 8 ; 72 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 72.
+: Esc [ ? 12 l
+& RM: RESET MODE (private params)
+" (Att610) Stop blinkin cursor.
+: Esc [ ? 25 h
+& SM: SET MODE (private params)
+" (DEC) Show cursor.
+@ 0.467884
+: Esc [ ? 25 l
+& RM: RESET MODE (private params)
+" (DEC) Hide cursor.
+: Esc [ 30 D
+& CUB: CURSOR LEFT
+" Move the cursor left 30 characters.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 39 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color default.
+|printf '  > $T   |
+: Esc [ 8 ; 80 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 80.
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 8 ; 72 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 72.
+|a|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 8 ; 73 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 73.
+: Esc [ ? 12 l
+& RM: RESET MODE (private params)
+" (Att610) Stop blinkin cursor.
+: Esc [ ? 25 h
+& SM: SET MODE (private params)
+" (DEC) Show cursor.
+@ 0.229160
+: Esc [ ? 25 l
+& RM: RESET MODE (private params)
+" (DEC) Hide cursor.
+: Esc [ 31 D
+& CUB: CURSOR LEFT
+" Move the cursor left 31 characters.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 39 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color default.
+|printf 'a  > $T  |
+: Esc [ 8 ; 80 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 80.
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 8 ; 73 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 73.
+|\|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 8 ; 74 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 74.
+: Esc [ ? 12 l
+& RM: RESET MODE (private params)
+" (Att610) Stop blinkin cursor.
+: Esc [ ? 25 h
+& SM: SET MODE (private params)
+" (DEC) Show cursor.
+@ 0.322149
+: Esc [ ? 25 l
+& RM: RESET MODE (private params)
+" (DEC) Hide cursor.
+: Esc [ 32 D
+& CUB: CURSOR LEFT
+" Move the cursor left 32 characters.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 39 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color default.
+|printf 'a\  > $T |
+: Esc [ 8 ; 80 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 80.
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 8 ; 74 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 74.
+|b|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 8 ; 75 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 75.
+: Esc [ ? 12 l
+& RM: RESET MODE (private params)
+" (Att610) Stop blinkin cursor.
+: Esc [ ? 25 h
+& SM: SET MODE (private params)
+" (DEC) Show cursor.
+@ 2.026965
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 8 ; 75 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 75.
+|' > $T|
+: Esc [ 9 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 9, column 42.
+| |
+: Esc [ 8 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 8 ; 76 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 8, column 76.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 3.766306
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 4 ; 26 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 4, column 26.
+|a|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 10 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 10, column 42.
+@ 0.088891
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 10 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 10, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 10 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 10, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 1.297876
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 10 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 10, column 64.
+|printf 'a\b' > $T|
+: Esc [ 11 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 11, column 42.
+| |
+: Esc [ 10 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 10, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 10 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 10, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 2.070951
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 4 ; 26 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 4, column 26.
+|a|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 12 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 12, column 42.
+@ 0.155275
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 12 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 12, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 12 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 12, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 3.102862
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 12 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 12, column 64.
+|#|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 12 ; 65 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 12, column 65.
+@ 0.227196
+: Esc [ 13 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 13, column 42.
+@ 0.069621
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 13 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 13, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 13 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 13, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 1.894104
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 13 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 13, column 64.
+|/|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 13 ; 65 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 13, column 65.
+@ 0.199812
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 13 ; 65 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 13, column 65.
+|t|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 13 ; 66 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 13, column 66.
+@ 0.105336
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 13 ; 66 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 13, column 66.
+|p|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 13 ; 67 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 13, column 67.
+@ 0.089208
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 13 ; 67 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 13, column 67.
+|u|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 13 ; 68 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 13, column 68.
+@ 0.226490
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 13 ; 68 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 13, column 68.
+|t|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 13 ; 69 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 13, column 69.
+@ 0.187888
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 13 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 13, column 64.
+|tput cud1 > $T|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 13 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 13, column 64.
+@ 0.796134
+: Esc [ 14 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 14, column 42.
+@ 0.125773
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 14 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 14, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 14 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 14, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 1.299137
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 14 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 14, column 64.
+|tput cud1 > $T|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 14 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 14, column 64.
+@ 0.137598
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 14 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 14, column 64.
+|#                |
+: Esc [ 14 ; 1 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 14, column 1.
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 14 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 14, column 64.
+@ 0.770185
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 14 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 14, column 64.
+|printf 'a\b' > $T|
+: Esc [ 15 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 15, column 42.
+| |
+: Esc [ 14 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 14, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 14 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 14, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 1.205901
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 ; 26 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 5, column 26.
+|a|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 16 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 16, column 42.
+@ 0.085172
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 16 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 16, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 16 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 16, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 2.007279
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 16 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 16, column 64.
+|printf 'a\b' > $T|
+: Esc [ 17 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 17, column 42.
+| |
+: Esc [ 16 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 16, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 16 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 16, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.136438
+: Esc [ ? 25 l
+& RM: RESET MODE (private params)
+" (DEC) Hide cursor.
+: Esc [ 22 D
+& CUB: CURSOR LEFT
+" Move the cursor left 22 characters.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 39 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color default.
+|ntf 'a\b' > $T   |
+: Esc [ 16 ; 80 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 16, column 80.
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 16 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 16, column 64.
+|tput cud1|
+: Esc [ 17 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 17, column 42.
+|                                       |
+: Esc [ 17 ; 1 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 17, column 1.
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 16 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 16, column 64.
+: Esc [ ? 12 l
+& RM: RESET MODE (private params)
+" (Att610) Stop blinkin cursor.
+: Esc [ ? 25 h
+& SM: SET MODE (private params)
+" (DEC) Show cursor.
+@ 0.456123
+: Esc [ 17 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 17, column 42.
+@ 0.114003
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 17 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 17, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 17 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 17, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.431249
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 17 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 17, column 64.
+|tput cud1 > $T|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 17 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 17, column 64.
+@ 0.129157
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 17 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 17, column 64.
+|printf 'a\b' > $T|
+: Esc [ 18 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 18, column 42.
+| |
+: Esc [ 17 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 17, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 17 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 17, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.522916
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 26 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 26.
+|a|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 19 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 19, column 42.
+@ 0.074056
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 19 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 19, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 19 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 19, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 2.262569
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 19 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 19, column 64.
+|#|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 19 ; 65 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 19, column 65.
+@ 0.815874
+: Esc [ 20 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 20, column 42.
+@ 0.092891
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 20 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 20, column 42.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 20 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 20, column 64.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 7.726002
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 20 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 20, column 64.
+|x|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 20 ; 65 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 20, column 65.
+@ 0.626636
+. BS/^H
+|                 |
+: Esc [ 20 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 20, column 64.
+@ 22.362368
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 20 ; 64 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 20, column 64.
+|exit|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 21 ; 42 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 21, column 42.
+: Esc [ ? 25 l
+& RM: RESET MODE (private params)
+" (DEC) Hide cursor.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 39 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color default.
+|tty|
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+|/dev/pts/14|
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 39 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color default.
+|aa|
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+|                        aa|
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+|                         a|
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+|                         a|
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+. CR/^M LF/^J
+: Esc [ 38 ; 5 ; 17 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 17.
+: Esc [ 48 ; 5 ; 147 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set background color to index 147.
+|0:bash*|
+: Esc [ 38 ; 5 ; 105 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 105.
+: Esc [ 48 ; 5 ; 17 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set background color to index 17.
+|                                                                         |
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ 6 ; 26 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 26.
+: Esc [ ? 12 l
+& RM: RESET MODE (private params)
+" (Att610) Stop blinkin cursor.
+: Esc [ ? 25 h
+& SM: SET MODE (private params)
+" (DEC) Show cursor.
+. CR/^M
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 5 B
+& CUD: CURSOR DOWN
+" Move the cursor down 5 lines.
+: Esc [ 38 ; 5 ; 103 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set foreground color to index 103.
+|micah-compaq-xubuntu$ |
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 23 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 23.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.245063
+: Esc [ 1 ; 24 r
+" (DEC) Set the scrolling region to from line 1 to line 24.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 ; 23 H
+& CUP: CURSOR POSITION
+" Move the cursor to line 6, column 23.
+|exit|
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 6 B
+& CUD: CURSOR DOWN
+" Move the cursor down 6 lines.
+@ 0.001069
+: Esc [ 1 ; 25 r
+" (DEC) Set the scrolling region to from line 1 to line 25.
+: Esc ( B
+& GZD4: G0-DESIGNATE 94-SET
+" Designate 94-character set B (US-ASCII) to G0.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ ? 1 l
+& RM: RESET MODE (private params)
+" (DEC) Cursor key mode off.
+: Esc >
+& DECKPNM: KEYPAD NORMAL MODE
+: Esc [ H
+& CUP: CURSOR POSITION
+" Move the cursor to line 1, column 1.
+: Esc [ 2 J
+& ED: ERASE IN PAGE
+" Clear the screen.
+: Esc ]
+& OSC: OPERATING SYSTEM COMMAND
+|112|
+. BEL/^G
+: Esc [ ? 12 l
+& RM: RESET MODE (private params)
+" (Att610) Stop blinkin cursor.
+: Esc [ ? 25 h
+& SM: SET MODE (private params)
+" (DEC) Show cursor.
+: Esc [ ? 1000 l
+& RM: RESET MODE (private params)
+" (Xterm) Don't send mouse X & Y on button press and release.
+: Esc [ ? 1049 l
+& RM: RESET MODE (private params)
+" (Xterm) Leave the alternate screen buffer and restore the cursor.
+@ 0.000000
+|[exited]|
+. CR/^M LF/^J LF/^J
+|Script done on Wed 05 Jun 2013 06:47:41 PM PDT|.
