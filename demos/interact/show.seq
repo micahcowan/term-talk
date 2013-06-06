@@ -1,4 +1,30 @@
-|Script started on Wed 05 Jun 2013 06:45:56 PM PDT|.
+  commchange(`dnl')
+
+  m4 macro definitions
+
+  define(`BREATHE',``
+  start breathe
+
+: Esc [ 92 m
+: Esc [ ? 25 l
+|###'dnl
+ifelse(`$#', `0', `', ` `$1' ###')'dnl
+`|
+@@@
+: Esc [ 'dnl
+`ifelse(`$#', `0', ``3'', `eval(len(`###  ###') `+' len(`$1'))')dnl
+` D
+: Esc [ K
+: Esc [ ? 25 h
+: Esc [ 0 m
+
+  end breathe
+'')
+
+
+
+  begin sequences
+
 @ 0.020808
 : Esc [ ? 1049 h
 & SM: SET MODE (private params)
@@ -1037,7 +1063,7 @@
 : Esc [ 76 C
 & CUF: CURSOR RIGHT
 " Move the cursor right 76 characters.
-@ 1.107517
+@ 0.8
 : Esc [ 2 ; 42 H
 & CUP: CURSOR POSITION
 " Move the cursor to line 2, column 42.
@@ -1054,6 +1080,9 @@
 & SGR: SELECT GRAPHIC RENDITION
 " Set foreground color to index 103.
 |micah-compaq-xubuntu$ |
+
+    BREATHE
+
 : Esc [ 1 ; 25 r
 " (DEC) Set the scrolling region to from line 1 to line 25.
 : Esc [ H
@@ -1319,6 +1348,9 @@
 & SGR: SELECT GRAPHIC RENDITION
 " Set foreground color to index 103.
 |micah-compaq-xubuntu$ |
+
+    BREATHE
+
 : Esc [ 1 ; 25 r
 " (DEC) Set the scrolling region to from line 1 to line 25.
 : Esc [ H
@@ -1333,7 +1365,7 @@
 : Esc [ m
 & SGR: SELECT GRAPHIC RENDITION
 " Clear graphic rendition to defaults.
-@ 2.391553
+@ 0.8
 : Esc [ 1 ; 24 r
 " (DEC) Set the scrolling region to from line 1 to line 24.
 : Esc [ H
@@ -1598,6 +1630,9 @@
 & SGR: SELECT GRAPHIC RENDITION
 " Set foreground color to index 103.
 |micah-compaq-xubuntu$ |
+
+    BREATHE
+
 : Esc [ 1 ; 25 r
 " (DEC) Set the scrolling region to from line 1 to line 25.
 : Esc [ H
@@ -1612,7 +1647,7 @@
 : Esc [ m
 & SGR: SELECT GRAPHIC RENDITION
 " Clear graphic rendition to defaults.
-@ 3.213353
+@ 0.8
 : Esc [ 1 ; 24 r
 " (DEC) Set the scrolling region to from line 1 to line 24.
 : Esc [ H
@@ -1661,6 +1696,9 @@
 & SGR: SELECT GRAPHIC RENDITION
 " Set foreground color to index 103.
 |micah-compaq-xubuntu$ |
+
+    BREATHE
+
 : Esc [ 1 ; 25 r
 " (DEC) Set the scrolling region to from line 1 to line 25.
 : Esc [ H
@@ -1675,7 +1713,7 @@
 : Esc [ m
 & SGR: SELECT GRAPHIC RENDITION
 " Clear graphic rendition to defaults.
-@ 4.915281
+@ 0.8
 : Esc [ 1 ; 24 r
 " (DEC) Set the scrolling region to from line 1 to line 24.
 : Esc [ H
@@ -1927,7 +1965,7 @@
 : Esc [ 5 ; 78 H
 & CUP: CURSOR POSITION
 " Move the cursor to line 5, column 78.
-@ 1.117991
+@ 0.8
 : Esc [ 6 ; 42 H
 & CUP: CURSOR POSITION
 " Move the cursor to line 6, column 42.
@@ -2223,6 +2261,9 @@
 & SGR: SELECT GRAPHIC RENDITION
 " Set foreground color to index 103.
 |micah-compaq-xubuntu$ |
+
+    BREATHE
+
 : Esc [ 1 ; 25 r
 " (DEC) Set the scrolling region to from line 1 to line 25.
 : Esc [ H
@@ -2237,7 +2278,7 @@
 : Esc [ m
 & SGR: SELECT GRAPHIC RENDITION
 " Clear graphic rendition to defaults.
-@ 1.756826
+@ 0.5
 : Esc [ 1 ; 24 r
 " (DEC) Set the scrolling region to from line 1 to line 24.
 : Esc [ H
@@ -2246,7 +2287,7 @@
 : Esc [ 7 ; 64 H
 & CUP: CURSOR POSITION
 " Move the cursor to line 7, column 64.
-|#|
+    |#|
 : Esc [ 1 ; 25 r
 " (DEC) Set the scrolling region to from line 1 to line 25.
 : Esc [ H
@@ -2255,11 +2296,11 @@
 : Esc [ 7 ; 65 H
 & CUP: CURSOR POSITION
 " Move the cursor to line 7, column 65.
-@ 0.304804
+    @ 0.304804
 : Esc [ 8 ; 42 H
 & CUP: CURSOR POSITION
 " Move the cursor to line 8, column 42.
-@ 0.077245
+    @ 0.077245
 : Esc [ 1 ; 24 r
 " (DEC) Set the scrolling region to from line 1 to line 24.
 : Esc [ H
@@ -2272,6 +2313,7 @@
 & SGR: SELECT GRAPHIC RENDITION
 " Set foreground color to index 103.
 |micah-compaq-xubuntu$ |
+
 : Esc [ 1 ; 25 r
 " (DEC) Set the scrolling region to from line 1 to line 25.
 : Esc [ H
@@ -2286,7 +2328,7 @@
 : Esc [ m
 & SGR: SELECT GRAPHIC RENDITION
 " Clear graphic rendition to defaults.
-@ 5.887388
+@ 0.887388
 : Esc [ 1 ; 24 r
 " (DEC) Set the scrolling region to from line 1 to line 24.
 : Esc [ H
@@ -2304,7 +2346,7 @@
 : Esc [ 8 ; 64 H
 & CUP: CURSOR POSITION
 " Move the cursor to line 8, column 64.
-@ 0.654860
+    @ 0.654860
 : Esc [ 1 ; 24 r
 " (DEC) Set the scrolling region to from line 1 to line 24.
 : Esc [ H
@@ -2322,7 +2364,7 @@
 : Esc [ 8 ; 64 H
 & CUP: CURSOR POSITION
 " Move the cursor to line 8, column 64.
-@ 2.925492
+@ 0.8
 : Esc [ 5 C
 & CUF: CURSOR RIGHT
 " Move the cursor right 5 characters.
@@ -2330,7 +2372,7 @@
 : Esc [ 2 C
 & CUF: CURSOR RIGHT
 " Move the cursor right 2 characters.
-@ 1.549256
+@ 0.8
 : Esc [ ? 25 l
 & RM: RESET MODE (private params)
 " (DEC) Hide cursor.
@@ -2521,7 +2563,7 @@
 : Esc [ ? 25 h
 & SM: SET MODE (private params)
 " (DEC) Show cursor.
-@ 2.026965
+@ 0.8
 : Esc [ 1 ; 24 r
 " (DEC) Set the scrolling region to from line 1 to line 24.
 : Esc [ H
@@ -2556,7 +2598,7 @@
 : Esc [ m
 & SGR: SELECT GRAPHIC RENDITION
 " Clear graphic rendition to defaults.
-@ 3.766306
+@ 0.8
 : Esc [ 1 ; 24 r
 " (DEC) Set the scrolling region to from line 1 to line 24.
 : Esc [ H
@@ -2587,6 +2629,9 @@
 & SGR: SELECT GRAPHIC RENDITION
 " Set foreground color to index 103.
 |micah-compaq-xubuntu$ |
+
+    BREATHE
+
 : Esc [ 1 ; 25 r
 " (DEC) Set the scrolling region to from line 1 to line 25.
 : Esc [ H
@@ -2667,6 +2712,9 @@
 & SGR: SELECT GRAPHIC RENDITION
 " Set foreground color to index 103.
 |micah-compaq-xubuntu$ |
+
+    BREATHE
+
 : Esc [ 1 ; 25 r
 " (DEC) Set the scrolling region to from line 1 to line 25.
 : Esc [ H
@@ -2681,7 +2729,7 @@
 : Esc [ m
 & SGR: SELECT GRAPHIC RENDITION
 " Clear graphic rendition to defaults.
-@ 3.102862
+@ 0.5
 : Esc [ 1 ; 24 r
 " (DEC) Set the scrolling region to from line 1 to line 24.
 : Esc [ H
@@ -2690,7 +2738,7 @@
 : Esc [ 12 ; 64 H
 & CUP: CURSOR POSITION
 " Move the cursor to line 12, column 64.
-|#|
+    |#|
 : Esc [ 1 ; 25 r
 " (DEC) Set the scrolling region to from line 1 to line 25.
 : Esc [ H
@@ -2699,11 +2747,11 @@
 : Esc [ 12 ; 65 H
 & CUP: CURSOR POSITION
 " Move the cursor to line 12, column 65.
-@ 0.227196
+    @ 0.227196
 : Esc [ 13 ; 42 H
 & CUP: CURSOR POSITION
 " Move the cursor to line 13, column 42.
-@ 0.069621
+    @ 0.069621
 : Esc [ 1 ; 24 r
 " (DEC) Set the scrolling region to from line 1 to line 24.
 : Esc [ H
@@ -2716,6 +2764,7 @@
 & SGR: SELECT GRAPHIC RENDITION
 " Set foreground color to index 103.
 |micah-compaq-xubuntu$ |
+
 : Esc [ 1 ; 25 r
 " (DEC) Set the scrolling region to from line 1 to line 25.
 : Esc [ H
@@ -2908,7 +2957,7 @@
 : Esc [ 14 ; 64 H
 & CUP: CURSOR POSITION
 " Move the cursor to line 14, column 64.
-@ 0.770185
+    @ 0.770185
 : Esc [ 1 ; 24 r
 " (DEC) Set the scrolling region to from line 1 to line 24.
 : Esc [ H
@@ -2988,7 +3037,7 @@
 : Esc [ m
 & SGR: SELECT GRAPHIC RENDITION
 " Clear graphic rendition to defaults.
-@ 2.007279
+@ 0.8
 : Esc [ 1 ; 24 r
 " (DEC) Set the scrolling region to from line 1 to line 24.
 : Esc [ H
@@ -3200,7 +3249,7 @@
 : Esc [ m
 & SGR: SELECT GRAPHIC RENDITION
 " Clear graphic rendition to defaults.
-@ 2.262569
+@ 0.8
 : Esc [ 1 ; 24 r
 " (DEC) Set the scrolling region to from line 1 to line 24.
 : Esc [ H
@@ -3209,7 +3258,7 @@
 : Esc [ 19 ; 64 H
 & CUP: CURSOR POSITION
 " Move the cursor to line 19, column 64.
-|#|
+    |#|
 : Esc [ 1 ; 25 r
 " (DEC) Set the scrolling region to from line 1 to line 25.
 : Esc [ H
@@ -3218,11 +3267,11 @@
 : Esc [ 19 ; 65 H
 & CUP: CURSOR POSITION
 " Move the cursor to line 19, column 65.
-@ 0.815874
+    @ 0.815874
 : Esc [ 20 ; 42 H
 & CUP: CURSOR POSITION
 " Move the cursor to line 20, column 42.
-@ 0.092891
+    @ 0.092891
 : Esc [ 1 ; 24 r
 " (DEC) Set the scrolling region to from line 1 to line 24.
 : Esc [ H
@@ -3235,6 +3284,9 @@
 & SGR: SELECT GRAPHIC RENDITION
 " Set foreground color to index 103.
 |micah-compaq-xubuntu$ |
+
+    BREATHE
+
 : Esc [ 1 ; 25 r
 " (DEC) Set the scrolling region to from line 1 to line 25.
 : Esc [ H
@@ -3249,7 +3301,7 @@
 : Esc [ m
 & SGR: SELECT GRAPHIC RENDITION
 " Clear graphic rendition to defaults.
-@ 7.726002
+@ 1
 : Esc [ 1 ; 24 r
 " (DEC) Set the scrolling region to from line 1 to line 24.
 : Esc [ H
@@ -3273,7 +3325,7 @@
 : Esc [ 20 ; 64 H
 & CUP: CURSOR POSITION
 " Move the cursor to line 20, column 64.
-@ 22.362368
+@ 1
 : Esc [ 1 ; 24 r
 " (DEC) Set the scrolling region to from line 1 to line 24.
 : Esc [ H
