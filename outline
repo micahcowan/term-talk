@@ -46,11 +46,12 @@
     setab, sgr0
     [ Pre-recorded demo: demos/sgr/cmd.sh ]
   - tput examples, cmd output from one term going into another set in "raw" mode
-    [ Interactive demo: ]
+    [ Interactive demo: demos/interact/tmux.sh ]
     - stty raw < $T  # Will explain this later
     - tput cdd1; printf a   # It did move down, but it also moved forward
     - printf 'a\b'  # Stays same place after printing 'a'
     - tput cdd1; printf 'a\b' # Works now!
+    [ Interactive demo: demos/interact/tmux.sh ]
     - Now use [ special script ] to facilitate demonstrating tput:
       prints a where it is, performs new command, or last one, prints a
       with standout, then removes standout. Prints the command it's
