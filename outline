@@ -67,8 +67,8 @@
     - other things can use control, like arrow keys, but it works very
       differently.
   - Basic controls
-    [ Demo of things like ^C, ^D, ^G, ^I, ^W, ^U, ^Z, ^\ ]
-    Brief discussion of terminal buffering for ^W and ^U
+    [ demos/ctrls/cmd.sh ]
+    [ brief teaser demo of prompt-jobs, and how it works with suspend. ]
   - meta key was used for setting the high bit of a typed byte; now more
     typically prefixes it with Esc. 
   - CR and LF (or NL)
@@ -182,7 +182,7 @@
     and GR, and maybe all of G0 thru G3 as well. ]
 (
 - More on color, and using them in prompts (without prompt-jobs)
-  [ Use reseq --replay example for this ]
+  [ Interactive demo ]
   - Use infocmp or tput to determine how many colors are supported.
   - How to print escape sequences yourself
     - Mention that echo can do it, but it's not portable.
