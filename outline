@@ -52,31 +52,27 @@
     - printf 'a\b'  # Stays same place after printing 'a'
     - tput cdd1; printf 'a\b' # Works now!
     [ Interactive demo: demos/interact/tmux.sh ]
-    - Now use [ special script ] to facilitate demonstrating tput:
-      prints a where it is, performs new command, or last one, prints a
-      with standout, then removes standout. Prints the command it's
-      going to send to the tty in the controlling tty.
   - terminfo(5) is where to find various features and descriptions
   - The TERM environment variable
 - ASCII / Ecma-6 / ISO-646
   - Comes from background of punchtape, teletypes (ttys)
-    [ pictures of punch tape, line printers ]
   - Your computer understands Ctrl+Anything, but terms are much more
     limited
     [ show hex-based ascii table, with each pair of columns highlighted,
       and the replaceable graphic characters boxed.
       Also show column/row notation, with an example character
-      highlighted. ]
+      highlighted. images/mjc-ascii-tables.{pdf,ods} ]
     - The special DEL character, not with the other controls.
     - Control representations: ^X or C-x
     - other things can use control, like arrow keys, but it works very
       differently.
   - Basic controls
-    [ Demo of things like ^C, ^D, ^G, ^I, ^W, ^U ]
+    [ Demo of things like ^C, ^D, ^G, ^I, ^W, ^U, ^Z, ^\ ]
     Brief discussion of terminal buffering for ^W and ^U
   - meta key was used for setting the high bit of a typed byte; now more
     typically prefixes it with Esc. 
   - CR and LF (or NL)
+    [ images/crlf.gif ]
     - meanings for a line printer
     - LF is usually called NL these days, which is a graphical
       terminal-oriented name. The LF designation is a teletype-oriented
