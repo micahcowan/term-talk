@@ -1,0 +1,4782 @@
+    include(`../m4/breathe.m4')
+
+|$ |
+@ 2.388525
+|m|
+@ 0.092520
+|a|
+@ 0.097828
+|n|
+@ 0.098813
+| |
+@ 0.139899
+|m|
+@ 0.089682
+|a|
+@ 0.087816
+|n |
+@ 1
+
+    BREATHE(`gives the manual for the manual-giving command :)')
+
+. CR/^M LF/^J
+@ 0.174582
+: Esc [ ? 1049 h
+& SM: SET MODE (private params)
+" (Xterm) Save the cursor position and use the alternate screen buffer,
+"  clearing it first.
+: Esc [ ? 1 h
+& SM: SET MODE (private params)
+" (DEC) Cursor key mode.
+: Esc =
+& DECKPAM: KEYPAD APPLICATION MODE
+. CR/^M
+@ 0.111090
+|MAN(1)                        Manual pager utils                        MAN|-
+-|(1)|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000394
+. CR/^M LF/^J
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|NAME|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|       man - an interface to the on-line reference manuals|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|SYNOPSIS|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-C|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|file|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-d|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-D|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|--warnings|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|[=|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|warnings|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-R|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|encoding|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-L|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|       |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|locale|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-m|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|system|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|[,...]] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-M|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|path|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-S|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|list|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-e|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|extension|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-i|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|||
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-I|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|       [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|--regex|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|||
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|--wildcard|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]   [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|--names-only|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-a|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-u|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|--no-subpages|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-P|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|       |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|pager|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-r|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|prompt|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-7|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-E|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|encoding|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|--no-hyphenation|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|--no-justifi|
+. xE2 x80 x90
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|cation|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-p|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|string|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-t|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-T|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|[|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|device|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-H|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|[|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|browser|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-X|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|[|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|dpi|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-Z|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|       [[|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|section|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+@ 0.000386
+|] |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|page|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| ...] ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-k|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| [|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|apropos|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|options|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|regexp|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-K|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-w|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|||
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-W|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-S|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|list|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-i|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|||
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-I|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|--regex|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|section|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|term|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-f|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| [|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|whatis|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|options|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|page|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-l|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-C|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|file|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-d|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-D|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|--warnings|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|[=|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|warnings|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-R|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|encoding|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-L|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|       |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|locale|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-P|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|pager|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-r|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|prompt|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-7|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-E|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|encoding|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-p|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|string|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-t|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000047
+|       [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-T|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|[|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|device|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-H|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|[|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|browser|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-X|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|[|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|dpi|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-Z|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|file|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-w|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|||
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-W|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-C|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|file|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-d|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-D|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|page|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-c|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-C|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|file|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-|
+@ 0.000295
+|d|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-D|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|page|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-hV|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ 7 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set negative text image.
+| Manual page man(1) line 1 (press h for help or q to quit)|
+: Esc [ 27 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set positive text image.
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+@ 2.176051
+. CR/^M
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|DESCRIPTION|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ 7 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set negative text image.
+| Manual page man(1) line 2 (press h for help or q to quit)|
+: Esc [ 27 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set positive text image.
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+@ 0.377988
+. CR/^M
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| is the system's manual pager. Each |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|page|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| argument given  to  |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  is|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ 7 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set negative text image.
+| Manual page man(1) line 3 (press h for help or q to quit)|
+: Esc [ 27 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set positive text image.
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+@ 0.322979
+. CR/^M
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+|       normally  the  name of a program, utility or function.  The |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|manual|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|page|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ 7 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set negative text image.
+| Manual page man(1) line 4 (press h for help or q to quit)|
+: Esc [ 27 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set positive text image.
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+@ 0.848898
+. CR/^M
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+|       associated with each of these arguments is then found and displayed.|-
+-|  A|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ 7 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set negative text image.
+| Manual page man(1) line 5 (press h for help or q to quit)|
+: Esc [ 27 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set positive text image.
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+
+@@@
+
+. CR/^M
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+: Esc [ ? 1 l
+& RM: RESET MODE (private params)
+" (DEC) Cursor key mode off.
+: Esc >
+& DECKPNM: KEYPAD NORMAL MODE
+: Esc [ ? 1049 l
+& RM: RESET MODE (private params)
+" (Xterm) Leave the alternate screen buffer and restore the cursor.
+@ 0.005573
+|$ |
+@ 2.680571
+|m|
+@ 0.078205
+|a|
+@ 0.095379
+|n|
+@ 0.084564
+| |
+@ 0.139536
+|m|
+@ 0.024807
+|a|
+@ 0.137180
+|n|
+@ 0.082058
+| |
+@ 0.302666
+|||
+@ 0.267127
+| |
+@ 0.122154
+|l|
+@ 0.071099
+|e|
+@ 0.147927
+|s|
+@ 0.123536
+|s |
+
+    BREATHE(`man man already pipes to less...')
+
+. CR/^M LF/^J
+@ 0.008787
+: Esc [ ? 1049 h
+& SM: SET MODE (private params)
+" (Xterm) Save the cursor position and use the alternate screen buffer,
+"  clearing it first.
+: Esc [ ? 1 h
+& SM: SET MODE (private params)
+" (DEC) Cursor key mode.
+: Esc =
+& DECKPAM: KEYPAD APPLICATION MODE
+. CR/^M
+@ 0.180718
+|MAN(1)                        Manual pager utils                        MAN|-
+-|(1)|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000018
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000013
+. CR/^M LF/^J
+@ 0.000049
+|NAME|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000464
+|       man - an interface to the on-line reference manuals|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000015
+. CR/^M LF/^J
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000012
+. CR/^M LF/^J
+@ 0.000045
+|SYNOPSIS|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000062
+|       man  [-C  file]  [-d]  [-D]  [--warnings[=warnings]]  [-R encoding] |-
+-|[-L|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000287
+. CR/^M LF/^J
+@ 0.000014
+|       locale] [-m system[,...]] [-M path] [-S list]  [-e  extension]  [-i||-
+-|-I]|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000013
+|       [--regex|--wildcard]   [--names-only]  [-a]  [-u]  [--no-subpages]  |-
+-|[-P|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000045
+. CR/^M LF/^J
+@ 0.000287
+|       pager] [-r prompt] [-7] [-E encoding] [--no-hyphenation] [--no-justi|-
+-|fi|
+. xE2 x80 x90
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000015
+. CR/^M LF/^J
+|       cation]  [-p  string]  [-t]  [-T[device]]  [-H[browser]] [-X[dpi]] [|-
+-|-Z]|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000013
+. CR/^M LF/^J
+@ 0.000013
+|       [[section] page ...] ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000046
+. CR/^M LF/^J
+@ 0.000328
+|       man -k [apropos options] regexp ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000015
+|       man -K [-w|-W] [-S list] [-i|-I] [--regex] [section] term ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000014
+|       man -f [whatis options] page ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000012
+. CR/^M LF/^J
+@ 0.000136
+|       man -l [-C file] [-d] [-D] [--warnings[=warnings]]  [-R  encoding]  |-
+-|[-L|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000021
+|       locale]  [-P  pager]  [-r  prompt]  [-7] [-E encoding] [-p string] [|-
+-|-t]|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|       [-T[device]] [-H[browser]] [-X[dpi]] [-Z] file ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000051
+. CR/^M LF/^J
+|       man|
+@ 0.000679
+| -w|-W [-C file] [-d] [-D] page ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000048
+|       man -c [-C file] [-d] [-D] page ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|       man [-hV]|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000272
+. CR/^M LF/^J
+@ 0.000341
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+|:|
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+@ 0.020791
+|<standard input>:977: warning [p 8, 0.8i, div `3tbd1,0', 0.0i]: cannot adju|-
+-|st line|
+@ 0.000051
+. CR/^M LF/^J
+@ 0.000347
+|<standard input>:986: warning [p 8, 0.8i, div `3tbd4,0', 0.0i]: cannot adju|-
+-|st line|
+@ 0.000045
+. CR/^M LF/^J
+
+@@@
+
+. CR/^M
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+: Esc [ ? 1 l
+& RM: RESET MODE (private params)
+" (DEC) Cursor key mode off.
+: Esc >
+& DECKPNM: KEYPAD NORMAL MODE
+: Esc [ ? 1049 l
+& RM: RESET MODE (private params)
+" (Xterm) Leave the alternate screen buffer and restore the cursor.
+@ 0.000475
+|$ |
+
+    BREATHE(`no formatting, because man output not to a tty.')
+
+@ 0.234243
+|M|
+@ 0.197461
+|A|
+@ 0.088679
+|N|
+@ 0.257344
+|_|
+@ 0.235452
+|K|
+@ 0.082369
+|E|
+@ 0.120166
+|E|
+@ 0.108858
+|P|
+@ 0.274674
+|_|
+@ 0.119197
+|F|
+@ 0.093686
+|O|
+@ 0.073861
+|R|
+@ 0.105077
+|M|
+@ 0.097569
+|A|
+@ 0.140356
+|T|
+@ 0.133211
+|T|
+@ 0.096432
+|I|
+@ 0.047699
+|N|
+@ 0.059873
+|G|
+@ 0.352242
+|=|
+@ 0.103883
+|1|
+@ 0.282714
+| |
+@ 0.248589
+|m|
+@ 0.104166
+|a|
+@ 0.089654
+|n|
+@ 0.099825
+| |
+@ 0.119749
+|m|
+@ 0.082682
+|a|
+@ 0.088503
+|n|
+@ 0.081585
+| |
+@ 0.348300
+|||
+@ 0.106075
+| |
+@ 0.140819
+|l|
+@ 0.088178
+|e|
+@ 0.095631
+|s|
+@ 0.099788
+|s|
+@ 0.167098
+| |
+@ 0.169727
+|-|
+@ 0.164291
+|R|
+@ 0.699886
+| |
+
+    BREATHE
+
+. CR/^M LF/^J
+@ 0.012460
+: Esc [ ? 1049 h
+& SM: SET MODE (private params)
+" (Xterm) Save the cursor position and use the alternate screen buffer,
+"  clearing it first.
+: Esc [ ? 1 h
+& SM: SET MODE (private params)
+" (DEC) Cursor key mode.
+: Esc =
+& DECKPAM: KEYPAD APPLICATION MODE
+. CR/^M
+@ 0.174513
+|MAN(1)                        Manual pager utils                        MAN|-
+-|(1)|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000018
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000014
+. CR/^M LF/^J
+@ 0.000051
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|NAME|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000062
+|       man - an interface to the on-line reference manuals|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000452
+. CR/^M LF/^J
+@ 0.000049
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|SYNOPSIS|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000225
+. CR/^M LF/^J
+@ 0.000016
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-C|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|file|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-d|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-D|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|--warnings|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|[=|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|warnings|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-R|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|encoding|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-L|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000048
+|       |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|locale|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-m|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|system|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|[,...]] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-M|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|path|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-S|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|list|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-e|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|extension|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-i|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|||
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-I|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000365
+. CR/^M LF/^J
+@ 0.000015
+|       [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|--regex|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|||
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|--wildcard|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]   [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|--names-only|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-a|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-u|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|--no-subpages|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-P|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000015
+|       |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|pager|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-r|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|prompt|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-7|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-E|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|encoding|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|--no-hyphenation|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|--no-justifi|
+. xE2 x80 x90
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000047
+. CR/^M LF/^J
+@ 0.000335
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|cation|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-p|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|string|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-t|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-T|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|[|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|device|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-H|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|[|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|browser|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-X|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|[|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|dpi|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-Z|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000015
+|       [[|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|section|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+@ 0.001089
+|] |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|page|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| ...] ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000016
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-k|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| [|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|apropos|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|options|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|regexp|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000047
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-K|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-w|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|||
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-W|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-S|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|list|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-i|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|||
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-I|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|--regex|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|section|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|term|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000289
+. CR/^M LF/^J
+@ 0.000015
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-f|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| [|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|whatis|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|options|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|page|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000046
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-l|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-C|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|file|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-d|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-D|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|--warnings|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|[=|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|warnings|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-R|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|encoding|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-L|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000319
+|       |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|locale|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-P|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|pager|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-r|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|prompt|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-7|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-E|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|encoding|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-p|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|string|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-t|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000014
+|       [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-T|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|[|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|device|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-H|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|[|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|browser|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-X|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|[|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|dpi|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-Z|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|file|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000046
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-w|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|||
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-W|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-C|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|file|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-d|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-D|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|page|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000310
+. CR/^M LF/^J
+@ 0.000015
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-c|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-C|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|file|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-|
+@ 0.000461
+|d|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-D|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|] |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|page|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+| ...|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000015
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-hV|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000013
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000012
+. CR/^M LF/^J
+@ 0.000045
+|:|
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+@ 0.037396
+|<standard input>:977: warning [p 8, 0.8i, div `3tbd1,0', 0.0i]: cannot adju|-
+-|st line|
+@ 0.002336
+. CR/^M LF/^J
+@ 0.000371
+|<standard input>:986: warning [p 8, 0.8i, div `3tbd4,0', 0.0i]: cannot adju|-
+-|st line|
+@ 0.000046
+. CR/^M LF/^J
+
+@@@
+
+. CR/^M
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+: Esc [ ? 1 l
+& RM: RESET MODE (private params)
+" (DEC) Cursor key mode off.
+: Esc >
+& DECKPNM: KEYPAD NORMAL MODE
+: Esc [ ? 1049 l
+& RM: RESET MODE (private params)
+" (Xterm) Leave the alternate screen buffer and restore the cursor.
+@ 0.000494
+|$ |
+@ 0.997530
+
+    BREATHE
+
+    -- bad head start?
+
+|MAN_KEEP_FORMATTING=1 man man | less -R|
+. CR/^M
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+@ 0.902824
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+: Esc [ C
+& CUF: CURSOR RIGHT
+" Move the cursor right 1 character.
+@ 0.411469
+. BS/^H
+@ 0.109423
+. BS/^H BS/^H BS/^H BS/^H BS/^H
+@ 0.660935
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+@ 2.425887
+|h|
+@ 0.063888
+|e|
+@ 0.078961
+|a|
+@ 0.069666
+|d|
+@ 0.144873
+| |
+@ 0.302558
+|-|
+@ 0.100444
+|n|
+@ 0.082686
+| |
+@ 1.205791
+|2|
+@ 0.053914
+|5|
+@ 2.511433
+. BS/^H
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+@ 0.422583
+|0|
+@ 0.273140
+. CR/^M LF/^J
+@ 0.156111
+|MAN(1)                        Manual pager utils                        MAN|-
+-|(1)|
+@ 0.000060
+. CR/^M LF/^J
+@ 0.000045
+. CR/^M LF/^J
+@ 0.000045
+. CR/^M LF/^J
+@ 0.000045
+. CR/^M LF/^J
+@ 0.000043
+|N|
+. BS/^H
+|NA|
+. BS/^H
+|AM|
+. BS/^H
+|ME|
+. BS/^H
+|E|
+@ 0.000042
+. CR/^M LF/^J
+@ 0.000044
+|       man - an interface to the on-line reference manuals|
+@ 0.000043
+. CR/^M LF/^J
+@ 0.000042
+. CR/^M LF/^J
+@ 0.000057
+|S|
+. BS/^H
+|SY|
+. BS/^H
+|YN|
+. BS/^H
+|NO|
+. BS/^H
+|OP|
+. BS/^H
+|PS|
+. BS/^H
+|SI|
+. BS/^H
+|IS|
+. BS/^H
+|S|
+@ 0.000052
+. CR/^M LF/^J
+@ 0.000045
+|       m|
+. BS/^H
+|ma|
+. BS/^H
+|an|
+. BS/^H
+|n  [-|
+. BS/^H
+|-C|
+. BS/^H
+|C  _|
+. BS/^H
+|f_|
+. BS/^H
+|i_|
+. BS/^H
+|l_|
+. BS/^H
+|e]  [-|
+. BS/^H
+|-d|
+. BS/^H
+|d]  [-|
+. BS/^H
+|-D|
+. BS/^H
+|D]  [-|
+. BS/^H
+|--|
+. BS/^H
+|-w|
+. BS/^H
+|wa|
+. BS/^H
+|ar|
+. BS/^H
+|rn|
+. BS/^H
+|ni|
+. BS/^H
+|in|
+. BS/^H
+|ng|
+. BS/^H
+|gs|
+. BS/^H
+|s[=_|
+. BS/^H
+|w_|
+. BS/^H
+|a_|
+. BS/^H
+|r_|
+. BS/^H
+|n_|
+. BS/^H
+|i_|
+. BS/^H
+|n_|
+. BS/^H
+|g_|
+. BS/^H
+|s]]  [-|
+. BS/^H
+|-R|
+. BS/^H
+|R _|
+. BS/^H
+|e_|
+. BS/^H
+|n_|
+. BS/^H
+|c_|
+. BS/^H
+|o_|
+. BS/^H
+|d_|
+. BS/^H
+|i_|
+. BS/^H
+|n_|
+. BS/^H
+|g] [-|
+. BS/^H
+|-L|
+. BS/^H
+|L|
+@ 0.000041
+. CR/^M LF/^J
+@ 0.000056
+|       _|
+. BS/^H
+|l_|
+. BS/^H
+|o_|
+. BS/^H
+|c_|
+. BS/^H
+|a_|
+. BS/^H
+|l_|
+. BS/^H
+|e] [-|
+. BS/^H
+|-m|
+. BS/^H
+|m _|
+. BS/^H
+|s_|
+. BS/^H
+|y_|
+. BS/^H
+|s_|
+. BS/^H
+|t_|
+. BS/^H
+|e_|
+. BS/^H
+|m[,...]] [-|
+. BS/^H
+|-M|
+. BS/^H
+|M _|
+. BS/^H
+|p_|
+. BS/^H
+|a_|
+. BS/^H
+|t_|
+. BS/^H
+|h] [-|
+. BS/^H
+|-S|
+. BS/^H
+|S _|
+. BS/^H
+|l_|
+. BS/^H
+|i_|
+. BS/^H
+|s_|
+. BS/^H
+|t]  [-|
+. BS/^H
+|-e|
+. BS/^H
+|e  _|
+. BS/^H
+|e_|
+. BS/^H
+|x_|
+. BS/^H
+|t_|
+. BS/^H
+|e_|
+. BS/^H
+|n_|
+. BS/^H
+|s_|
+. BS/^H
+|i_|
+. BS/^H
+|o_|
+. BS/^H
+|n]  [-|
+. BS/^H
+|-i|
+. BS/^H
+|i|-|
+. BS/^H
+|-I|
+. BS/^H
+|I]|
+@ 0.000043
+. CR/^M LF/^J
+@ 0.000044
+|       [-|
+. BS/^H
+|--|
+. BS/^H
+|-r|
+. BS/^H
+|re|
+. BS/^H
+|eg|
+. BS/^H
+|ge|
+. BS/^H
+|ex|
+. BS/^H
+|x|-|
+. BS/^H
+|--|
+. BS/^H
+|-w|
+. BS/^H
+|wi|
+. BS/^H
+|il|
+. BS/^H
+|ld|
+. BS/^H
+|dc|
+. BS/^H
+|ca|
+. BS/^H
+|ar|
+. BS/^H
+|rd|
+. BS/^H
+|d]   [-|
+. BS/^H
+|--|
+. BS/^H
+|-n|
+. BS/^H
+|na|
+. BS/^H
+|am|
+. BS/^H
+|me|
+. BS/^H
+|es|
+. BS/^H
+|s-|
+. BS/^H
+|-o|
+. BS/^H
+|on|
+. BS/^H
+|nl|
+. BS/^H
+|ly|
+. BS/^H
+|y]  [-|
+. BS/^H
+|-a|
+. BS/^H
+|a]  [-|
+. BS/^H
+|-u|
+. BS/^H
+|u]  [-|
+. BS/^H
+|--|
+. BS/^H
+|-n|
+. BS/^H
+|no|
+. BS/^H
+|o-|
+. BS/^H
+|-s|
+. BS/^H
+|su|
+. BS/^H
+|ub|
+. BS/^H
+|bp|
+. BS/^H
+|pa|
+. BS/^H
+|ag|
+. BS/^H
+|ge|
+. BS/^H
+|es|
+. BS/^H
+|s]  [-|
+. BS/^H
+|-P|
+. BS/^H
+|P|
+@ 0.000055
+. CR/^M LF/^J
+@ 0.000044
+|       _|
+. BS/^H
+|p_|
+. BS/^H
+|a_|
+. BS/^H
+|g_|
+. BS/^H
+|e_|
+. BS/^H
+|r] [-|
+. BS/^H
+|-r|
+. BS/^H
+|r _|
+. BS/^H
+|p_|
+. BS/^H
+|r_|
+. BS/^H
+|o_|
+. BS/^H
+|m_|
+. BS/^H
+|p_|
+. BS/^H
+|t] [-|
+. BS/^H
+|-7|
+. BS/^H
+|7] [-|
+. BS/^H
+|-E|
+. BS/^H
+|E _|
+. BS/^H
+|e_|
+. BS/^H
+|n_|
+. BS/^H
+|c_|
+. BS/^H
+|o_|
+. BS/^H
+|d_|
+. BS/^H
+|i_|
+. BS/^H
+|n_|
+. BS/^H
+|g] [-|
+. BS/^H
+|--|
+. BS/^H
+|-n|
+. BS/^H
+|no|
+. BS/^H
+|o-|
+. BS/^H
+|-h|
+. BS/^H
+|hy|
+. BS/^H
+|yp|
+. BS/^H
+|ph|
+. BS/^H
+|he|
+. BS/^H
+|en|
+. BS/^H
+|na|
+. BS/^H
+|at|
+. BS/^H
+|ti|
+. BS/^H
+|io|
+. BS/^H
+|on|
+. BS/^H
+|n] [-|
+. BS/^H
+|--|
+. BS/^H
+|-n|
+. BS/^H
+|no|
+. BS/^H
+|o-|
+. BS/^H
+|-j|
+. BS/^H
+|ju|
+. BS/^H
+|us|
+. BS/^H
+|st|
+. BS/^H
+|ti|
+. BS/^H
+|if|
+. BS/^H
+|fi|
+. BS/^H
+|i|
+. xE2 x80 x90 BS/^H xE2 x80 x90
+@ 0.000042
+. CR/^M LF/^J
+@ 0.000145
+|       c|
+. BS/^H
+|ca|
+. BS/^H
+|at|
+. BS/^H
+|ti|
+. BS/^H
+|io|
+. BS/^H
+|on|
+. BS/^H
+|n]  [-|
+. BS/^H
+|-p|
+. BS/^H
+|p  _|
+. BS/^H
+|s_|
+. BS/^H
+|t_|
+. BS/^H
+|r_|
+. BS/^H
+|i_|
+. BS/^H
+|n_|
+. BS/^H
+|g]  [-|
+. BS/^H
+|-t|
+. BS/^H
+|t]  [-|
+. BS/^H
+|-T|
+. BS/^H
+|T[_|
+. BS/^H
+|d_|
+. BS/^H
+|e_|
+. BS/^H
+|v_|
+. BS/^H
+|i_|
+. BS/^H
+|c_|
+. BS/^H
+|e]]  [-|
+. BS/^H
+|-H|
+. BS/^H
+|H[_|
+. BS/^H
+|b_|
+. BS/^H
+|r_|
+. BS/^H
+|o_|
+. BS/^H
+|w_|
+. BS/^H
+|s_|
+. BS/^H
+|e_|
+. BS/^H
+|r]] [-|
+. BS/^H
+|-X|
+. BS/^H
+|X[_|
+. BS/^H
+|d_|
+. BS/^H
+|p_|
+. BS/^H
+|i]] [-|
+@ 0.000070
+. BS/^H
+|-Z|
+. BS/^H
+|Z]|
+@ 0.000044
+. CR/^M LF/^J
+@ 0.000060
+|       [[_|
+. BS/^H
+|s_|
+. BS/^H
+|e_|
+. BS/^H
+|c_|
+. BS/^H
+|t_|
+. BS/^H
+|i_|
+. BS/^H
+|o_|
+. BS/^H
+|n] _|
+. BS/^H
+|p_|
+. BS/^H
+|a_|
+. BS/^H
+|g_|
+. BS/^H
+|e ...] ...|
+@ 0.000043
+. CR/^M LF/^J
+@ 0.000049
+|       m|
+. BS/^H
+|ma|
+. BS/^H
+|an|
+. BS/^H
+|n -|
+. BS/^H
+|-k|
+. BS/^H
+|k [_|
+. BS/^H
+|a_|
+. BS/^H
+|p_|
+. BS/^H
+|r_|
+. BS/^H
+|o_|
+. BS/^H
+|p_|
+. BS/^H
+|o_|
+. BS/^H
+|s _|
+. BS/^H
+|o_|
+. BS/^H
+|p_|
+. BS/^H
+|t_|
+. BS/^H
+|i_|
+. BS/^H
+|o_|
+. BS/^H
+|n_|
+. BS/^H
+|s] _|
+. BS/^H
+|r_|
+. BS/^H
+|e_|
+. BS/^H
+|g_|
+. BS/^H
+|e_|
+. BS/^H
+|x_|
+. BS/^H
+|p ...|
+@ 0.000044
+. CR/^M LF/^J
+@ 0.000051
+|       m|
+. BS/^H
+|ma|
+. BS/^H
+|an|
+. BS/^H
+|n -|
+. BS/^H
+|-K|
+. BS/^H
+|K [-|
+. BS/^H
+|-w|
+. BS/^H
+|w|-|
+. BS/^H
+|-W|
+. BS/^H
+|W] [-|
+. BS/^H
+|-S|
+. BS/^H
+|S _|
+. BS/^H
+|l_|
+. BS/^H
+|i_|
+. BS/^H
+|s_|
+. BS/^H
+|t] [-|
+. BS/^H
+|-i|
+. BS/^H
+|i|-|
+. BS/^H
+|-I|
+. BS/^H
+|I] [_|
+. BS/^H
+|-_|
+. BS/^H
+|-_|
+. BS/^H
+|r_|
+. BS/^H
+|e_|
+. BS/^H
+|g_|
+. BS/^H
+|e_|
+. BS/^H
+|x] [_|
+. BS/^H
+|s_|
+. BS/^H
+|e_|
+. BS/^H
+|c_|
+. BS/^H
+|t_|
+. BS/^H
+|i_|
+. BS/^H
+|o_|
+. BS/^H
+|n] _|
+. BS/^H
+|t_|
+. BS/^H
+|e_|
+. BS/^H
+|r_|
+. BS/^H
+|m ...|
+@ 0.000044
+. CR/^M LF/^J
+@ 0.000049
+|       m|
+. BS/^H
+|ma|
+. BS/^H
+|an|
+. BS/^H
+|n -|
+. BS/^H
+|-f|
+. BS/^H
+|f [_|
+. BS/^H
+|w_|
+. BS/^H
+|h_|
+. BS/^H
+|a_|
+. BS/^H
+|t_|
+. BS/^H
+|i_|
+. BS/^H
+|s _|
+. BS/^H
+|o_|
+. BS/^H
+|p_|
+. BS/^H
+|t_|
+. BS/^H
+|i_|
+. BS/^H
+|o_|
+. BS/^H
+|n_|
+. BS/^H
+|s] _|
+. BS/^H
+|p_|
+. BS/^H
+|a_|
+. BS/^H
+|g_|
+. BS/^H
+|e ...|
+@ 0.000043
+. CR/^M LF/^J
+@ 0.000050
+|       m|
+. BS/^H
+|ma|
+. BS/^H
+|an|
+. BS/^H
+|n -|
+. BS/^H
+|-l|
+. BS/^H
+|l [-|
+. BS/^H
+|-C|
+. BS/^H
+|C _|
+. BS/^H
+|f_|
+. BS/^H
+|i_|
+. BS/^H
+|l_|
+. BS/^H
+|e] [-|
+. BS/^H
+|-d|
+. BS/^H
+|d] [-|
+. BS/^H
+|-D|
+. BS/^H
+|D] [-|
+. BS/^H
+|--|
+. BS/^H
+|-w|
+. BS/^H
+|wa|
+. BS/^H
+|ar|
+. BS/^H
+|rn|
+. BS/^H
+|ni|
+. BS/^H
+|in|
+. BS/^H
+|ng|
+. BS/^H
+|gs|
+. BS/^H
+|s[=_|
+. BS/^H
+|w_|
+. BS/^H
+|a_|
+. BS/^H
+|r_|
+. BS/^H
+|n_|
+. BS/^H
+|i_|
+. BS/^H
+|n_|
+. BS/^H
+|g_|
+. BS/^H
+|s]]  [-|
+. BS/^H
+|-R|
+. BS/^H
+|R  _|
+. BS/^H
+|e_|
+. BS/^H
+|n_|
+. BS/^H
+|c_|
+. BS/^H
+|o_|
+. BS/^H
+|d_|
+. BS/^H
+|i_|
+. BS/^H
+|n_|
+. BS/^H
+|g]  [-|
+. BS/^H
+|-L|
+. BS/^H
+|L|
+@ 0.000094
+. CR/^M LF/^J
+@ 0.000052
+|       _|
+. BS/^H
+|l_|
+. BS/^H
+|o_|
+. BS/^H
+|c_|
+. BS/^H
+|a_|
+. BS/^H
+|l_|
+. BS/^H
+|e]  [-|
+. BS/^H
+|-P|
+. BS/^H
+|P  _|
+. BS/^H
+|p_|
+. BS/^H
+|a_|
+. BS/^H
+|g_|
+. BS/^H
+|e_|
+. BS/^H
+|r]  [-|
+. BS/^H
+|-r|
+. BS/^H
+|r  _|
+. BS/^H
+|p_|
+. BS/^H
+|r_|
+. BS/^H
+|o_|
+. BS/^H
+|m_|
+. BS/^H
+|p_|
+. BS/^H
+|t]  [-|
+. BS/^H
+|-7|
+. BS/^H
+|7] [-|
+. BS/^H
+|-E|
+. BS/^H
+|E _|
+. BS/^H
+|e_|
+. BS/^H
+|n_|
+. BS/^H
+|c_|
+. BS/^H
+|o_|
+. BS/^H
+|d_|
+. BS/^H
+|i_|
+. BS/^H
+|n_|
+. BS/^H
+|g] [-|
+. BS/^H
+|-p|
+. BS/^H
+|p _|
+. BS/^H
+|s_|
+. BS/^H
+|t_|
+. BS/^H
+|r_|
+. BS/^H
+|i_|
+. BS/^H
+|n_|
+. BS/^H
+|g] [-|
+. BS/^H
+|-t|
+. BS/^H
+|t]|
+@ 0.000054
+. CR/^M LF/^J
+@ 0.000050
+|       [-|
+. BS/^H
+|-T|
+. BS/^H
+|T[_|
+. BS/^H
+|d_|
+. BS/^H
+|e_|
+. BS/^H
+|v_|
+. BS/^H
+|i_|
+. BS/^H
+|c_|
+. BS/^H
+|e]] [-|
+. BS/^H
+|-H|
+. BS/^H
+|H[_|
+. BS/^H
+|b_|
+. BS/^H
+|r_|
+. BS/^H
+|o_|
+. BS/^H
+|w_|
+. BS/^H
+|s_|
+. BS/^H
+|e_|
+. BS/^H
+|r]] [-|
+. BS/^H
+|-X|
+. BS/^H
+|X[_|
+. BS/^H
+|d_|
+. BS/^H
+|p_|
+. BS/^H
+|i]] [-|
+. BS/^H
+|-Z|
+. BS/^H
+|Z] _|
+. BS/^H
+|f_|
+. BS/^H
+|i_|
+. BS/^H
+|l_|
+. BS/^H
+|e ...|
+@ 0.000043
+. CR/^M LF/^J
+@ 0.024141
+|$ |
+
+    BREATHE
+
+        -- bad head start? (2)
+
+    @ 3.723681
+    |MAN_KEEP_FORMATTING=1 man man | head -n 20|
+    . CR/^M
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    @ 2.982567
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    : Esc [ C
+    & CUF: CURSOR RIGHT
+    " Move the cursor right 1 character.
+    @ 1.790645
+    | |
+    @ 0.586644
+    |||
+    @ 0.470415
+    | |
+    @ 3.236675
+    |c|
+    @ 0.217613
+    |a|
+    @ 0.212098
+    |t|
+    @ 0.146456
+    | |
+    @ 0.506458
+    |-|
+    @ 0.119474
+    |A|
+    @ 0.367898
+    . CR/^M LF/^J
+    @ 0.166589
+    |MAN(1)                        Manual pager utils                        MAN|-
+    -|(1)$|
+    @ 0.000358
+    . CR/^M LF/^J
+    @ 0.000240
+    |$|
+    @ 0.000151
+    . CR/^M LF/^J
+    @ 0.000158
+    |$|
+    @ 0.000147
+    . CR/^M LF/^J
+    @ 0.000159
+    |$|
+    @ 0.000146
+    . CR/^M LF/^J
+    @ 0.000160
+    |N^HNA^HAM^HME^HE$|
+    @ 0.000152
+    . CR/^M LF/^J
+    @ 0.000158
+    |       man - an interface to the on-line reference manuals$|
+    @ 0.000162
+    . CR/^M LF/^J
+    @ 0.000155
+    |$|
+    @ 0.000147
+    . CR/^M LF/^J
+    @ 0.000156
+    |S^HSY^HYN^HNO^HOP^HPS^HSI^HIS^HS$|
+    @ 0.000155
+    . CR/^M LF/^J
+    @ 0.000161
+    |       m^Hma^Han^Hn  [-^H-C^HC  _^Hf_^Hi_^Hl_^He]  [-^H-d^Hd]  [-^H-D^HD]  |-
+    -|[-^H--^H-w^Hwa^Har^Hrn^Hni^Hin^Hng^Hgs^Hs[=_^Hw_^Ha_^Hr_^Hn_^Hi_^Hn_^Hg_^H|-
+    -|s]]  [-^H-R^HR _^He_^Hn_^Hc_^Ho_^Hd_^Hi_^Hn_^Hg] [-^H-L^HL$|
+    @ 0.000216
+    . CR/^M LF/^J
+    @ 0.000159
+    |       _^Hl_^Ho_^Hc_^Ha_^Hl_^He] [-^H-m^Hm _^Hs_^Hy_^Hs_^Ht_^He_^Hm[,...]] |-
+    -|[-^H-M^HM _^Hp_^Ha_^Ht_^Hh] [-^H-S^HS _^Hl_^Hi_^Hs_^Ht]  [-^H-e^He  _^He_^|-
+    -|Hx_^Ht_^He_^Hn_^Hs_^Hi_^Ho_^Hn]  [-^H-i^Hi|-^H-I^HI]$|
+    @ 0.000218
+    . CR/^M LF/^J
+    @ 0.000161
+    |       [-^H--^H-r^Hre^Heg^Hge^Hex^Hx|-^H--^H-w^Hwi^Hil^Hld^Hdc^Hca^Har^Hrd^|-
+    -|Hd]   [-^H--^H-n^Hna^Ham^Hme^Hes^Hs-^H-o^Hon^Hnl^Hly^Hy]  [-^H-a^Ha]  [-^H|-
+    -|-u^Hu]  [-^H--^H-n^Hno^Ho-^H-s^Hsu^Hub^Hbp^Hpa^Hag^Hge^Hes^Hs]  [-^H-P^HP$|
+    @ 0.000230
+    . CR/^M LF/^J
+    @ 0.000186
+    |       _^Hp_^Ha_^Hg_^He_^Hr] [-^H-r^Hr _^Hp_^Hr_^Ho_^Hm_^Hp_^Ht] [-^H-7^H7]|-
+    -| [-^H-E^HE _^He_^Hn_^Hc_^Ho_^Hd_^Hi_^Hn_^Hg] [-^H--^H-n^Hno^Ho-^H-h^Hhy^Hy|-
+    -|p^Hph^Hhe^Hen^Hna^Hat^Hti^Hio^Hon^Hn] [-^H--^H-n^Hno^Ho-^H-j^Hju^Hus^Hst^H|-
+    -|ti^Hif^Hfi^HiM-bM-^@M-^P^HM-bM-^@M-^P$|
+    @ 0.000239
+    . CR/^M LF/^J
+    @ 0.000160
+    |       c^Hca^Hat^Hti^Hio^Hon^Hn]  [-^H-p^Hp  _^Hs_^Ht_^Hr_^Hi_^Hn_^Hg]  [-^|-
+    -|H-t^Ht]  [-^H-T^HT[_^Hd_^He_^Hv_^Hi_^Hc_^He]]  [-^H-H^HH[_^Hb_^Hr_^Ho_^Hw_|-
+    -|^Hs_^He_^Hr]] [-^H-X^HX[_^Hd_^Hp_^Hi]] [-^H-Z^HZ]$|
+    @ 0.000267
+    . CR/^M LF/^J
+    @ 0.000161
+    |       [[_^Hs_^He_^Hc_^Ht_^Hi_^Ho_^Hn] _^Hp_^Ha_^Hg_^He ...] ...$|
+    @ 0.000164
+    . CR/^M LF/^J
+    @ 0.000158
+    |       m^Hma^Han^Hn -^H-k^Hk [_^Ha_^Hp_^Hr_^Ho_^Hp_^Ho_^Hs _^Ho_^Hp_^Ht_^Hi|-
+    -|_^Ho_^Hn_^Hs] _^Hr_^He_^Hg_^He_^Hx_^Hp ...$|
+    @ 0.000187
+    . CR/^M LF/^J
+    @ 0.000158
+    |       m^Hma^Han^Hn -^H-K^HK [-^H-w^Hw|-^H-W^HW] [-^H-S^HS _^Hl_^Hi_^Hs_^Ht|-
+    -|] [-^H-i^Hi|-^H-I^HI] [_^H-_^H-_^Hr_^He_^Hg_^He_^Hx] [_^Hs_^He_^Hc_^Ht_^Hi|-
+    -|_^Ho_^Hn] _^Ht_^He_^Hr_^Hm ...$|
+    @ 0.000207
+    . CR/^M LF/^J
+    @ 0.000157
+    |       m^Hma^Han^Hn -^H-f^Hf [_^Hw_^Hh_^Ha_^Ht_^Hi_^Hs _^Ho_^Hp_^Ht_^Hi_^Ho|-
+    -|_^Hn_^Hs] _^Hp_^Ha_^Hg_^He ...$|
+    @ 0.000182
+    . CR/^M LF/^J
+    @ 0.000157
+    |       m^Hma^Han^Hn -^H-l^Hl [-^H-C^HC _^Hf_^Hi_^Hl_^He] [-^H-d^Hd] [-^H-D^|-
+    -|HD] [-^H--^H-w^Hwa^Har^Hrn^Hni^Hin^Hng^Hgs^Hs[=_^Hw_^Ha_^Hr_^Hn_^Hi_^Hn_^H|-
+    -|g_^Hs]]  [-^H-R^HR  _^He_^Hn_^Hc_^Ho_^Hd_^Hi_^Hn_^Hg]  [-^H-L^HL$|
+    @ 0.000217
+    . CR/^M LF/^J
+    @ 0.000156
+    |       _^Hl_^Ho_^Hc_^Ha_^Hl_^He]  [-^H-P^HP  _^Hp_^Ha_^Hg_^He_|
+    @ 0.000164
+    |^Hr]  [-^H-r^Hr  _^Hp_^Hr_^Ho_^Hm_^Hp_^Ht]  [-^H-7^H7] [-^H-E^HE _^He_^Hn_^|-
+    -|Hc_^Ho_^Hd_^Hi_^Hn_^Hg] [-^H-p^Hp _^Hs_^Ht_^Hr_^Hi_^Hn_^Hg] [-^H-t^Ht]$|
+    @ 0.000199
+    . CR/^M LF/^J
+    @ 0.001034
+    |       [-^H-T^HT[_^Hd_^He_^Hv_^Hi_^Hc_^He]] [-^H-H^HH[_^Hb_^Hr_^Ho_^Hw_^Hs_|-
+    -|^He_^Hr]] [-^H-X^HX[_^Hd_^Hp_^Hi]] [-^H-Z^HZ] _^Hf_^Hi_^Hl_^He ...$|
+    @ 0.000233
+    . CR/^M LF/^J
+    @ 0.026276
+    |$ |
+    @ 9.406081
+    |MAN_KEEP_FORMATTING=1 man man | head -n 20 | cat -A|
+    @ 0.941958
+    . BS/^H
+    @ 10.018081
+    |^C|
+    . CR/^M LF/^J
+
+      -- bad head end
+
+    |$ |
+
+@ 1.108657
+|MAN_KEEP_FORMATTING=1 man man | head -n 20 | cat -A|
+    @ 0.213324
+. BS/^H BS/^H BS/^H BS/^H BS/^H BS/^H BS/^H BS/^H BS/^H
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+@ 0.8
+. BS/^H
+@ 0.426008
+. BS/^H
+@ 0.153703
+. BS/^H BS/^H BS/^H
+@ 0.332729
+. BS/^H BS/^H BS/^H BS/^H BS/^H
+@ 0.292673
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+@ 0.408292
+|c|
+@ 0.112375
+|a|
+@ 0.100739
+|t|
+@ 0.116254
+| |
+@ 0.159807
+|-|
+@ 0.392875
+|A|
+@ 0.476738
+| |
+@ 0.164022
+|||
+@ 0.083431
+| |
+@ 0.193371
+|h|
+@ 0.060501
+|e|
+@ 0.054789
+|a|
+@ 0.084568
+|d|
+@ 0.247545
+| |
+@ 0.248365
+|n|
+@ 0.331392
+. BS/^H
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+@ 0.150630
+|-|
+@ 0.163281
+|n|
+@ 0.208227
+| |
+@ 1.810483
+|1|
+@ 0.070596
+|0|
+@ 0.362718
+. CR/^M LF/^J
+@ 0.165023
+|MAN(1)                        Manual pager utils                        MAN|-
+-|(1)$|
+. CR/^M LF/^J
+@ 0.000021
+|$|
+. CR/^M LF/^J
+|$|
+. CR/^M LF/^J
+|$|
+. CR/^M LF/^J
+@ 0.000057
+|N^HNA^HAM^HME^HE$|
+. CR/^M LF/^J
+@ 0.000042
+|       man - an interface to the on-line reference manuals$|
+@ 0.000393
+. CR/^M LF/^J
+@ 0.000044
+|$|
+. CR/^M LF/^J
+|S^HSY^HYN^HNO^HOP^HPS^HSI^HIS^HS$|
+@ 0.000165
+. CR/^M LF/^J
+@ 0.000014
+|       m^Hma^Han^Hn  [-^H-C^HC  _^Hf_^Hi_^Hl_^He]  [-^H-d^Hd]  [-^H-D^HD]  |-
+-|[-^H--^H-w^Hwa^Har^Hrn^Hni^Hin^Hng^Hgs^Hs[=_^Hw_^Ha_^Hr_^Hn_^Hi_^Hn_^Hg_^H|-
+-|s]]  [-^H-R^HR _^He_^Hn_^Hc_^Ho_^Hd_^Hi_^Hn_^Hg] [-^H-L^HL$|
+. CR/^M LF/^J
+@ 0.000136
+|       _^Hl_^Ho_^Hc_^Ha_^Hl_^He] [-^H-m^Hm _^Hs_^Hy_^Hs_^Ht_^He_^Hm[,...]] |-
+-|[-^H-M^HM _^Hp_^Ha_^Ht_^Hh] [-^H-S^HS _^Hl_^Hi_^Hs_^Ht]  [-^H-e^He  _^He_^|-
+-|Hx_^Ht_^He_^Hn_^Hs_^Hi_^Ho_^Hn]  [-^H-i^Hi|-^H-I^HI]$|
+@ 0.000019
+. CR/^M LF/^J
+@ 0.031842
+|$ |
+
+    BREATHE
+
+    -- another bad head?
+
+|MAN_KEEP_FORMATTING=1 man man | cat -A | head -n 10|
+@ 1.179147
+. BS/^H
+@ 0.584832
+. BS/^H
+@ 0.124230
+. BS/^H BS/^H BS/^H
+@ 2.300156
+. BS/^H BS/^H BS/^H BS/^H BS/^H
+@ 0.137454
+. BS/^H BS/^H
+@ 0.262313
+. BS/^H BS/^H BS/^H
+@ 0.328522
+. BS/^H BS/^H BS/^H BS/^H
+@ 1.449111
+: Esc [ 8 P
+& DCH: DELETE CHARACTER
+" Delete 8 characters, shifting the following characters left.
+@ 0.522408
+: Esc [ 1 P
+& DCH: DELETE CHARACTER
+" Delete 1 character, shifting the following characters left.
+@ 0.328295
+. CR/^M LF/^J
+@ 0.165179
+|MAN(1)                        Manual pager utils                        MAN|-
+-|(1)|
+@ 0.000092
+. CR/^M LF/^J
+@ 0.000082
+. CR/^M LF/^J
+@ 0.000077
+. CR/^M LF/^J
+@ 0.000077
+. CR/^M LF/^J
+@ 0.000092
+|N|
+. BS/^H
+|NA|
+. BS/^H
+|AM|
+. BS/^H
+|ME|
+. BS/^H
+|E|
+@ 0.000071
+. CR/^M LF/^J
+@ 0.000080
+|       man - an interface to the on-line reference manuals|
+@ 0.000072
+. CR/^M LF/^J
+@ 0.000078
+. CR/^M LF/^J
+@ 0.000077
+|S|
+. BS/^H
+|SY|
+. BS/^H
+|YN|
+. BS/^H
+|NO|
+. BS/^H
+|OP|
+. BS/^H
+|PS|
+. BS/^H
+|SI|
+. BS/^H
+|IS|
+. BS/^H
+|S|
+@ 0.000071
+. CR/^M LF/^J
+@ 0.000084
+|       m|
+. BS/^H
+|ma|
+. BS/^H
+|an|
+. BS/^H
+|n  [-|
+. BS/^H
+|-C|
+. BS/^H
+|C  _|
+. BS/^H
+|f_|
+. BS/^H
+|i_|
+. BS/^H
+|l_|
+. BS/^H
+|e]  [-|
+. BS/^H
+|-d|
+. BS/^H
+|d]  [-|
+. BS/^H
+|-D|
+. BS/^H
+|D]  [-|
+. BS/^H
+|--|
+. BS/^H
+|-w|
+. BS/^H
+|wa|
+. BS/^H
+|ar|
+. BS/^H
+|rn|
+. BS/^H
+|ni|
+. BS/^H
+|in|
+. BS/^H
+|ng|
+. BS/^H
+|gs|
+. BS/^H
+|s[=_|
+. BS/^H
+|w_|
+. BS/^H
+|a_|
+. BS/^H
+|r_|
+. BS/^H
+|n_|
+. BS/^H
+|i_|
+. BS/^H
+|n_|
+. BS/^H
+|g_|
+. BS/^H
+|s]]  [-|
+. BS/^H
+|-R|
+. BS/^H
+|R _|
+. BS/^H
+|e_|
+. BS/^H
+|n_|
+. BS/^H
+|c_|
+. BS/^H
+|o_|
+. BS/^H
+|d_|
+. BS/^H
+|i_|
+. BS/^H
+|n_|
+. BS/^H
+|g] [-|
+. BS/^H
+|-L|
+. BS/^H
+|L|
+@ 0.000071
+. CR/^M LF/^J
+@ 0.000083
+|       _|
+. BS/^H
+|l_|
+. BS/^H
+|o_|
+. BS/^H
+|c_|
+. BS/^H
+|a_|
+. BS/^H
+|l_|
+. BS/^H
+|e] [-|
+. BS/^H
+|-m|
+. BS/^H
+|m _|
+. BS/^H
+|s_|
+. BS/^H
+|y_|
+. BS/^H
+|s_|
+. BS/^H
+|t_|
+. BS/^H
+|e_|
+. BS/^H
+|m[,...]] [-|
+. BS/^H
+|-M|
+. BS/^H
+|M _|
+. BS/^H
+|p_|
+. BS/^H
+|a_|
+. BS/^H
+|t_|
+. BS/^H
+|h] [-|
+. BS/^H
+|-S|
+. BS/^H
+|S _|
+. BS/^H
+|l_|
+. BS/^H
+|i_|
+. BS/^H
+|s_|
+. BS/^H
+|t]  [-|
+. BS/^H
+|-e|
+. BS/^H
+|e  _|
+. BS/^H
+|e_|
+. BS/^H
+|x_|
+. BS/^H
+|t_|
+. BS/^H
+|e_|
+. BS/^H
+|n_|
+. BS/^H
+|s_|
+. BS/^H
+|i_|
+. BS/^H
+|o_|
+. BS/^H
+|n]  [-|
+. BS/^H
+|-i|
+. BS/^H
+|i|-|
+. BS/^H
+|-I|
+. BS/^H
+|I]|
+@ 0.000072
+. CR/^M LF/^J
+@ 0.028351
+|$ |
+    BREATHE
+
+    -- another end
+
+@ 0.560217
+|MAN_KEEP_FORMATTING=1 man man | head -n 10|
+@ 0.652435
+| |
+@ 0.248683
+|||
+@ 0.104610
+| |
+@ 0.156980
+|l|
+@ 0.061068
+|e|
+@ 0.118992
+|s|
+@ 0.127673
+|s|
+@ 0.078348
+| |
+@ 0.117402
+|-|
+@ 0.122341
+|R|
+@ 0.270284
+. CR/^M LF/^J
+@ 0.008490
+: Esc [ ? 1049 h
+& SM: SET MODE (private params)
+" (Xterm) Save the cursor position and use the alternate screen buffer,
+"  clearing it first.
+: Esc [ ? 1 h
+& SM: SET MODE (private params)
+" (DEC) Cursor key mode.
+: Esc =
+& DECKPAM: KEYPAD APPLICATION MODE
+. CR/^M
+@ 0.155043
+|MAN(1)                        Manual pager utils                        MAN|-
+-|(1)|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000018
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|NAME|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000013
+|       man - an interface to the on-line reference manuals|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000052
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|SYNOPSIS|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+@ 0.000041
+. CR/^M LF/^J
+@ 0.000376
+|       |
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|man|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-C|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|file|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-d|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-D|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|--warnings|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|[=|
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|warnings|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-R|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|encoding|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-L|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000015
+|       |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|locale|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-m|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|system|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|[,...]] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-M|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|path|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|] [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-S|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+| |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|list|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-e|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|  |
+: Esc [ 4 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set underlined text.
+|extension|
+: Esc [ 24 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear underlining.
+|]  [|
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-i|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|||
+: Esc [ 1 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set bold text.
+|-I|
+: Esc [ 0 m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+|]|
+: Esc [ m
+& SGR: SELECT GRAPHIC RENDITION
+" Clear graphic rendition to defaults.
+. CR/^M LF/^J
+@ 0.000279
+: Esc [ 7 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set negative text image.
+|(END)|
+: Esc [ 27 m
+& SGR: SELECT GRAPHIC RENDITION
+" Set positive text image.
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+
+@@@
+
+. CR/^M
+: Esc [ K
+& EL: ERASE IN LINE
+" Clear from the cursor to the end of the line.
+: Esc [ ? 1 l
+& RM: RESET MODE (private params)
+" (DEC) Cursor key mode off.
+: Esc >
+& DECKPNM: KEYPAD NORMAL MODE
+: Esc [ ? 1049 l
+& RM: RESET MODE (private params)
+" (Xterm) Leave the alternate screen buffer and restore the cursor.
+|$ |
+@ 1.020292
+|exit|
+. CR/^M LF/^J LF/^J

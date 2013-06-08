@@ -97,7 +97,7 @@
     - saving and restoring stty settings
   - Graphical effects using BS/^H or CR/^M
     - Ecma 6 § 7
-    - [ man example ]
+    - [ demos/man/cmd.sh ]
       - man man
       - man man | less (lose formatting, because no tty)
       - MAN_KEEP_FORMATTING=1 man man | less -R (get formatting again)
