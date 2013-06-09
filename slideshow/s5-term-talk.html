@@ -21,7 +21,7 @@
 <link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
 <!-- S5 JS -->
 <script type="text/javascript">
-    var mjcStartSlide = 7;
+    var mjcStartSlide = 9;
 </script>
 <script src="ui/default/slides.js" type="text/javascript"></script>
 </head>
@@ -200,6 +200,30 @@
         <li>How the kernel processes input and output can be managed with the “stty” command.</li>
     </ul>
 </div> -->
+
+<div class="slide">
+    <h1>Sending terminal controls with tput</h1>
+
+    <p class="mjc-demo">[ demos/sgr/cmd.sh ]</p>
+    <p class="mjc-demo">[ demos/interact/cmd.sh ]</p>
+    <p class="mjc-demo">[ PLAY AROUND: demos/interact/tmux.sh ]</p>
+    <p class="remark">For more commands tput can understand, look at
+    terminfo(5)</p>
+</div>
+
+<div class="slide">
+    <h1>The ASCII table</h1>
+
+    <img src="../images/mjc-ascii-table.png" id="mjc-ascii-table" />
+</div>
+
+<div class="slide">
+    <h1>Incremental Test</h1>
+
+    <div class="incremental foo">One</div>
+    <div class="incremental foo">Two</div>
+    <div class="incremental foo">Three</div>
+</div>
 
 <div class="slide">
     <h1>Links</h1>

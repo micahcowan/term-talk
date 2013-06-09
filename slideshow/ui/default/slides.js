@@ -125,6 +125,7 @@ function go(step) {
 		for (var i = 0; i < incrementals[snum].length; i++) {
 			removeClass(incrementals[snum][i], 'current');
 			removeClass(incrementals[snum][i], 'incremental');
+			removeClass(incrementals[snum][i], 'old-incremental'); //mjc
 		}
 	}
 	if (step != 'j') {
@@ -149,8 +150,14 @@ function go(step) {
 				addClass(incrementals[snum][i], 'incremental');
 		}
 	}
-	if (incrementals[snum].length > 0 && incpos > 0)
+	if (incrementals[snum].length > 0 && incpos > 0) {
+		for (var i = 0; i < incrementals[snum].length; i++) {
+                        if (i != incpos - 1)
+                                addClass(incrementals[snum][i],
+                                         'old-incremental');
+		}
 		addClass(incrementals[snum][incpos - 1], 'current');
+        }
 	ce.style.visibility = 'hidden';
 	ne.style.visibility = 'visible';
 	jl.selectedIndex = snum;
@@ -166,13 +173,17 @@ function goTo(target) {
 function subgo(step) {
 	if (step > 0) {
 		removeClass(incrementals[snum][incpos - 1],'current');
+		addClass(incrementals[snum][incpos - 1],'old-incremental'); //mjc
 		removeClass(incrementals[snum][incpos], 'incremental');
+		removeClass(incrementals[snum][incpos], 'old-incremental');//mjc
 		addClass(incrementals[snum][incpos],'current');
 		incpos++;
 	} else {
 		incpos--;
 		removeClass(incrementals[snum][incpos],'current');
 		addClass(incrementals[snum][incpos], 'incremental');
+		removeClass(incrementals[snum][incpos - 1],
+                            'old-incremental');//mjc
 		addClass(incrementals[snum][incpos - 1],'current');
 	}
 }

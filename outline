@@ -1,3 +1,7 @@
+TODO:
+  - Figure out what to do with pseudottys
+  - Redo ASCII table in HTML
+
 - Basics of tmux/screen
   . Demonstrate these manually
   - Loss of connection
@@ -47,7 +51,7 @@
     setab, sgr0
     [ Pre-recorded demo: demos/sgr/cmd.sh ]
   - tput examples, cmd output from one term going into another set in "raw" mode
-    [ Interactive demo: demos/interact/tmux.sh ]
+    [ Interactive demo: demos/interact/cmd.sh ]
     - stty raw < $T  # Will explain this later
     - tput cdd1; printf a   # It did move down, but it also moved forward
     - printf 'a\b'  # Stays same place after printing 'a'

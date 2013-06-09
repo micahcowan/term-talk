@@ -81,6 +81,8 @@ html>body .external {border-bottom: none;}
 
 .incremental, .incremental *, .incremental *:after {color: #22A; visibility: visible;}
 img.incremental {visibility: hidden;}
+.foo.incremental, .foo.old-incremental {display: none;}
+.foo.current {visibility: visible; border: solid 0.2em silver;}
 .slide .current {color: white;}
 
 .mjc-demo { font-family: Courier, fixed-width; font-weight: bold; color: #6C6;}
@@ -96,6 +98,10 @@ img.incremental {visibility: hidden;}
     margin-right: auto;
     background-color: silver;
     padding: 1em;
+}
+#mjc-ascii-table {
+    background-color: white;
+    /* width: 12em; */
 }
 
 /* diagnostics
