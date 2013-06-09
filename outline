@@ -29,6 +29,7 @@
   - stty -echo
   - Most of these, except flow control, solved with ^J reset ^J
 - Pseudo-terminal files, every emulated terminal has one
+  [ Diagram ]
   - what do I mean "emulated"? Originally, terminals were hardware. Just
     enough computing power to do what a terminal does, and connect via
     serial cable or what not.

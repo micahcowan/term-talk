@@ -84,6 +84,19 @@ img.incremental {visibility: hidden;}
 .slide .current {color: white;}
 
 .mjc-demo { font-family: Courier, fixed-width; font-weight: bold; color: #6C6;}
+.remark { margin-left: 8%; font-size: 0.8em; font-style: oblique; }
+
+#contain-ptty {
+    width: 100%;
+    border: solid 10px white;
+}
+#img-ptty {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: silver;
+    padding: 1em;
+}
 
 /* diagnostics
 
