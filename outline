@@ -96,7 +96,6 @@
     - Why terminal apps can screw up the stty settings
     - saving and restoring stty settings
   - Graphical effects using BS/^H or CR/^M
-    - Ecma 6 § 7
     - [ demos/man/cmd.sh ]
       - man man
       - man man | less (lose formatting, because no tty)
@@ -104,7 +103,7 @@
       - MAN_KEEP_FORMATTING=1 man man | cat -A | less (see control characters
       - explain the backspace notation
   - "composite" characters using BS
-    [ note from relevant Ecma standard ]
+    [ note from relevant Ecma standard - Ecma 6 § 7 ]
 - Why can't I do the man example directly to terminal? Because video
   terminals and emulators aren't like teletypes: they don't do
   overstrikes. What they use is escape sequences, like the ones we saw
