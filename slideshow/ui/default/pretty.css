@@ -83,6 +83,7 @@ html>body .external {border-bottom: none;}
 img.incremental {visibility: hidden;}
 .slide .current {color: white;}
 
+.mjc-demo { font-family: Courier, fixed-width; font-weight: bold; color: #6C6;}
 
 /* diagnostics
 

@@ -548,7 +548,7 @@ function startup() {
 		document.onclick = clicker;
 	}
 
-        // mjc
+        // mjc temporary
         goTo(mjcStartSlide);
 }
 
