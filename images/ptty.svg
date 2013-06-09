@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="45cm" height="27cm" viewBox="122 62 882 526" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <g>
+      <rect style="fill: #ffffff" x="459" y="92" width="318" height="424" rx="20" ry="20"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-linejoin: round; stroke-dasharray: 10; stroke: #000000" x="459" y="92" width="318" height="424" rx="20" ry="20"/>
+    </g>
+    <text font-size="13.5467" style="fill: #000000;text-anchor:start;font-family:serif;font-style:normal;font-weight:700" x="595" y="127">
+      <tspan x="595" y="127">Kernel</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="493" y="226" width="255" height="265" rx="20" ry="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-linejoin: round; stroke-dasharray: 10; stroke: #000000" x="493" y="226" width="255" height="265" rx="20" ry="20"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="123.075" y="153" width="296.925" height="268"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="123.075" y="153" width="296.925" height="268"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:serif;font-style:normal;font-weight:700" x="271.538" y="275.05">
+      <tspan x="271.538" y="275.05">Terminal Emulator Program</tspan>
+      <tspan x="271.538" y="291.05">(xterm, rxvt, konsole,</tspan>
+      <tspan x="271.538" y="307.05">gnome-terminal...)</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="831.897" y="341" width="146.206" height="70"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="831.897" y="341" width="146.206" height="70"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="905" y="371.9">
+      <tspan x="905" y="371.9">Terminal programs</tspan>
+      <tspan x="905" y="387.9">(bash, ...)</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="199.3" y="323" width="143.7" height="82"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="199.3" y="323" width="143.7" height="82"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="271.15" y="367.9">
+      <tspan x="271.15" y="367.9">Display logic</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="178" y="173" width="172" height="73"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="178" y="173" width="172" height="73"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="264" y="213.4">
+      <tspan x="264" y="213.4">Input handling</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="543" y="308" width="163" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="543" y="308" width="163" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="624.5" y="330.9">
+      <tspan x="624.5" y="330.9">Pseudo-terminal</tspan>
+      <tspan x="624.5" y="346.9">“master”</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="540.997" y="416" width="165.003" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540.997" y="416" width="165.003" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="623.498" y="438.9">
+      <tspan x="623.498" y="438.9">Pseudo-terminal</tspan>
+      <tspan x="623.498" y="454.9">“slave”</tspan>
+    </text>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:serif;font-style:normal;font-weight:normal" x="632" y="391">
+    <tspan x="632" y="391">local echo</tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 583.75 362 C 635,360 623,400 623.195,406.269"/>
+    <polygon style="fill: #000000" points="623.429,413.765 618.12,403.926 623.195,406.269 628.115,403.614 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="623.429,413.765 618.12,403.926 623.195,406.269 628.115,403.614 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="618.578" cy="175.881" rx="18.7127" ry="17.9485"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="618.578" cy="175.881" rx="18.7127" ry="17.9485"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="618.578" y="179.781">
+      <tspan x="618.578" y="179.781"></tspan>
+    </text>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="619" y="248">
+    <tspan x="619" y="248">Pseudo-terminal</tspan>
+    <tspan x="619" y="264">pair of files,</tspan>
+    <tspan x="619" y="280">kernel ptty logic</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="817.291" y="64" width="113.419" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="817.291" y="64" width="113.419" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="874" y="86.9">
+      <tspan x="874" y="86.9">user keyboard</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="252.375" y="63" width="161.25" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="252.375" y="63" width="161.25" height="54"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="333" y="93.9">
+      <tspan x="333" y="93.9">X11 window manager</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 874 102 C 877,163 738,180 647.019,176.279"/>
+    <polygon style="fill: #000000" points="639.525,175.973 649.721,171.385 647.019,176.279 649.312,181.377 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="639.525,175.973 649.721,171.385 647.019,176.279 649.312,181.377 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 250 87 C 147,110 263,110 263.845,163.265"/>
+    <polygon style="fill: #000000" points="263.965,170.764 258.806,160.845 263.845,163.265 268.805,160.686 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="263.965,170.764 258.806,160.845 263.845,163.265 268.805,160.686 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 350 209.5 C 450,209 384,327 533.276,334.511"/>
+    <polygon style="fill: #000000" points="540.767,334.888 530.528,339.379 533.276,334.511 531.031,329.391 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="540.767,334.888 530.528,339.379 533.276,334.511 531.031,329.391 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 5; stroke: #000000" d="M 706 335 C 882,254 903,278 904.691,331.269"/>
+    <polygon style="fill: #000000" points="904.929,338.765 899.614,328.929 904.691,331.269 909.609,328.611 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="904.929,338.765 899.614,328.929 904.691,331.269 909.609,328.611 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 5; stroke: #000000" d="M 706 416 C 797,302 906,258 905.117,331.265"/>
+    <polygon style="fill: #000000" points="905.027,338.764 900.148,328.705 905.117,331.265 910.147,328.825 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="905.027,338.764 900.148,328.705 905.117,331.265 910.147,328.825 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 905 411 C 907,446 772.068,443 715.736,443"/>
+    <polygon style="fill: #000000" points="708.236,443 718.236,438 715.736,443 718.236,448 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="708.236,443 718.236,438 715.736,443 718.236,448 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 540.997 443 C 475.262,443 477,362 352.735,363.855"/>
+    <polygon style="fill: #000000" points="345.236,363.967 355.16,358.818 352.735,363.855 355.309,368.817 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="345.236,363.967 355.16,358.818 352.735,363.855 355.309,368.817 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="188" y="457" width="164" height="47"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="188" y="457" width="164" height="47"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="484.4">
+      <tspan x="270" y="484.4">X11 graphical display</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="271.15" y1="405" x2="270.215" y2="447.266"/>
+    <polygon style="fill: #000000" points="270.049,454.764 265.272,444.656 270.215,447.266 275.269,444.877 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="270.049,454.764 265.272,444.656 270.215,447.266 275.269,444.877 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 599.865 175.881 C 538.034,175.881 549,21 422.299,85.5787"/>
+    <polygon style="fill: #000000" points="415.617,88.9846 422.256,79.9887 422.299,85.5787 426.797,88.8982 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="415.617,88.9846 422.256,79.9887 422.299,85.5787 426.797,88.8982 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="830.015,514 1003,514 976.794,586 803.809,586 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="830.015,514 1003,514 976.794,586 803.809,586 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="903.404" y="545.9">
+      <tspan x="903.404" y="545.9">Direct write to</tspan>
+      <tspan x="903.404" y="561.9">/dev/pty/XX</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 870 510 C 879,472 760.448,456.5 715.736,456.5"/>
+    <polygon style="fill: #000000" points="708.236,456.5 718.236,451.5 715.736,456.5 718.236,461.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="708.236,456.5 718.236,451.5 715.736,456.5 718.236,461.5 "/>
+  </g>
+</svg>
