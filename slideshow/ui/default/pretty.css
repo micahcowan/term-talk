@@ -81,8 +81,7 @@ html>body .external {border-bottom: none;}
 
 .incremental, .incremental *, .incremental *:after {color: #22A; visibility: visible;}
 img.incremental {visibility: hidden;}
-.foo.incremental, .foo.old-incremental {display: none;}
-.foo.current {visibility: visible; border: solid 0.2em silver;}
+table.incremental, table.old-incremental {display: none;}
 .slide .current {color: white;}
 
 .mjc-demo { font-family: Courier, fixed-width; font-weight: bold; color: #6C6;}
@@ -99,9 +98,42 @@ img.incremental {visibility: hidden;}
     background-color: silver;
     padding: 1em;
 }
-#mjc-ascii-table {
-    background-color: white;
-    /* width: 12em; */
+
+.ascii th {
+    font-family: Myriad Pro, Myriad, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: white;
+    background: white;
+}
+.ascii td {
+    font-family: Courier, monospace;
+    background: #ffa;
+    font-weight: bold;
+}
+.ascii th, .ascii td {
+    font-size: 0.5em;
+    width: 3em;
+    color: black;
+    text-align: center;
+}
+.ascii td:nth-child(6), .ascii td:nth-child(7), .ascii .ctlable {
+    background: #aaf;
+}
+.ascii td:nth-child(2), .ascii td:nth-child(3), .ascii .ctl {
+    background: #8f8;
+    font-family: Myriad Pro, Myriad, Arial, Helvetica, sans-serif;
+    font-size: 0.4em;
+    font-weight: normal;
+    color: #686;
+}
+.ascii td.ctlused {
+    font-weight: bold;
+    color: black;
+}
+.ascii td.ctlalt {
+    font-weight: normal;
+    color: black;
+    /* font-style: oblique; */
 }
 
 /* diagnostics
