@@ -136,6 +136,16 @@ table.incremental, table.old-incremental {display: none;}
     /* font-style: oblique; */
 }
 
+.split {
+    height: 100%;
+}
+
+.split > tr > td {
+    width: 50%;
+    font-size: 0.8em;
+    vertical-align: top;
+}
+
 /* diagnostics
 
 li:after {content: " [" attr(class) "]"; color: #F88;}
