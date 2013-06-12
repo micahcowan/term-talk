@@ -131,8 +131,8 @@ table.incremental, table.old-incremental {display: none;}
     color: black;
 }
 .ascii td.ctlalt {
-    font-weight: normal;
-    color: black;
+    font-weight: bold;
+    color: red;
     /* font-style: oblique; */
 }
 
@@ -140,10 +140,14 @@ table.incremental, table.old-incremental {display: none;}
     height: 100%;
 }
 
-.split > tr > td {
+.splitcol {
     width: 50%;
-    font-size: 0.8em;
+    /* font-size: 0.6em; */
     vertical-align: top;
+}
+
+.reduced {
+    font-size: 0.8em;
 }
 
 /* diagnostics

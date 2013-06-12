@@ -73,8 +73,8 @@ TODO:
   - Basic controls
     [ demos/ctrls/cmd.sh ]
     [ brief teaser demo of prompt-jobs, and how it works with suspend. ]
-  - meta key was used for setting the high bit of a typed byte; now more
-    typically prefixes it with Esc. 
+( - meta key was used for setting the high bit of a typed byte; now more
+    typically prefixes it with Esc.  )
   - CR and LF (or NL)
     [ images/crlf.gif ]
     - meanings for a line printer

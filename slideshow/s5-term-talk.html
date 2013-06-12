@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -21,7 +21,7 @@
 <link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
 <!-- S5 JS -->
 <script type="text/javascript">
-    var mjcStartSlide = 8;
+    var mjcStartSlide = 11;
 </script>
 <script src="ui/default/slides.js" type="text/javascript"></script>
 </head>
@@ -215,7 +215,7 @@
     <h1>A Look at the ASCII Table</h1>
 
     <table class="split">
-        <tr><td>
+        <tr><td class="splitcol">
     <table class="ascii">
         <tr>
             <th>&nbsp;</th>
@@ -242,7 +242,7 @@
         <tr>
             <th>1</th>
             <td>SOH</td>
-            <td class="ctlalt">DC1</td>
+            <td class="ctlalt">start</td>
             <td>!</td>
             <td>1</td>
             <td>A</td>
@@ -263,8 +263,8 @@
         </tr>
         <tr>
             <th>3</th>
-            <td class="ctlalt">ETX</td>
-            <td class="ctlalt">DC3</td>
+            <td class="ctlalt">intr</td>
+            <td class="ctlalt">stop</td>
             <td>#</td>
             <td>3</td>
             <td>C</td>
@@ -274,7 +274,7 @@
         </tr>
         <tr>
             <th>4</th>
-            <td class="ctlalt">EOT</td>
+            <td class="ctlalt">eof</td>
             <td>DC4</td>
             <td>$</td>
             <td>4</td>
@@ -286,7 +286,7 @@
         <tr>
             <th>5</th>
             <td>ENQ</td>
-            <td class="ctlalt">NAK</td>
+            <td class="ctlalt">kill</td>
             <td>%</td>
             <td>5</td>
             <td>E</td>
@@ -308,7 +308,7 @@
         <tr>
             <th>7</th>
             <td class="ctlused">BEL</td>
-            <td class="ctlalt">ETB</td>
+            <td class="ctlalt">werase</td>
             <td>&apos;</td>
             <td>7</td>
             <td>G</td>
@@ -341,7 +341,7 @@
         <tr>
             <th>A</th>
             <td class="ctlused">LF</td>
-            <td class="ctlalt">SUB</td>
+            <td class="ctlalt">susp</td>
             <td>*</td>
             <td>:</td>
             <td>J</td>
@@ -363,7 +363,7 @@
         <tr>
             <th>C</th>
             <td class="ctlused">FF</td>
-            <td>FS</td>
+            <td class="ctlalt">quit</td>
             <td>,</td>
             <td>&lt;</td>
             <td>L</td>
@@ -406,16 +406,36 @@
         </tr>
     </table>
     </td>
-    <td valign="top" width="50%">
+    <td valign="top" width="50%" class="splitcol reduced">
         <ul>
             <li>In terms, unlike X or Aqua, control shifts blue region chars to green region</li>
             <li>Control representations: ^A versus C-a</li>
             <li>There are only 33 control characters (including DEL)</li>
             <li>You can't just use all of them (You can't make C-i, C-m, or C-j do special things in Emacs)</li>
             <li>You (almost) never have to hold shift for controls</li>
+            <li>Special keys, like arrows or Page Up, can also have controls, but it works differently</li>
         </ul>
     </td></tr>
     </table>
+</div>
+
+<div class="slide">
+    <h1>Basic terminal controls</h1>
+
+    <p class="mjc-demo">[ demos/ctrls/cmd.sh ]</p>
+</div>
+
+<div class="slide">
+    <h1>Intro to prompt-jobs.sh</h1>
+
+    <p class="mjc-demo">[ demos/pjobs/cmd.sh ]</p>
+    <ul class="incremental">
+        <li>Find the latest at <a href="http://micah.cowan.name/hg/promptjobs/raw-file/tip/prompt-jobs.sh">http://micah.cowan.name/hg/promptjobs/raw-file/tip/prompt-jobs.sh</a></li>
+        <li>(Unlike the demo, you shouldn't just blindly wget and run scripts. I need to package it up better...)</li>
+        <li>Tested on bash, ksh, zsh and dash.</li>
+        <li>Places copious control sequences into the prompt. Many shells, including bash and ksh, have smallish static-sized buffers for holding the prompt in.<br />
+            This doesn't inhibit the prompt's display, but can produce odd graphical glitches when you move around in shell history. Use graphical effects very sparingly to avoid shell glitches.</li>
+    </ul>
 </div>
 
 <div class="slide">
