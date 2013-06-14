@@ -21,7 +21,7 @@
 <link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
 <!-- S5 JS -->
 <script type="text/javascript">
-    var mjcStartSlide = 13;
+    var mjcStartSlide = 14;
 </script>
 <script src="ui/default/slides.js" type="text/javascript"></script>
 </head>
@@ -487,6 +487,19 @@
         <li>On terminal input, backspace is usually one or the other of BS or DEL. Stty and term emulator have to agree which it is.</li>
         <li>DEL has never had any relation to the forward-"Delete" key on your keyboard.</li>
     </ul>
+</div>
+
+<div class="slide">
+    <h1>Graphical effects using BS/^H or CR/^M</h1>
+
+    <p class="mjc-demo">[ demos/man/cmd.sh ]</p>
+
+    <p class="incremental">Ever wonder why ASCII has characters like back-tick (`, for an acute accent), circumflex (^), and the tilde for ñ (which these days is rendered lower than it used to be: ~)?</p>
+
+    <div class="incremental">
+        <p>Excerpt from ECMA 6 (ASCII):</p>
+    <img id="img-composite" src="../images/composite-chars.svg" />
+    </div>
 </div>
 
 <div class="slide">

@@ -80,13 +80,20 @@ html>body .external {border-bottom: none;}
 .external:after {content: " \274F"; font-size: smaller; color: #77B;}
 
 .incremental, .incremental *, .incremental *:after {color: #22A; visibility: visible;}
-img.incremental {visibility: hidden;}
+img.incremental, .incremental img {visibility: hidden;}
+img.current {visibility: visible; }
 table.incremental, table.old-incremental {display: none;}
 .slide .current {color: white;}
 
 .mjc-demo { font-family: Courier, fixed-width; font-weight: bold; color: #6C6;}
 .remark { margin-left: 8%; font-size: 0.8em; font-style: oblique; }
 
+#img-composite {
+    padding: 0.6em;
+    margin-top: -0.5em;
+    background: silver;
+    height: 6em;
+}
 #contain-ptty {
     width: 100%;
     border: solid 10px white;
