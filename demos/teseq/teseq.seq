@@ -1,0 +1,8649 @@
+    include(`../m4/breathe.m4')
+
+@ 0.402854
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|micah|
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|$ |
+: Esc ( B
+: Esc [ m
+@ 0.797582
+|e|
+@ 0.071740
+|c|
+@ 0.064105
+|h|
+@ 0.080007
+|o|
+@ 0.088132
+| |
+@ 0.184090
+|-|
+@ 0.167874
+|n|
+@ 0.096101
+| |
+@ 0.679912
+|'|
+@ 0.215797
+|H|
+@ 0.121044
+|e|
+@ 0.046943
+|r|
+@ 0.103919
+|e|
+@ 0.064277
+| |
+@ 0.095469
+|i|
+@ 0.064333
+|s|
+@ 0.072169
+| |
+@ 0.102437
+|s|
+@ 0.049072
+|o|
+@ 0.104602
+|m|
+@ 0.079285
+|e|
+@ 0.368087
+| |
+@ 0.120366
+|'|
+@ 0.319705
+|;|
+@ 0.111015
+| |
+@ 0.161225
+|t|
+@ 0.079522
+|p|
+@ 0.064807
+|u|
+@ 0.078448
+|t|
+@ 0.081094
+| |
+@ 0.103468
+|b|
+@ 0.080759
+|o|
+@ 0.143618
+|l|
+@ 0.087189
+|d|
+@ 0.127364
+|;|
+@ 0.089296
+| |
+@ 0.175886
+|e|
+@ 0.096220
+|c|
+@ 0.127661
+|h|
+@ 0.088248
+|o|
+@ 0.071631
+| |
+@ 0.783639
+|-|
+@ 0.233250
+|n|
+@ 0.103037
+| |
+@ 0.144676
+|b|
+@ 0.087698
+|o|
+@ 0.328340
+|l|
+@ 0.071780
+|d|
+@ 0.391484
+|;|
+@ 0.072076
+| |
+@ 0.192257
+|t|
+@ 0.119716
+|u|
+@ 0.056279
+|t|
+@ 0.407706
+. BS/^H
+: Esc [ K
+@ 0.136028
+. BS/^H
+: Esc [ K
+@ 0.192432
+|p|
+@ 0.079616
+|u|
+@ 0.040239
+|t|
+@ 0.080931
+| |
+@ 0.094426
+|s|
+@ 0.080857
+|g|
+@ 0.143644
+|r|
+@ 0.120098
+|0|
+@ 0.687694
+|;|
+@ 0.639807
+| |
+@ 0.127906
+|e|
+@ 0.088385
+|c|
+@ 0.103488
+|h|
+@ 0.072019
+|o|
+@ 0.080374
+| |
+@ 0.128012
+|-|
+@ 0.150618
+|n|
+@ 0.104657
+| |
+@ 0.672939
+. BS/^H
+: Esc [ K
+@ 0.151366
+. BS/^H
+: Esc [ K
+@ 0.136033
+. BS/^H
+: Esc [ K
+@ 0.240059
+|'|
+@ 0.407876
+| |
+@ 0.351971
+|t|
+@ 0.183527
+|e|
+@ 0.144197
+|x|
+@ 0.088365
+|t|
+@ 0.207975
+|. |
+. CR/^M
+@ 0.286352
+|'|
+@ 0.682462
+. CR/^M LF/^J
+|Here is some |
+@ 0.003420
+: Esc [ 1 m
+@ 0.000381
+|bold|
+@ 0.003189
+: Esc ( B
+: Esc [ m
+@ 0.000298
+| text.|
+. CR/^M LF/^J
+@ 0.072427
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|micah|
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|$ |
+
+    BREATHE
+
+: Esc ( B
+: Esc [ m
+@ 0.857930
+|echo -n 'Here is some '; tput bold; echo -n bold; tput sgr0; echo ' text.'|
+. CR/^M
+|'|
+: Esc [ A
+. CR/^M
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|micah|
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|$ |
+: Esc ( B
+: Esc [ m
+@ 0.746035
+|{echo -n 'Here is some '; tput bold; echo -n bold; tput sgr0; echo ' text.'|
+: Esc [ A
+. CR/^M
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|micah|
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|$ |
+: Esc ( B
+: Esc [ m
+: Esc [ C
+@ 0.111084
+| echo -n 'Here is some '; tput bold; echo -n bold; tput sgr0; echo ' text.'|
+: Esc [ A
+. CR/^M
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|micah|
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|$ |
+: Esc ( B
+: Esc [ m
+: Esc [ C
+: Esc [ C
+@ 0.543145
+. BS/^H
+@ 0.431722
+. CR/^M LF/^J CR/^M
+: Esc [ C
+: Esc [ C
+: Esc [ C
+@ 0.439679
+|;|
+@ 0.320566
+| |
+@ 0.192073
+|}|
+@ 0.223938
+| |
+@ 0.270683
+|||
+@ 0.120710
+| |
+@ 0.320423
+|t|
+@ 0.079784
+|e|
+@ 0.097178
+|s|
+@ 0.086327
+|e|
+@ 0.295746
+|q|
+
+    BREATHE
+
+. CR/^M LF/^J
+@ 0.004493
+|||
+@ 0.000431
+: Esc [ 36 ; 7 m
+@ 0.000256
+|H|
+@ 0.000243
+|e|
+@ 0.000238
+|r|
+@ 0.000237
+|e|
+@ 0.000092
+| |
+@ 0.000087
+|i|
+@ 0.000084
+|s|
+@ 0.000087
+| |
+@ 0.000235
+|s|
+@ 0.000092
+|o|
+@ 0.000085
+|m|
+@ 0.000084
+|e|
+@ 0.000237
+| |
+@ 0.000104
+: Esc [ m
+@ 0.000088
+|||
+@ 0.000088
+. CR/^M LF/^J
+@ 0.000294
+: Esc [ 33 m
+@ 0.000090
+|:|
+@ 0.000083
+| Esc|
+@ 0.000112
+| [|
+@ 0.000304
+| 1|
+@ 0.000099
+| m|
+@ 0.000088
+: Esc [ m
+@ 0.000244
+. CR/^M LF/^J
+@ 0.000106
+: Esc [ 35 m
+@ 0.000080
+|& |
+@ 0.000098
+|SGR: SELECT GRAPHIC RENDITION|
+@ 0.000276
+: Esc [ m
+@ 0.000086
+. CR/^M LF/^J
+@ 0.000110
+: Esc [ 32 m
+@ 0.000081
+|" |
+@ 0.000087
+|Set bold text.|
+@ 0.000087
+: Esc [ m
+@ 0.000268
+. CR/^M LF/^J
+@ 0.000101
+|||
+@ 0.000087
+: Esc [ 36 ; 7 m
+@ 0.000083
+|b|
+@ 0.000087
+|o|
+@ 0.000263
+|l|
+@ 0.000097
+|d|
+@ 0.001141
+: Esc [ m
+@ 0.000421
+|||
+@ 0.000093
+. CR/^M LF/^J
+@ 0.000112
+: Esc [ 33 m
+@ 0.000082
+|:|
+@ 0.000083
+| Esc|
+@ 0.000093
+| (|
+@ 0.000088
+| B|
+@ 0.000085
+: Esc [ m
+@ 0.000086
+. CR/^M LF/^J
+@ 0.000091
+: Esc [ 35 m
+@ 0.000292
+|& |
+@ 0.000094
+|GZD4: G0-DESIGNATE 94-SET|
+@ 0.000086
+: Esc [ m
+@ 0.000082
+. CR/^M LF/^J
+@ 0.000106
+: Esc [ 32 m
+@ 0.000082
+|" |
+@ 0.000089
+|Designate 94-character set B (US-ASCII) to G0.|
+@ 0.000399
+: Esc [ m
+. CR/^M LF/^J
+: Esc [ 33 m
+@ 0.000089
+|:|
+@ 0.000082
+| Esc|
+@ 0.000198
+| [ m|
+@ 0.000025
+: Esc [ m
+@ 0.000083
+. CR/^M LF/^J
+@ 0.000067
+: Esc [ 35 m
+|& |
+@ 0.000424
+|SGR: SELECT GRAPHIC RENDITION|
+: Esc [ m
+. CR/^M LF/^J
+@ 0.000088
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc [ m
+. CR/^M LF/^J
+@ 0.000055
+|||
+@ 0.000025
+: Esc [ 36 ; 7 m
+@ 0.000019
+| |
+@ 0.000052
+|t|
+@ 0.000397
+|ext|
+@ 0.000086
+|.|
+: Esc [ m
+||.|
+. CR/^M LF/^J
+@ 0.082258
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|micah|
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|$ |
+: Esc ( B
+: Esc [ m
+
+    BREATHE
+
+    @ 0.428298
+    : Esc ( B
+    & GZD4: G0-DESIGNATE 94-SET
+    " Designate 94-character set B (US-ASCII) to G0.
+    : Esc [ m
+    & SGR: SELECT GRAPHIC RENDITION
+    " Clear graphic rendition to defaults.
+    : Esc [ 38 ; 5 ; 103 m
+    & SGR: SELECT GRAPHIC RENDITION
+    " Set foreground color to index 103.
+    |micah|
+    : Esc ( B
+    & GZD4: G0-DESIGNATE 94-SET
+    " Designate 94-character set B (US-ASCII) to G0.
+    : Esc [ m
+    & SGR: SELECT GRAPHIC RENDITION
+    " Clear graphic rendition to defaults.
+    : Esc [ 38 ; 5 ; 103 m
+    & SGR: SELECT GRAPHIC RENDITION
+    " Set foreground color to index 103.
+    |$ |
+    : Esc ( B
+    & GZD4: G0-DESIGNATE 94-SET
+    " Designate 94-character set B (US-ASCII) to G0.
+    : Esc [ m
+    & SGR: SELECT GRAPHIC RENDITION
+    " Clear graphic rendition to defaults.
+
+@ 0.523504
+|t|
+@ 0.084478
+|m|
+@ 0.189142
+|u|
+@ 0.277554
+|x|
+@ 0.911549
+. CR/^M LF/^J
+@ 0.013202
+: Esc [ ? 1049 h
+: Esc ( B
+: Esc [ m
+: Esc [ ? 1 l
+: Esc >
+: Esc [ H
+: Esc [ 2 J
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+: Esc [ ? 1000 l
+: Esc ]
+|112|
+. BEL/^G
+: Esc [ ? 25 l
+: Esc [ 1 ; 1 H
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|0:bash*|
+: Esc [ 38 ; 5 ; 105 m
+: Esc [ 48 ; 5 ; 17 m
+|                                                                         |
+: Esc ( B
+: Esc [ m
+: Esc [ 25 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+: Esc [ ? 1005 h
+: Esc [ ? 1000 h
+@ 0.414081
+: Esc [ 1 ; 24 r
+: Esc [ 38 ; 5 ; 103 m
+|micah$ |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 7 C
+: Esc ( B
+: Esc [ m
+@ 1.986719
+: Esc [ 38 ; 5 ; 105 m
+: Esc [ 33 C
+. xE2 x94 x82
+: Esc [ 2 ; 41 H
+. xE2 x94 x82
+: Esc [ 3 ; 41 H
+. xE2 x94 x82
+: Esc [ 4 ; 41 H
+. xE2 x94 x82
+: Esc [ 5 ; 41 H
+. xE2 x94 x82
+: Esc [ 6 ; 41 H
+. xE2 x94 x82
+: Esc [ 7 ; 41 H
+. xE2 x94 x82
+: Esc [ 8 ; 41 H
+. xE2 x94 x82
+: Esc [ 9 ; 41 H
+. xE2 x94 x82
+: Esc [ 10 ; 41 H
+. xE2 x94 x82
+: Esc [ 11 ; 41 H
+. xE2 x94 x82
+: Esc [ 12 ; 41 H
+. xE2 x94 x82
+: Esc [ 13 ; 41 H
+. xE2 x94 x82
+: Esc [ 14 ; 41 H
+. xE2 x94 x82
+: Esc [ 15 ; 41 H
+. xE2 x94 x82
+: Esc [ 16 ; 41 H
+. xE2 x94 x82
+: Esc [ 17 ; 41 H
+. xE2 x94 x82
+: Esc [ 18 ; 41 H
+. xE2 x94 x82
+: Esc [ 19 ; 41 H
+. xE2 x94 x82
+: Esc [ 20 ; 41 H
+. xE2 x94 x82
+: Esc [ 21 ; 41 H
+. xE2 x94 x82
+: Esc [ 22 ; 41 H
+. xE2 x94 x82
+: Esc [ 23 ; 41 H
+. xE2 x94 x82
+: Esc [ 24 ; 41 H
+. xE2 x94 x82
+: Esc [ ? 25 l
+: Esc [ H
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|micah$ |
+: Esc ( B
+: Esc [ m
+|                                 |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+: Esc [ 1 ; 42 H
+|                                       |
+: Esc [ 2 ; 42 H
+|                                       |
+: Esc [ 3 ; 42 H
+|                                       |
+: Esc [ 4 ; 42 H
+|                                       |
+: Esc [ 5 ; 42 H
+|                                       |
+: Esc [ 6 ; 42 H
+|                                       |
+: Esc [ 7 ; 42 H
+|                                       |
+: Esc [ 8 ; 42 H
+|                                       |
+: Esc [ 9 ; 42 H
+|                                       |
+: Esc [ 10 ; 42 H
+|                                       |
+: Esc [ 11 ; 42 H
+|                                       |
+: Esc [ 12 ; 42 H
+|                                       |
+: Esc [ 13 ; 42 H
+|                                       |
+: Esc [ 14 ; 42 H
+|                                       |
+: Esc [ 15 ; 42 H
+|                                       |
+: Esc [ 16 ; 42 H
+|                                       |
+: Esc [ 17 ; 42 H
+|                                       |
+: Esc [ 18 ; 42 H
+|                                       |
+: Esc [ 19 ; 42 H
+|                                       |
+: Esc [ 20 ; 42 H
+|                                       |
+: Esc [ 21 ; 42 H
+|                                       |
+: Esc [ 22 ; 42 H
+|                                       |
+: Esc [ 23 ; 42 H
+|                                       |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|0:bash*|
+: Esc [ 38 ; 5 ; 105 m
+: Esc [ 48 ; 5 ; 17 m
+|                                                                         |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 42 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.000365
+: Esc [ H
+|                                        |
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 38 ; 5 ; 103 m
+|micah$ |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 41 C
+: Esc ( B
+: Esc [ m
+@ 0.387967
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 41 C
+: Esc [ 38 ; 5 ; 103 m
+|micah$ |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 48 C
+: Esc ( B
+: Esc [ m
+@ 0.339373
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 48 C
+|t|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 49 C
+@ 0.099344
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 49 C
+|e|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 50 C
+@ 0.232874
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 50 C
+|s|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 51 C
+@ 0.065152
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 51 C
+|e|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 52 C
+@ 0.257864
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 52 C
+|q|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 53 C
+@ 0.149765
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 53 C
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 54 C
+@ 0.915691
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 54 C
+|<|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 55 C
+@ 0.271908
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 55 C
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 56 C
+@ 0.193936
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 56 C
+|~|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 57 C
+@ 0.260249
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 57 C
+|/|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 58 C
+@ 0.093338
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 58 C
+|t|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 59 C
+@ 0.104902
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 59 C
+|m|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 60 C
+@ 0.074392
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 60 C
+|p|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 61 C
+@ 0.202516
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 61 C
+|/|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 62 C
+@ 0.070819
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 62 C
+|f|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 63 C
+@ 0.144049
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 63 C
+|i|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 64 C
+@ 0.062924
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 64 C
+|f|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 65 C
+@ 0.141695
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 65 C
+|o|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 66 C
+@ 0.264935
+: Esc [ 2 ; 42 H
+@ 2.002546
+: Esc [ 38 ; 5 ; 105 m
+: Esc [ 1 ; 41 H
+. xE2 x94 x82
+: Esc [ 2 ; 41 H
+. xE2 x94 x82
+: Esc [ 3 ; 41 H
+. xE2 x94 x82
+: Esc [ 4 ; 41 H
+. xE2 x94 x82
+: Esc [ 5 ; 41 H
+. xE2 x94 x82
+: Esc [ 6 ; 41 H
+. xE2 x94 x82
+: Esc [ 7 ; 41 H
+. xE2 x94 x82
+: Esc [ 8 ; 41 H
+. xE2 x94 x82
+: Esc [ 9 ; 41 H
+. xE2 x94 x82
+: Esc [ 10 ; 41 H
+. xE2 x94 x82
+: Esc [ 11 ; 41 H
+. xE2 x94 x82
+: Esc [ 12 ; 41 H
+. xE2 x94 x82
+: Esc [ 13 ; 41 H
+. xE2 x94 x82
+: Esc [ 14 ; 41 H
+. xE2 x94 x82
+: Esc [ 15 ; 41 H
+. xE2 x94 x82
+: Esc [ 16 ; 41 H
+. xE2 x94 x82
+: Esc [ 17 ; 41 H
+. xE2 x94 x82
+: Esc [ 18 ; 41 H
+. xE2 x94 x82
+: Esc [ 19 ; 41 H
+. xE2 x94 x82
+: Esc [ 20 ; 41 H
+. xE2 x94 x82
+: Esc [ 21 ; 41 H
+. xE2 x94 x82
+: Esc [ 22 ; 41 H
+. xE2 x94 x82
+: Esc [ 23 ; 41 H
+. xE2 x94 x82
+: Esc [ 24 ; 41 H
+. xE2 x94 x82
+: Esc [ 1 ; 8 H
+: Esc ( B
+: Esc [ m
+@ 1.079144
+: Esc [ ? 25 l
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                                           |-
+-|   |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.220698
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:p|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                                           |-
+-|  |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.114551
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pi|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                                           |-
+-| |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.087359
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pip|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                                           |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.081571
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                                          |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.131231
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                                         |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.216963
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-p|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                                        |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.244963
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pa|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                                       |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.087496
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pan|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                                      |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.102272
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                                     |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.087239
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane |
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                                    |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.138969
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane '|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                                   |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.090523
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane 'c|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                                  |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.109867
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane 'ca|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                                 |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.157483
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane 'cat|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                                |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.159576
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane 'cat |
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                               |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.263398
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane 'cat >|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                              |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.351525
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane 'cat > |
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                             |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.310053
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane 'cat > ~|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                            |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.173948
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane 'cat > ~/|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                           |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.104026
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane 'cat > ~/t|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                          |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.073772
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane 'cat > ~/tm|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                         |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.104549
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane 'cat > ~/tmp|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                        |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.174864
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane 'cat > ~/tmp/|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                       |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.103504
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane 'cat > ~/tmp/f|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                      |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.103653
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane 'cat > ~/tmp/fi|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                     |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.095985
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane 'cat > ~/tmp/fif|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                    |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.108088
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane 'cat > ~/tmp/fifo|
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                   |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.433751
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|:pipe-pane 'cat > ~/tmp/fifo'|
+
+    TBREATHE
+
+: Esc [ 7 m
+| |
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|                                                  |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+@ 0.611012
+: Esc [ 38 ; 5 ; 105 m
+: Esc [ 33 C
+. xE2 x94 x82
+: Esc [ 2 ; 41 H
+. xE2 x94 x82
+: Esc [ 3 ; 41 H
+. xE2 x94 x82
+: Esc [ 4 ; 41 H
+. xE2 x94 x82
+: Esc [ 5 ; 41 H
+. xE2 x94 x82
+: Esc [ 6 ; 41 H
+. xE2 x94 x82
+: Esc [ 7 ; 41 H
+. xE2 x94 x82
+: Esc [ 8 ; 41 H
+. xE2 x94 x82
+: Esc [ 9 ; 41 H
+. xE2 x94 x82
+: Esc [ 10 ; 41 H
+. xE2 x94 x82
+: Esc [ 11 ; 41 H
+. xE2 x94 x82
+: Esc [ 12 ; 41 H
+. xE2 x94 x82
+: Esc [ 13 ; 41 H
+. xE2 x94 x82
+: Esc [ 14 ; 41 H
+. xE2 x94 x82
+: Esc [ 15 ; 41 H
+. xE2 x94 x82
+: Esc [ 16 ; 41 H
+. xE2 x94 x82
+: Esc [ 17 ; 41 H
+. xE2 x94 x82
+: Esc [ 18 ; 41 H
+. xE2 x94 x82
+: Esc [ 19 ; 41 H
+. xE2 x94 x82
+: Esc [ 20 ; 41 H
+. xE2 x94 x82
+: Esc [ 21 ; 41 H
+. xE2 x94 x82
+: Esc [ 22 ; 41 H
+. xE2 x94 x82
+: Esc [ 23 ; 41 H
+. xE2 x94 x82
+: Esc [ 24 ; 41 H
+. xE2 x94 x82
+: Esc [ H
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|micah$ |
+: Esc ( B
+: Esc [ m
+|                                 |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+: Esc [ 1 ; 42 H
+: Esc [ 38 ; 5 ; 103 m
+|micah$ |
+: Esc [ 39 m
+|teseq < ~/tmp/fifo              |
+: Esc [ 2 ; 42 H
+|                                       |
+: Esc [ 3 ; 42 H
+|                                       |
+: Esc [ 4 ; 42 H
+|                                       |
+: Esc [ 5 ; 42 H
+|                                       |
+: Esc [ 6 ; 42 H
+|                                       |
+: Esc [ 7 ; 42 H
+|                                       |
+: Esc [ 8 ; 42 H
+|                                       |
+: Esc [ 9 ; 42 H
+|                                       |
+: Esc [ 10 ; 42 H
+|                                       |
+: Esc [ 11 ; 42 H
+|                                       |
+: Esc [ 12 ; 42 H
+|                                       |
+: Esc [ 13 ; 42 H
+|                                       |
+: Esc [ 14 ; 42 H
+|                                       |
+: Esc [ 15 ; 42 H
+|                                       |
+: Esc [ 16 ; 42 H
+|                                       |
+: Esc [ 17 ; 42 H
+|                                       |
+: Esc [ 18 ; 42 H
+|                                       |
+: Esc [ 19 ; 42 H
+|                                       |
+: Esc [ 20 ; 42 H
+|                                       |
+: Esc [ 21 ; 42 H
+|                                       |
+: Esc [ 22 ; 42 H
+|                                       |
+: Esc [ 23 ; 42 H
+|                                       |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|0:bash*|
+: Esc [ 38 ; 5 ; 105 m
+: Esc [ 48 ; 5 ; 17 m
+|                                                                         |
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 8 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.8
+. CR/^M LF/^J
+@ 0.000401
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 42 H
+: Esc [ 31 m
+|. CR/^M LF/^J|
+: Esc [ 1 ; 25 r
+: Esc [ H
+. CR/^M LF/^J
+: Esc ( B
+: Esc [ m
+@ 0.092593
+: Esc [ 1 ; 24 r
+: Esc [ H
+. CR/^M LF/^J
+: Esc [ 38 ; 5 ; 103 m
+|micah$ |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 8 H
+: Esc ( B
+: Esc [ m
+@ 0.002950
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc [ 4 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc [ 5 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc [ 6 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc [ 7 ; 42 H
+: Esc [ 33 m
+|: Esc [ 38 ; 5 ; 103 m|
+: Esc [ 8 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc [ 9 ; 42 H
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc [ 10 ; 42 H
+: Esc [ 39 m
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|micah|
+: Esc ( B
+: Esc [ m
+|||
+: Esc [ 11 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc [ 12 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc [ 13 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc [ 14 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc [ 15 ; 42 H
+: Esc [ 33 m
+|: Esc [ 38 ; 5 ; 103 m|
+: Esc [ 16 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc [ 17 ; 42 H
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc [ 18 ; 42 H
+: Esc [ 39 m
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|$ |
+: Esc ( B
+: Esc [ m
+|||
+: Esc [ 19 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc [ 20 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc [ 21 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc [ 22 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 8 H
+: Esc ( B
+: Esc [ m
+
+    -- prompt in teseq
+
+    TBREATHE
+
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 8 H
+|e|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 9 H
+@ 0.000458
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|e|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 9 H
+: Esc ( B
+: Esc [ m
+@ 0.168281
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 9 H
+|c|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 10 H
+@ 0.000267
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 44 H
+: Esc [ 36 m
+: Esc [ 7 m
+|c|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 10 H
+: Esc ( B
+: Esc [ m
+@ 0.077416
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 10 H
+|h|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 11 H
+@ 0.000357
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 45 H
+: Esc [ 36 m
+: Esc [ 7 m
+|h|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 11 H
+: Esc ( B
+: Esc [ m
+@ 0.082396
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 11 H
+|o|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 12 H
+@ 0.000275
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 46 H
+: Esc [ 36 m
+: Esc [ 7 m
+|o|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 12 H
+: Esc ( B
+: Esc [ m
+@ 0.094197
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 12 H
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 13 H
+@ 0.000296
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 47 H
+: Esc [ 36 m
+: Esc [ 7 m
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 13 H
+: Esc ( B
+: Esc [ m
+@ 0.131603
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 13 H
+|-|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 14 H
+@ 0.000268
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 48 H
+: Esc [ 36 m
+: Esc [ 7 m
+|-|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 14 H
+: Esc ( B
+: Esc [ m
+@ 0.168769
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 14 H
+|n|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 15 H
+@ 0.000282
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 49 H
+: Esc [ 36 m
+: Esc [ 7 m
+|n|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 15 H
+: Esc ( B
+: Esc [ m
+@ 0.109911
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 15 H
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 16 H
+@ 0.000285
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 50 H
+: Esc [ 36 m
+: Esc [ 7 m
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 16 H
+: Esc ( B
+: Esc [ m
+@ 0.278212
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 16 H
+|'|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 17 H
+@ 0.000269
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 51 H
+: Esc [ 36 m
+: Esc [ 7 m
+|'|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 17 H
+: Esc ( B
+: Esc [ m
+@ 0.495259
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 17 H
+|H|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 18 H
+@ 0.000285
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 52 H
+: Esc [ 36 m
+: Esc [ 7 m
+|H|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 18 H
+: Esc ( B
+: Esc [ m
+@ 0.105558
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 18 H
+|e|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 19 H
+@ 0.000219
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 53 H
+: Esc [ 36 m
+: Esc [ 7 m
+|e|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 19 H
+: Esc ( B
+: Esc [ m
+@ 0.055389
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 19 H
+|r|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 20 H
+@ 0.000207
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 54 H
+: Esc [ 36 m
+: Esc [ 7 m
+|r|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 20 H
+: Esc ( B
+: Esc [ m
+@ 0.449905
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 20 H
+|e|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 21 H
+@ 0.000203
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 55 H
+: Esc [ 36 m
+: Esc [ 7 m
+|e|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 21 H
+: Esc ( B
+: Esc [ m
+@ 0.214578
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 21 H
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 22 H
+@ 0.000435
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 56 H
+: Esc [ 36 m
+: Esc [ 7 m
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 22 H
+: Esc ( B
+: Esc [ m
+@ 0.107593
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 22 H
+|i|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 23 H
+@ 0.000141
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 57 H
+: Esc [ 36 m
+: Esc [ 7 m
+|i|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 23 H
+: Esc ( B
+: Esc [ m
+@ 0.031542
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 23 H
+|s|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 24 H
+@ 0.000292
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 58 H
+: Esc [ 36 m
+: Esc [ 7 m
+|s|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 24 H
+: Esc ( B
+: Esc [ m
+@ 0.734297
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 24 H
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 25 H
+@ 0.000507
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 59 H
+: Esc [ 36 m
+: Esc [ 7 m
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 25 H
+: Esc ( B
+: Esc [ m
+@ 0.132982
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 25 H
+|'|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 26 H
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 60 H
+: Esc [ 36 m
+: Esc [ 7 m
+|'|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 26 H
+: Esc ( B
+: Esc [ m
+@ 0.556055
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 26 H
+|;|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 27 H
+@ 0.000269
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 61 H
+: Esc [ 36 m
+: Esc [ 7 m
+|;|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 27 H
+: Esc ( B
+: Esc [ m
+@ 0.204737
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 27 H
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 28 H
+@ 0.000272
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 62 H
+: Esc [ 36 m
+: Esc [ 7 m
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 28 H
+: Esc ( B
+: Esc [ m
+@ 0.179943
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 28 H
+|t|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 29 H
+@ 0.000700
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 63 H
+: Esc [ 36 m
+: Esc [ 7 m
+|t|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 29 H
+: Esc ( B
+: Esc [ m
+@ 0.091564
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 29 H
+|p|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 30 H
+@ 0.000284
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 64 H
+: Esc [ 36 m
+: Esc [ 7 m
+|p|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 30 H
+: Esc ( B
+: Esc [ m
+@ 0.065628
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 30 H
+|u|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 31 H
+@ 0.000300
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 65 H
+: Esc [ 36 m
+: Esc [ 7 m
+|u|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 31 H
+: Esc ( B
+: Esc [ m
+@ 0.063155
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 31 H
+|t|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 32 H
+@ 0.000329
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 66 H
+: Esc [ 36 m
+: Esc [ 7 m
+|t|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 32 H
+: Esc ( B
+: Esc [ m
+@ 0.104586
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 32 H
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 33 H
+@ 0.000319
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 67 H
+: Esc [ 36 m
+: Esc [ 7 m
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 33 H
+: Esc ( B
+: Esc [ m
+@ 0.099394
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 33 H
+|b|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 34 H
+@ 0.000287
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 68 H
+: Esc [ 36 m
+: Esc [ 7 m
+|b|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 34 H
+: Esc ( B
+: Esc [ m
+@ 0.077620
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 34 H
+|o|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 35 H
+@ 0.000427
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 69 H
+: Esc [ 36 m
+: Esc [ 7 m
+|o|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 35 H
+: Esc ( B
+: Esc [ m
+@ 0.144603
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 35 H
+|l|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 36 H
+@ 0.000199
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 70 H
+: Esc [ 36 m
+: Esc [ 7 m
+|l|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 36 H
+: Esc ( B
+: Esc [ m
+@ 0.089764
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 36 H
+|d|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 37 H
+@ 0.000500
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 71 H
+: Esc [ 36 m
+: Esc [ 7 m
+|d|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 37 H
+: Esc ( B
+: Esc [ m
+@ 1.069554
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 37 H
+|;|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 38 H
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 72 H
+: Esc [ 36 m
+: Esc [ 7 m
+|;|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 38 H
+: Esc ( B
+: Esc [ m
+@ 0.301841
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 38 H
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 39 H
+@ 0.000365
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 73 H
+: Esc [ 36 m
+: Esc [ 7 m
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 39 H
+: Esc ( B
+: Esc [ m
+@ 0.133707
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 39 H
+|e|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 40 H
+@ 0.000280
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 74 H
+: Esc [ 36 m
+: Esc [ 7 m
+|e|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 ; 40 H
+: Esc ( B
+: Esc [ m
+@ 0.143876
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 ; 40 H
+|c|
+. CR/^M LF/^J
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 B
+@ 0.000784
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 23 ; 75 H
+: Esc [ 36 m
+: Esc [ 7 m
+|c |
+: Esc ( B
+: Esc [ m
+|||
+: Esc [ 24 ; 42 H
+: Esc [ 31 m
+|. CR/^M|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 B
+: Esc ( B
+: Esc [ m
+@ 0.102240
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 2 B
+|h|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 2 H
+@ 0.001056
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 31 m
+|. CR/^M LF/^J|
+: Esc ( B
+: Esc [ m
+|                          |
+: Esc [ 2 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 3 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 4 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 5 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 6 ; 42 H
+: Esc [ 33 m
+|: Esc [ 38 ; 5 ; 103 m|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 7 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 8 ; 42 H
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 9 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|micah|
+: Esc ( B
+: Esc [ m
+||                                |
+: Esc [ 10 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 11 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 12 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 13 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 14 ; 42 H
+: Esc [ 33 m
+|: Esc [ 38 ; 5 ; 103 m|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 15 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 16 ; 42 H
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 17 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|$ |
+: Esc ( B
+: Esc [ m
+||                                   |
+: Esc [ 18 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 19 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 20 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 21 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 22 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|echo -n 'Here is '; tput bold; ec |
+: Esc ( B
+: Esc [ m
+||   |
+: Esc [ 23 ; 42 H
+: Esc [ 31 m
+|. CR/^M|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 24 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|h|
+: Esc ( B
+: Esc [ m
+|                                     |
+: Esc [ 3 ; 2 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.067835
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 2 H
+|o|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 3 H
+@ 0.000272
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 44 H
+: Esc [ 36 m
+: Esc [ 7 m
+|o|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 3 H
+: Esc ( B
+: Esc [ m
+@ 0.111993
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 3 H
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 4 H
+@ 0.000524
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 45 H
+: Esc [ 36 m
+: Esc [ 7 m
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 4 H
+: Esc ( B
+: Esc [ m
+@ 0.103144
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 4 H
+|-|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 5 H
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 46 H
+: Esc [ 36 m
+: Esc [ 7 m
+|-|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 5 H
+: Esc ( B
+: Esc [ m
+@ 0.203031
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 5 H
+|n|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 6 H
+@ 0.000271
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 47 H
+: Esc [ 36 m
+: Esc [ 7 m
+|n|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 6 H
+: Esc ( B
+: Esc [ m
+@ 0.880073
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 6 H
+|b|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 7 H
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 48 H
+: Esc [ 36 m
+: Esc [ 7 m
+|b|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 7 H
+: Esc ( B
+: Esc [ m
+@ 0.092401
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 7 H
+|o|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 8 H
+@ 0.000280
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 49 H
+: Esc [ 36 m
+: Esc [ 7 m
+|o|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 8 H
+: Esc ( B
+: Esc [ m
+@ 0.405739
+. BS/^H
+|                                  |
+: Esc [ 7 G
+@ 0.001390
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 50 H
+|||
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 2 ; 42 H
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 3 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|micah|
+: Esc ( B
+: Esc [ m
+||                                |
+: Esc [ 4 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 5 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 6 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 7 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 8 ; 42 H
+: Esc [ 33 m
+|: Esc [ 38 ; 5 ; 103 m|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 9 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 10 ; 42 H
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 11 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|$ |
+: Esc ( B
+: Esc [ m
+||                                   |
+: Esc [ 12 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 13 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 14 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 15 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 16 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|echo -n 'Here is '; tput bold; ec |
+: Esc ( B
+: Esc [ m
+||   |
+: Esc [ 17 ; 42 H
+: Esc [ 31 m
+|. CR/^M|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 18 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|ho -nbo|
+: Esc ( B
+: Esc [ m
+||                              |
+: Esc [ 19 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 20 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 21 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 22 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 22 ; 80 H
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 7 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.136893
+. BS/^H
+|                                   |
+: Esc [ 6 G
+@ 0.001417
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 2 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 3 ; 42 H
+: Esc [ 33 m
+|: Esc [ 38 ; 5 ; 103 m|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 4 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 5 ; 42 H
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 6 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|$ |
+: Esc ( B
+: Esc [ m
+||                                   |
+: Esc [ 7 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 8 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 9 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 10 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 11 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|echo -n 'Here is '; tput bold; ec |
+: Esc ( B
+: Esc [ m
+||   |
+: Esc [ 12 ; 42 H
+: Esc [ 31 m
+|. CR/^M|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 13 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|ho -nbo|
+: Esc ( B
+: Esc [ m
+||                              |
+: Esc [ 14 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 15 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 16 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 17 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 17 ; 80 H
+: Esc [ 18 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 19 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 20 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 21 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 22 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 22 ; 80 H
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 6 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.056837
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 6 H
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 7 H
+@ 0.000317
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 7 H
+: Esc ( B
+: Esc [ m
+@ 0.129357
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 7 H
+|b|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 8 H
+@ 0.000284
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 44 H
+: Esc [ 36 m
+: Esc [ 7 m
+|b|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 8 H
+: Esc ( B
+: Esc [ m
+@ 0.091027
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 8 H
+|o|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 9 H
+@ 0.000290
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 45 H
+: Esc [ 36 m
+: Esc [ 7 m
+|o|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 9 H
+: Esc ( B
+: Esc [ m
+@ 0.144077
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 9 H
+|l|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 10 H
+@ 0.000291
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 46 H
+: Esc [ 36 m
+: Esc [ 7 m
+|l|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 10 H
+: Esc ( B
+: Esc [ m
+@ 0.098609
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 10 H
+|d|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 11 H
+@ 0.000280
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 47 H
+: Esc [ 36 m
+: Esc [ 7 m
+|d|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 11 H
+: Esc ( B
+: Esc [ m
+@ 1.669528
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 11 H
+|;|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 12 H
+@ 0.000285
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 48 H
+: Esc [ 36 m
+: Esc [ 7 m
+|;|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 12 H
+: Esc ( B
+: Esc [ m
+@ 1.918767
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 12 H
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 13 H
+@ 0.000282
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 49 H
+: Esc [ 36 m
+: Esc [ 7 m
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 13 H
+: Esc ( B
+: Esc [ m
+@ 2.265113
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 13 H
+|t|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 14 H
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 50 H
+: Esc [ 36 m
+: Esc [ 7 m
+|t|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 14 H
+: Esc ( B
+: Esc [ m
+@ 0.133614
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 14 H
+|p|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 15 H
+@ 0.000349
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 51 H
+: Esc [ 36 m
+: Esc [ 7 m
+|p|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 15 H
+: Esc ( B
+: Esc [ m
+@ 0.099213
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 15 H
+|u|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 16 H
+@ 0.000271
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 52 H
+: Esc [ 36 m
+: Esc [ 7 m
+|u|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 16 H
+: Esc ( B
+: Esc [ m
+@ 0.045119
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 16 H
+|t|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 17 H
+@ 0.000271
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 53 H
+: Esc [ 36 m
+: Esc [ 7 m
+|t|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 17 H
+: Esc ( B
+: Esc [ m
+@ 0.119115
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 17 H
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 18 H
+@ 0.000581
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 54 H
+: Esc [ 36 m
+: Esc [ 7 m
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 18 H
+: Esc ( B
+: Esc [ m
+@ 0.227525
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 18 H
+|s|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 19 H
+@ 0.000193
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 55 H
+: Esc [ 36 m
+: Esc [ 7 m
+|s|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 19 H
+: Esc ( B
+: Esc [ m
+@ 0.096158
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 19 H
+|g|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 20 H
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 56 H
+: Esc [ 36 m
+: Esc [ 7 m
+|g|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 20 H
+: Esc ( B
+: Esc [ m
+@ 0.150910
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 20 H
+|r|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 21 H
+@ 0.000507
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 57 H
+: Esc [ 36 m
+: Esc [ 7 m
+|r|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 21 H
+: Esc ( B
+: Esc [ m
+@ 0.329690
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 21 H
+|0|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 22 H
+@ 0.000592
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 58 H
+: Esc [ 36 m
+: Esc [ 7 m
+|0|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 22 H
+: Esc ( B
+: Esc [ m
+@ 1.240637
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 22 H
+|;|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 23 H
+@ 0.000266
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 59 H
+: Esc [ 36 m
+: Esc [ 7 m
+|;|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 23 H
+: Esc ( B
+: Esc [ m
+@ 0.687840
+. BS/^H
+@ 0.002384
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 60 H
+|||
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 2 ; 42 H
+: Esc [ 33 m
+|: Esc [ 38 ; 5 ; 103 m|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 3 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 4 ; 42 H
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 5 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|$ |
+: Esc ( B
+: Esc [ m
+||                                   |
+: Esc [ 6 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 7 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 8 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 9 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 10 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|echo -n 'Here is '; tput bold; ec |
+: Esc ( B
+: Esc [ m
+||   |
+: Esc [ 11 ; 42 H
+: Esc [ 31 m
+|. CR/^M|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 12 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|ho -nbo|
+: Esc ( B
+: Esc [ m
+||                              |
+: Esc [ 13 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 14 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 15 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 16 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 16 ; 80 H
+: Esc [ 17 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 18 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 19 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 20 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 21 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 21 ; 80 H
+: Esc [ 22 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 23 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| bold; tput sgr0;|
+: Esc ( B
+: Esc [ m
+||                    |
+: Esc [ 24 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 22 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 1.163928
+: Esc [ 4 D
+@ 0.000326
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 49 H
+: Esc [ 31 m
+| BS/^H BS/^H BS/^H BS/^H|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 18 H
+: Esc ( B
+: Esc [ m
+
+    TBREATHE(`s')
+
+: Esc [ 5 C
+@ 0.002347
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 2 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 3 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 4 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 5 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 5 ; 80 H
+: Esc [ 6 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 7 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| bold; tput sgr0;|
+: Esc ( B
+: Esc [ m
+||                    |
+: Esc [ 8 ; 42 H
+: Esc [ 31 m
+|. BS/^H BS/^H BS/^H BS/^H BS/^H|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 9 ; 42 H
+: Esc [ 33 m
+|: Esc [ C|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 10 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 11 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 12 ; 42 H
+: Esc [ 33 m
+|: Esc [ C|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 13 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 14 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 15 ; 42 H
+: Esc [ 33 m
+|: Esc [ C|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 16 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 17 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 18 ; 42 H
+: Esc [ 33 m
+|: Esc [ C|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 19 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 20 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 21 ; 42 H
+: Esc [ 33 m
+|: Esc [ C|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 22 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 3 ; 23 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+
+    -- Pause to explain cub and cuf
+    TBREATHE
+
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 23 H
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 24 H
+@ 0.000323
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 24 H
+: Esc ( B
+: Esc [ m
+    @ 6.001390
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 24 H
+|e|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 25 H
+@ 0.000445
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 44 H
+: Esc [ 36 m
+: Esc [ 7 m
+|e|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 25 H
+: Esc ( B
+: Esc [ m
+@ 0.158296
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 25 H
+|c|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 26 H
+@ 0.000362
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 45 H
+: Esc [ 36 m
+: Esc [ 7 m
+|c|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 26 H
+: Esc ( B
+: Esc [ m
+@ 0.117261
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 26 H
+|h|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 27 H
+@ 0.000834
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 46 H
+: Esc [ 36 m
+: Esc [ 7 m
+|h|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 27 H
+: Esc ( B
+: Esc [ m
+@ 0.104041
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 27 H
+|o|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 28 H
+@ 0.000285
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 47 H
+: Esc [ 36 m
+: Esc [ 7 m
+|o|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 28 H
+: Esc ( B
+: Esc [ m
+@ 0.078401
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 28 H
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 29 H
+@ 0.000315
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 48 H
+: Esc [ 36 m
+: Esc [ 7 m
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 29 H
+: Esc ( B
+: Esc [ m
+@ 0.213566
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 29 H
+|-|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 30 H
+@ 0.000290
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 49 H
+: Esc [ 36 m
+: Esc [ 7 m
+|-|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 30 H
+: Esc ( B
+: Esc [ m
+@ 0.8
+. BS/^H
+|            |
+: Esc [ 12 D
+@ 0.001329
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 50 H
+|||
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| bold; tput sgr0;|
+: Esc ( B
+: Esc [ m
+||                    |
+: Esc [ 2 ; 42 H
+: Esc [ 31 m
+|. BS/^H BS/^H BS/^H BS/^H BS/^H|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 3 ; 42 H
+: Esc [ 33 m
+|: Esc [ C|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 4 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 5 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 6 ; 42 H
+: Esc [ 33 m
+|: Esc [ C|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 7 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 8 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 9 ; 42 H
+: Esc [ 33 m
+|: Esc [ C|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 10 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 11 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 12 ; 42 H
+: Esc [ 33 m
+|: Esc [ C|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 13 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 14 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 15 ; 42 H
+: Esc [ 33 m
+|: Esc [ C|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 16 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 17 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 18 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| echo -|
+: Esc ( B
+: Esc [ m
+||                              |
+: Esc [ 19 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 20 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 21 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 22 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 22 ; 80 H
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 29 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.608007
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 29 H
+|'|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 30 H
+@ 0.000317
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|'|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 30 H
+: Esc ( B
+: Esc [ m
+@ 0.8
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 30 H
+|t|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 31 H
+@ 0.000168
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 44 H
+: Esc [ 36 m
+: Esc [ 7 m
+|t|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 31 H
+: Esc ( B
+: Esc [ m
+@ 0.508102
+. BS/^H
+|           |
+: Esc [ 11 D
+@ 0.001041
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 45 H
+|||
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 2 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 3 ; 42 H
+: Esc [ 33 m
+|: Esc [ C|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 4 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 5 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 6 ; 42 H
+: Esc [ 33 m
+|: Esc [ C|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 7 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 8 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 9 ; 42 H
+: Esc [ 33 m
+|: Esc [ C|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 10 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 11 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 12 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| echo -|
+: Esc ( B
+: Esc [ m
+||                              |
+: Esc [ 13 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 14 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 15 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 16 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 16 ; 80 H
+: Esc [ 17 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 18 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|'t|
+: Esc ( B
+: Esc [ m
+||                                   |
+: Esc [ 19 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 20 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 21 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 22 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 22 ; 80 H
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 30 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.088761
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 30 H
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 31 H
+@ 0.000624
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 31 H
+: Esc ( B
+: Esc [ m
+@ 0.099217
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 31 H
+|t|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 32 H
+@ 0.000809
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 44 H
+: Esc [ 36 m
+: Esc [ 7 m
+|t|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 32 H
+: Esc ( B
+: Esc [ m
+@ 0.121984
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 32 H
+|e|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 33 H
+@ 0.000157
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 45 H
+: Esc [ 36 m
+: Esc [ 7 m
+|e|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 33 H
+: Esc ( B
+: Esc [ m
+@ 0.190594
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 33 H
+|x|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 34 H
+@ 0.000398
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 46 H
+: Esc [ 36 m
+: Esc [ 7 m
+|x|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 34 H
+: Esc ( B
+: Esc [ m
+@ 0.243394
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 34 H
+|t|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 35 H
+@ 0.000422
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 47 H
+: Esc [ 36 m
+: Esc [ 7 m
+|t|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 35 H
+: Esc ( B
+: Esc [ m
+@ 0.245996
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 35 H
+|.|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 36 H
+@ 0.000200
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 48 H
+: Esc [ 36 m
+: Esc [ 7 m
+|.|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 36 H
+: Esc ( B
+: Esc [ m
+@ 0.307486
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 ; 36 H
+|'|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 37 H
+@ 0.000498
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 49 H
+: Esc [ 36 m
+: Esc [ 7 m
+|'|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 3 ; 37 H
+: Esc ( B
+: Esc [ m
+@ 0.8
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 3 B
+|Here is |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 4 ; 9 H
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 50 H
+|||
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 33 m
+|: Esc [ C|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 2 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 3 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 4 ; 42 H
+: Esc [ 33 m
+|: Esc [ C|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 5 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 6 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 7 ; 42 H
+: Esc [ 33 m
+|: Esc [ C|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 8 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 9 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 10 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| echo -|
+: Esc ( B
+: Esc [ m
+||                              |
+: Esc [ 11 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 12 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 13 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 14 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 14 ; 80 H
+: Esc [ 15 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 16 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|'t|
+: Esc ( B
+: Esc [ m
+||                                   |
+: Esc [ 17 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 18 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 19 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 20 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 20 ; 80 H
+: Esc [ 21 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 22 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| text.'|
+: Esc ( B
+: Esc [ m
+||                              |
+: Esc [ 23 ; 42 H
+: Esc [ 31 m
+|. CR/^M LF/^J|
+: Esc ( B
+: Esc [ m
+|                          |
+: Esc [ 24 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|Here is |
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 4 ; 9 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.003210
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 4 ; 9 H
+: Esc [ 1 m
+|bold|
+: Esc [ 24 ; 51 H
+: Esc ( B
+: Esc [ m
+|||
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 2 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 3 ; 42 H
+: Esc [ 33 m
+|: Esc [ C|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 4 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 5 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 6 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| echo -|
+: Esc ( B
+: Esc [ m
+||                              |
+: Esc [ 7 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 8 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 9 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 10 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 10 ; 80 H
+: Esc [ 11 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 12 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|'t|
+: Esc ( B
+: Esc [ m
+||                                   |
+: Esc [ 13 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 14 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 15 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 16 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+@ 0.000649
+: Esc [ m
+: Esc [ 16 ; 80 H
+: Esc [ 17 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 18 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| text.'|
+: Esc ( B
+: Esc [ m
+||                              |
+: Esc [ 19 ; 42 H
+: Esc [ 31 m
+|. CR/^M LF/^J|
+: Esc ( B
+: Esc [ m
+|                          |
+: Esc [ 20 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|Here is |
+: Esc ( B
+: Esc [ m
+||                             |
+: Esc [ 21 ; 42 H
+: Esc [ 33 m
+|: Esc [ 1 m|
+: Esc ( B
+: Esc [ m
+|                            |
+: Esc [ 22 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|" Set bold text.|
+: Esc ( B
+: Esc [ m
+|                       |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 4 ; 13 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.000582
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|bold|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 4 ; 13 H
+: Esc ( B
+: Esc [ m
+@ 0.007490
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 47 H
+|||
+: Esc [ 4 ; 13 H
+| text.|
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 1 character.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 2 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| echo -|
+: Esc ( B
+: Esc [ m
+||                              |
+: Esc [ 3 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 4 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 5 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 6 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 6 ; 80 H
+: Esc [ 7 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 8 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|'t|
+: Esc ( B
+: Esc [ m
+||                                   |
+: Esc [ 9 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 10 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 11 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 12 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 12 ; 80 H
+: Esc [ 13 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 14 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| text.'|
+: Esc ( B
+: Esc [ m
+||                              |
+: Esc [ 15 ; 42 H
+: Esc [ 31 m
+|. CR/^M LF/^J|
+: Esc ( B
+: Esc [ m
+|                          |
+: Esc [ 16 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|Here is |
+: Esc ( B
+: Esc [ m
+||                 |
+@ 0.000185
+|            |
+: Esc [ 17 ; 42 H
+: Esc [ 33 m
+|: Esc [ 1 m|
+: Esc ( B
+: Esc [ m
+|                            |
+: Esc [ 18 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 19 ; 42 H
+: Esc [ 32 m
+|" Set bold text.|
+: Esc ( B
+: Esc [ m
+|                       |
+: Esc [ 20 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|bold|
+: Esc ( B
+: Esc [ m
+||                                 |
+: Esc [ 21 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 22 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 24 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 4 B
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.001306
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 2 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 3 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 4 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 4 ; 80 H
+: Esc [ 5 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 6 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|'t|
+: Esc ( B
+: Esc [ m
+||                                   |
+: Esc [ 7 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 8 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 9 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 10 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 10 ; 80 H
+: Esc [ 11 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 12 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| text.'|
+: Esc ( B
+: Esc [ m
+||                              |
+: Esc [ 13 ; 42 H
+: Esc [ 31 m
+|. CR/^M LF/^J|
+: Esc ( B
+: Esc [ m
+|                          |
+: Esc [ 14 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|Here is |
+: Esc ( B
+: Esc [ m
+||                             |
+: Esc [ 15 ; 42 H
+: Esc [ 33 m
+|: Esc [ 1 m|
+: Esc ( B
+: Esc [ m
+|                            |
+: Esc [ 16 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 17 ; 42 H
+: Esc [ 32 m
+|" Set bold |
+@ 0.000088
+|text.|
+: Esc ( B
+: Esc [ m
+|                       |
+: Esc [ 18 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|bold|
+: Esc ( B
+: Esc [ m
+||                                 |
+: Esc [ 19 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 20 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 21 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 22 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 23 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| text.|
+: Esc ( B
+: Esc [ m
+||                               |
+: Esc [ 24 ; 42 H
+: Esc [ 31 m
+|. CR/^M LF/^J|
+: Esc ( B
+: Esc [ m
+|                          |
+: Esc [ 5 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.073284
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 4 B
+: Esc [ 38 ; 5 ; 103 m
+|micah$ |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 5 ; 8 H
+: Esc ( B
+: Esc [ m
+@ 0.002206
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 2 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 3 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| text.|
+: Esc ( B
+: Esc [ m
+||                               |
+: Esc [ 4 ; 42 H
+: Esc [ 31 m
+|. CR/^M LF/^J|
+: Esc ( B
+: Esc [ m
+|                          |
+: Esc [ 5 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 6 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 7 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 8 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 9 ; 42 H
+: Esc [ 33 m
+|: Esc [ 38 ; 5 ; 103 m|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 10 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 11 ; 42 H
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 12 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|micah|
+: Esc ( B
+: Esc [ m
+||                                |
+: Esc [ 13 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 14 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 15 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 16 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 17 ; 42 H
+: Esc [ 33 m
+|: Esc [ 38 ; 5 ; 103 m|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 18 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 19 ; 42 H
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 20 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|$ |
+: Esc ( B
+: Esc [ m
+||                                   |
+: Esc [ 21 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 22 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 24 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 5 ; 8 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+
+    TBREATHE
+
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 5 ; 8 H
+|v|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 5 ; 9 H
+@ 0.001137
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 2 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| text.|
+: Esc ( B
+: Esc [ m
+||                               |
+: Esc [ 3 ; 42 H
+: Esc [ 31 m
+|. CR/^M LF/^J|
+: Esc ( B
+: Esc [ m
+|                          |
+: Esc [ 4 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 5 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 6 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 7 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 8 ; 42 H
+: Esc [ 33 m
+|: Esc [ 38 ; 5 ; 103 m|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 9 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 10 ; 42 H
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 11 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|micah|
+: Esc ( B
+: Esc [ m
+||                                |
+: Esc [ 12 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 13 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 14 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 15 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 16 ; 42 H
+: Esc [ 33 m
+|: Esc [ 38 ; 5 ; 103 m|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 17 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 18 ; 42 H
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 19 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|$ |
+: Esc ( B
+: Esc [ m
+||                                   |
+: Esc [ 20 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 21 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 22 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 23 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 24 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|v|
+: Esc ( B
+: Esc [ m
+|                                     |
+: Esc [ 5 ; 9 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.076777
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 5 ; 9 H
+|i|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 5 ; 10 H
+@ 0.000369
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 44 H
+: Esc [ 36 m
+: Esc [ 7 m
+|i|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 5 ; 10 H
+: Esc ( B
+: Esc [ m
+@ 0.049336
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 5 ; 10 H
+|m|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 5 ; 11 H
+@ 0.000275
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 45 H
+: Esc [ 36 m
+: Esc [ 7 m
+|m|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 5 ; 11 H
+: Esc ( B
+: Esc [ m
+@ 2
+. CR/^M LF/^J
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 46 H
+|||
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+| text.|
+: Esc ( B
+: Esc [ m
+||                               |
+: Esc [ 2 ; 42 H
+: Esc [ 31 m
+|. CR/^M LF/^J|
+: Esc ( B
+: Esc [ m
+|                          |
+: Esc [ 3 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 4 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 5 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 6 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 7 ; 42 H
+: Esc [ 33 m
+|: Esc [ 38 ; 5 ; 103 m|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 8 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 9 ; 42 H
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 10 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|micah|
+: Esc ( B
+: Esc [ m
+||                                |
+: Esc [ 11 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 12 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 13 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 14 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 15 ; 42 H
+: Esc [ 33 m
+|: Esc [ 38 ; 5 ; 103 m|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 16 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 17 ; 42 H
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 18 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|$ |
+: Esc ( B
+: Esc [ m
+||                                   |
+: Esc [ 19 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 20 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 21 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 22 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 23 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|vim|
+: Esc ( B
+: Esc [ m
+||                                  |
+: Esc [ 24 ; 42 H
+: Esc [ 31 m
+|. CR/^M LF/^J|
+: Esc ( B
+: Esc [ m
+|                          |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 5 B
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.092133
+: Esc [ ? 25 l
+: Esc [ 25 d
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|0:vim*|
+: Esc [ 38 ; 5 ; 105 m
+: Esc [ 48 ; 5 ; 17 m
+|                                                                          |
+: Esc ( B
+: Esc [ m
+: Esc [ 6 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.128817
+: Esc [ ? 25 l
+: Esc [ H
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+: Esc [ 6 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+: Esc [ ? 1005 h
+: Esc [ ? 1002 h
+: Esc [ ? 1 h
+: Esc =
+@ 0.001699
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 2 ; 42 H
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 3 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|$ |
+: Esc ( B
+: Esc [ m
+||                                   |
+: Esc [ 4 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 5 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 6 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 7 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 8 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|vim|
+: Esc ( B
+: Esc [ m
+||                                  |
+: Esc [ 9 ; 42 H
+: Esc [ 31 m
+|. CR/^M LF/^J|
+: Esc ( B
+: Esc [ m
+|                          |
+: Esc [ 10 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 1002 h|
+: Esc ( B
+: Esc [ m
+|                       |
+: Esc [ 11 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 12 ; 42 H
+: Esc [ 32 m
+|" (Xterm) Activate cell motion mouse tr|
+: Esc ( B
+: Esc [ m
+: Esc [ 12 ; 80 H
+: Esc [ 13 ; 42 H
+: Esc [ 32 m
+|acking.|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 14 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 1049 h|
+: Esc ( B
+: Esc [ m
+|                       |
+: Esc [ 15 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 16 ; 42 H
+: Esc [ 32 m
+|" (Xterm) Save the cursor position and |
+: Esc ( B
+: Esc [ m
+: Esc [ 16 ; 80 H
+: Esc [ 17 ; 42 H
+: Esc [ 32 m
+|use the alternate screen buffer,|
+: Esc ( B
+: Esc [ m
+|       |
+: Esc [ 18 ; 42 H
+: Esc [ 32 m
+|"  clearing it first.|
+: Esc ( B
+: Esc [ m
+|                  |
+: Esc [ 19 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 1 h|
+: Esc ( B
+: Esc [ m
+|                          |
+: Esc [ 20 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 21 ; 42 H
+: Esc [ 32 m
+|" (DEC) Cursor key mode.|
+: Esc ( B
+: Esc [ m
+|               |
+: Esc [ 22 ; 42 H
+: Esc [ 33 m
+|: Esc =|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 23 ; 42 H
+: Esc [ 35 m
+|& DECKPAM: KEYPAD APPLICATION MODE|
+: Esc ( B
+: Esc [ m
+|     |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 6 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.001939
+: Esc [ 1 ; 24 r
+: Esc [ H
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+@ 0.000714
+|                                        |
+: Esc [ 1 ; 25 r
+: Esc [ H
+@ 0.001993
+: Esc [ 1 ; 24 r
+: Esc [ 24 ; 42 H
+: Esc [ 33 m
+|: Esc [ 1 ; 24 r|
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+|: Esc [ 34 l|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 2 ; 42 H
+: Esc [ 35 m
+|& RM: RESET MODE|
+: Esc ( B
+: Esc [ m
+|                       |
+: Esc [ 3 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 4 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 5 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 6 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 7 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 8 ; 42 H
+: Esc [ 33 m
+|: Esc [ 23 m|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 9 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 10 ; 42 H
+: Esc [ 32 m
+|" Clear italicized or fraktur text.|
+: Esc ( B
+: Esc [ m
+|    |
+: Esc [ 11 ; 42 H
+: Esc [ 33 m
+|: Esc [ 24 m|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 12 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 13 ; 42 H
+: Esc [ 32 m
+|" Clear underlining.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 14 ; 42 H
+: Esc [ 33 m
+|: Esc [ 0 m|
+: Esc ( B
+: Esc [ m
+|                            |
+: Esc [ 15 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 16 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 17 ; 42 H
+: Esc [ 33 m
+|: Esc [|
+@ 0.000565
+| H|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 18 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 19 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 1, column 1.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 20 ; 42 H
+: Esc [ 33 m
+|: Esc [ J|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 21 ; 42 H
+: Esc [ 35 m
+|& ED: ERASE IN PAGE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 22 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 22 ; 80 H
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|he screen.|
+: Esc ( B
+: Esc [ m
+|                             |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.007264
+: Esc [ 1 ; 24 r
+. CR/^M LF/^J
+: Esc [ 94 m
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+. CR/^M LF/^J
+|~                                       |
+: Esc [ 24 ; 23 H
+: Esc [ 39 m
+|0,0-1|
+: Esc [ 9 C
+|All|
+: Esc [ 1 ; 25 r
+: Esc [ H
+@ 0.021397
+: Esc [ 1 ; 24 r
+: Esc [ 24 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 l|
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 17, column 1.|
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 80 H
+: Esc [ 2 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|~                                     |
+: Esc ( B
+: Esc [ m
+: Esc [ 2 ; 80 H
+: Esc [ 3 ; 42 H
+: Esc [ 36 m
+: Esc [ 7 m
+|  |
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 4 ; 42 H
+: Esc [ 33 m
+|: Esc [ 18 ; 1 H|
+: Esc ( B
+: Esc [ m
+|                       |
+: Esc [ 5 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 6 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 18, column 1.|
+: Esc ( B
+: Esc [ m
+: Esc [ 6 ; 80 H
+: Esc [ 7 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|~                                     |
+: Esc ( B
+: Esc [ m
+: Esc [ 7 ; 80 H
+: Esc [ 8 ; 42 H
+: Esc [ 36 m
+: Esc [ 7 m
+|  |
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 9 ; 42 H
+: Esc [ 33 m
+|: Esc [ 19 ; 1 H|
+: Esc ( B
+: Esc [ m
+|                       |
+: Esc [ 10 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 11 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 19, column 1.|
+: Esc ( B
+: Esc [ m
+: Esc [ 11 ; 80 H
+: Esc [ 12 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|~                                     |
+: Esc ( B
+: Esc [ m
+: Esc [ 12 ; 80 H
+: Esc [ 13 ; 42 H
+: Esc [ 36 m
+: Esc [ 7 m
+|  |
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 14 ; 42 H
+: Esc [ 33 m
+|: Esc [ 20 ; 1 H|
+: Esc ( B
+: Esc [ m
+|                       |
+: Esc [ 15 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 16 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 20, column 1.|
+: Esc ( B
+: Esc [ m
+: Esc [ 16 ; 80 H
+: Esc [ 17 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|~                                     |
+: Esc ( B
+: Esc [ m
+: Esc [ 17 ; 80 H
+: Esc [ 18 ; 42 H
+: Esc [ 36 m
+: Esc [ 7 m
+|  |
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 19 ; 42 H
+: Esc [ 33 m
+|: Esc [ 21 ; 1 H|
+: Esc ( B
+: Esc [ m
+|                       |
+: Esc [ 20 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 21 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 21, column 1.|
+: Esc ( B
+: Esc [ m
+: Esc [ 21 ; 80 H
+: Esc [ 22 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|~                                     |
+: Esc ( B
+: Esc [ m
+: Esc [ 22 ; 80 H
+: Esc [ 23 ; 42 H
+: Esc [ 36 m
+: Esc [ 7 m
+|  |
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 24 ; 42 H
+: Esc [ 33 m
+|: Esc|
+: Esc ( B
+: Esc [ m
+|                                  |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+: Esc [ 1 ; 24 r
+: Esc [ 24 ; 47 H
+: Esc [ 33 m
+| [ 22 ; 1 H|
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 23, column 1.|
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 80 H
+: Esc [ 2 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|~                                     |
+: Esc ( B
+: Esc [ m
+: Esc [ 2 ; 80 H
+: Esc [ 3 ; 42 H
+: Esc [ 36 m
+: Esc [ 7 m
+|  |
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 4 ; 42 H
+: Esc [ 33 m
+|: Esc [ 0 m|
+: Esc ( B
+: Esc [ m
+|                            |
+: Esc [ 5 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 6 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 7 ; 42 H
+: Esc [ 33 m
+|: Esc [ 24 ; 23 H|
+: Esc ( B
+: Esc [ m
+|                      |
+: Esc [ 8 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 9 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 24, column 23|
+: Esc ( B
+: Esc [ m
+: Esc [ 9 ; 80 H
+: Esc [ 10 ; 42 H
+: Esc [ 32 m
+|.|
+: Esc ( B
+: Esc [ m
+|                                      |
+: Esc [ 11 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|0,0-1|
+: Esc ( B
+: Esc [ m
+||                                |
+: Esc [ 12 ; 42 H
+: Esc [ 33 m
+|: Esc [ 9 C|
+: Esc ( B
+: Esc [ m
+|                            |
+: Esc [ 13 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 14 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 9 characters.|
+: Esc ( B
+: Esc [ m
+|  |
+: Esc [ 15 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|All|
+: Esc ( B
+: Esc [ m
+||                                  |
+: Esc [ 16 ; 42 H
+: Esc [ 33 m
+|: Esc [ 1 ; 1 H|
+: Esc ( B
+: Esc [ m
+|                        |
+: Esc [ 17 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 18 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 1, column 1.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 19 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 20 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 21 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 22 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 2.330465
+: Esc [ 1 ; 24 r
+: Esc [ 24 ; 13 H
+|c|
+: Esc [ 1 ; 25 r
+: Esc [ H
+@ 0.002064
+: Esc [ 1 ; 24 r
+: Esc [ 24 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 l|
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 2 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 1, column 1.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 3 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 4 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 5 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 6 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 7 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 8 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 l|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 9 ; 42 H
+: Esc [ 35 m
+|& RM: RESET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|      |
+: Esc [ 10 ; 42 H
+: Esc [ 32 m
+|" (DEC) Hide cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 11 ; 42 H
+: Esc [ 33 m
+|: Esc [ 24 ; 13 H|
+: Esc ( B
+: Esc [ m
+|                      |
+: Esc [ 12 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 13 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 24, column 13|
+: Esc ( B
+: Esc [ m
+: Esc [ 13 ; 80 H
+: Esc [ 14 ; 42 H
+: Esc [ 32 m
+|.|
+: Esc ( B
+: Esc [ m
+|                                      |
+: Esc [ 15 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|c|
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 16 ; 42 H
+: Esc [ 33 m
+|: Esc [ 1 ; 1 H|
+: Esc ( B
+: Esc [ m
+|                        |
+: Esc [ 17 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 18 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 1, column 1.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 19 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 20 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 21 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 22 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.155092
+: Esc [ 1 ; 24 r
+: Esc [ 24 ; 14 H
+|c|
+: Esc [ 2 D
+|  |
+. CR/^M
+: Esc [ 1 m
+|-- INSERT --|
+: Esc ( B
+: Esc [ m
+: Esc [ 10 C
+|                  |
+: Esc [ 18 D
+|0,1|
+: Esc [ 11 C
+|All|
+: Esc [ 1 ; 25 r
+: Esc [ H
+@ 0.005787
+: Esc [ 1 ; 24 r
+: Esc [ 24 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 l|
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 24, column 23|
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 80 H
+: Esc [ 2 ; 42 H
+: Esc [ 32 m
+|.|
+: Esc ( B
+: Esc [ m
+|                                      |
+: Esc [ 3 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 4 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 5 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 5 ; 80 H
+: Esc [ 6 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 7 ; 42 H
+: Esc [ 33 m
+|: Esc [ 24 ; 23 H|
+: Esc ( B
+: Esc [ m
+|                      |
+: Esc [ 8 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 9 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 24, column 23|
+: Esc ( B
+: Esc [ m
+: Esc [ 9 ; 80 H
+: Esc [ 10 ; 42 H
+: Esc [ 32 m
+|.|
+: Esc ( B
+: Esc [ m
+|                                      |
+: Esc [ 11 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|0,1|
+: Esc ( B
+: Esc [ m
+||                                  |
+: Esc [ 12 ; 42 H
+: Esc [ 33 m
+|: Esc [ 11 C|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 13 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 14 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 11 characters.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 15 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|All|
+: Esc ( B
+: Esc [ m
+||                                  |
+: Esc [ 16 ; 42 H
+: Esc [ 33 m
+|: Esc [ 1 ; 1 H|
+: Esc ( B
+: Esc [ m
+|                        |
+: Esc [ 17 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 18 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 1, column 1.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 19 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 20 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 21 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 22 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+
+    TBREATHE
+
+: Esc [ 1 ; 24 r
+|H|
+: Esc [ 24 ; 23 H
+|1,2|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ C
+@ 0.002320
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 l|
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 1, column 1.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 2 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 3 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 4 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 5 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 6 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 7 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 l|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 8 ; 42 H
+: Esc [ 35 m
+|& RM: RESET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|      |
+: Esc [ 9 ; 42 H
+: Esc [ 32 m
+|" (DEC) Hide cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 10 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|H|
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 11 ; 42 H
+: Esc [ 33 m
+|: Esc [ 24 ; 23 H|
+: Esc ( B
+: Esc [ m
+|                      |
+: Esc [ 12 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 13 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 24, column 23|
+: Esc ( B
+: Esc [ m
+: Esc [ 13 ; 80 H
+: Esc [ 14 ; 42 H
+: Esc [ 32 m
+|.|
+: Esc ( B
+: Esc [ m
+|                                      |
+: Esc [ 15 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|1,2|
+: Esc ( B
+: Esc [ m
+||                                  |
+: Esc [ 16 ; 42 H
+: Esc [ 33 m
+|: Esc [ 1 ; 2 H|
+: Esc ( B
+: Esc [ m
+|                      |
+@ 0.000093
+|  |
+: Esc [ 17 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 18 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 1, column 2.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 19 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 20 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 21 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 22 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ C
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+
+    TBREATHE
+
+: Esc [ 1 ; 24 r
+: Esc [ H
+|Hi|
+: Esc [ 24 ; 25 H
+|3|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 C
+@ 0.002993
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 l|
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 2 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 3 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 4 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 5 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 6 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 l|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 7 ; 42 H
+: Esc [ 35 m
+|& RM: RESET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|      |
+: Esc [ 8 ; 42 H
+: Esc [ 32 m
+|" (DEC) Hide cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 9 ; 42 H
+: Esc [ 31 m
+|. BS/^H|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 10 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|Hi|
+: Esc ( B
+: Esc [ m
+||                                   |
+: Esc [ 11 ; 42 H
+: Esc [ 33 m
+|: Esc [ 24 ; 25 H|
+: Esc ( B
+: Esc [ m
+|                      |
+: Esc [ 12 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 13 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 24, column 25|
+: Esc ( B
+: Esc [ m
+: Esc [ 13 ; 80 H
+: Esc [ 14 ; 42 H
+: Esc [ 32 m
+|.|
+: Esc ( B
+: Esc [ m
+|                                      |
+: Esc [ 15 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|3|
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 16 ; 42 H
+: Esc [ 33 m
+|: Esc [ 1 ; 3 H|
+: Esc ( B
+: Esc [ m
+|                        |
+: Esc [ 17 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 18 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 1, column 3.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 19 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 20 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 21 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 22 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 2 C
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+
+    TBREATHE
+
+: Esc [ 24 ; 1 H
+|                                        |
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 23 H
+|1,2|
+: Esc [ 11 C
+|All|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ C
+@ 0.001951
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 42 H
+: Esc [ 33 m
+|: Esc [ 24 ; 1 H|
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 2 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 2 ; 80 H
+: Esc [ 3 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 4 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 l|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 5 ; 42 H
+: Esc [ 35 m
+|& RM: RESET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|      |
+: Esc [ 6 ; 42 H
+: Esc [ 32 m
+|" (DEC) Hide cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 7 ; 42 H
+: Esc [ 33 m
+|: Esc [ 24 ; 23 H|
+: Esc ( B
+: Esc [ m
+|                      |
+: Esc [ 8 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 9 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 24, column 23|
+: Esc ( B
+: Esc [ m
+: Esc [ 9 ; 80 H
+: Esc [ 10 ; 42 H
+: Esc [ 32 m
+|.|
+: Esc ( B
+: Esc [ m
+|                                      |
+: Esc [ 11 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|1,2|
+: Esc ( B
+: Esc [ m
+||                                  |
+: Esc [ 12 ; 42 H
+: Esc [ 33 m
+|: Esc [ 11 C|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 13 ; 42 H
+: Esc [ 35 m
+|& CUF: CURSOR RIGHT|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 14 ; 42 H
+: Esc [ 32 m
+|" Move the cursor right 11 characters.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 15 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|All|
+: Esc ( B
+: Esc [ m
+||                                  |
+: Esc [ 16 ; 42 H
+: Esc [ 33 m
+|: Esc [ 1 ; 2 H|
+: Esc ( B
+: Esc [ m
+|                        |
+: Esc [ 17 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 18 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 1, column 2.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 19 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 20 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 21 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 22 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ C
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.845248
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 13 H
+|:|
+. BS/^H
+|                            |
+. CR/^M
+|:|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 24 ; 2 H
+@ 0.003616
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 l|
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 24, column 13|
+: Esc ( B
+: Esc [ m
+: Esc [ 1 ; 80 H
+: Esc [ 2 ; 42 H
+: Esc [ 32 m
+|.|
+: Esc ( B
+: Esc [ m
+|                                      |
+: Esc [ 3 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|:|
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 4 ; 42 H
+: Esc [ 33 m
+|: Esc [ 1 ; 2 H|
+: Esc ( B
+: Esc [ m
+|                        |
+: Esc [ 5 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 6 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 1, column 2.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 7 ; 42 H
+: Esc [ 33 m
+|: Esc [ 24 ; 13 H|
+: Esc ( B
+: Esc [ m
+|                      |
+: Esc [ 8 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 9 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 24, column 13|
+: Esc ( B
+: Esc [ m
+: Esc [ 9 ; 80 H
+: Esc [ 10 ; 42 H
+: Esc [ 32 m
+|.|
+: Esc ( B
+: Esc [ m
+|                                      |
+: Esc [ 11 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 12 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 13 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 13 ; 80 H
+: Esc [ 14 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 15 ; 42 H
+: Esc [ 33 m
+|: Esc [ 24 ; 1 H|
+: Esc ( B
+: Esc [ m
+|                       |
+: Esc [ 16 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|     |
+@ 0.000116
+|            |
+: Esc [ 17 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 24, column 1.|
+: Esc ( B
+: Esc [ m
+: Esc [ 17 ; 80 H
+: Esc [ 18 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|:|
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 19 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 20 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 21 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 22 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 24 ; 2 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.215516
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 2 H
+|q|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 24 ; 3 H
+@ 0.001700
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|q|
+: Esc ( B
+: Esc [ m
+|||
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 32 m
+|.|
+: Esc ( B
+: Esc [ m
+|                                      |
+: Esc [ 2 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 3 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 4 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 4 ; 80 H
+: Esc [ 5 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 6 ; 42 H
+: Esc [ 33 m
+|: Esc [ 24 ; 1 H|
+: Esc ( B
+: Esc [ m
+|                       |
+: Esc [ 7 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 8 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 24, column 1.|
+: Esc ( B
+: Esc [ m
+: Esc [ 8 ; 80 H
+: Esc [ 9 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|:|
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 10 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 11 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 12 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 13 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 14 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 15 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|q|
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 16 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 l|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 17 ; 42 H
+: Esc [ 35 m
+|& RM: RESET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|      |
+: Esc [ 18 ; 42 H
+: Esc [ 32 m
+|" (DEC) Hide cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 19 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 20 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 21 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 22 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 24 ; 3 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.444823
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 3 H
+|a|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 24 ; 4 H
+@ 0.002058
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|a|
+: Esc ( B
+: Esc [ m
+|||
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 2 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 3 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 4 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 5 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 6 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|q|
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 7 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 l|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 8 ; 42 H
+: Esc [ 35 m
+|& RM: RESET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|      |
+: Esc [ 9 ; 42 H
+: Esc [ 32 m
+|" (DEC) Hide cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 10 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 11 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 12 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 13 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 14 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 15 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|a|
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 16 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 l|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 17 ; 42 H
+: Esc [ 35 m
+|& RM: RESET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|      |
+: Esc [ 18 ; 42 H
+: Esc [ 32 m
+|" (DEC) Hide cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 19 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 20 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 21 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 22 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 24 ; 4 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.748267
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 4 H
+|!|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 24 ; 5 H
+@ 0.001538
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|!|
+: Esc ( B
+: Esc [ m
+|||
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 2 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 3 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 4 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 5 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 6 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|a|
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 7 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 l|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 8 ; 42 H
+: Esc [ 35 m
+|& RM: RESET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|      |
+: Esc [ 9 ; 42 H
+: Esc [ 32 m
+|" (DEC) Hide cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 10 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 11 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 12 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 13 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 14 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 15 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|!|
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 16 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 l|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 17 ; 42 H
+: Esc [ 35 m
+|& RM: RESET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|      |
+: Esc [ 18 ; 42 H
+: Esc [ 32 m
+|" (DEC) Hide cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 19 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 20 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 21 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 22 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 24 ; 5 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 2.537071
+. CR/^M
+: Esc [ ? 25 l
+: Esc [ ? 1005 h
+: Esc [ ? 1000 h
+@ 0.002045
+|                                        |
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 42 H
+: Esc [ 31 m
+|. CR/^M|
+: Esc [ 1 ; 42 H
+: Esc [ 32 m
+|" (DEC) Hide cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 2 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 3 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 4 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 5 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 6 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 7 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|!|
+: Esc ( B
+: Esc [ m
+||                                    |
+: Esc [ 8 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 l|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 9 ; 42 H
+: Esc [ 35 m
+|& RM: RESET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|      |
+: Esc [ 10 ; 42 H
+: Esc [ 32 m
+|" (DEC) Hide cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 11 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 12 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 13 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 14 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 15 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 16 ; 42 H
+: Esc [ 31 m
+|. CR/^M|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 17 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 l|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 18 ; 42 H
+: Esc [ 35 m
+|& RM: RESET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|      |
+: Esc [ 19 ; 42 H
+: Esc [ 32 m
+|" (DEC) Hide cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 20 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 1002 l|
+: Esc ( B
+: Esc [ m
+|                       |
+: Esc [ 21 ; 42 H
+: Esc [ 35 m
+|& RM: RESET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|      |
+: Esc [ 22 ; 42 H
+: Esc [ 32 m
+|" (Xterm) Disable cell motion mouse tra|
+: Esc ( B
+: Esc [ m
+: Esc [ 22 ; 80 H
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|cking.|
+: Esc ( B
+: Esc [ m
+|                                 |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 24 d
+: Esc [ ? 1 l
+: Esc >
+: Esc [ H
+: Esc [ 38 ; 5 ; 103 m
+|micah$ |
+: Esc ( B
+: Esc [ m
+|                                 |
+. CR/^M LF/^J
+: Esc [ 38 ; 5 ; 103 m
+|micah$ |
+: Esc [ 39 m
+|echo -n 'Here is '; tput bold; ec|
+. CR/^M LF/^J
+|ho -n bold; tput sgr0; echo ' text.'    |
+. CR/^M LF/^J
+|Here is |
+: Esc [ 1 m
+|bold|
+: Esc ( B
+: Esc [ m
+| text.                      |
+. CR/^M LF/^J
+: Esc [ 38 ; 5 ; 103 m
+|micah$ |
+: Esc [ 39 m
+|vim                              |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+. CR/^M LF/^J
+|                                        |
+: Esc [ 6 ; 1 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.004294
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 42 H
+: Esc [ 33 m
+|: Esc [ 24 ; 1 H|
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 2 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 24, column 1.|
+: Esc ( B
+: Esc [ m
+: Esc [ 2 ; 80 H
+: Esc [ 3 ; 42 H
+: Esc [ 33 m
+|: Esc [ K|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 4 ; 42 H
+: Esc [ 35 m
+|& EL: ERASE IN LINE|
+: Esc ( B
+: Esc [ m
+|                    |
+: Esc [ 5 ; 42 H
+: Esc [ 32 m
+|" Clear from the cursor to the end of t|
+: Esc ( B
+: Esc [ m
+: Esc [ 5 ; 80 H
+: Esc [ 6 ; 42 H
+: Esc [ 32 m
+|he line.|
+: Esc ( B
+: Esc [ m
+|                               |
+: Esc [ 7 ; 42 H
+: Esc [ 33 m
+|: Esc [ 24 ; 1 H|
+: Esc ( B
+: Esc [ m
+|                       |
+: Esc [ 8 ; 42 H
+: Esc [ 35 m
+|& CUP: CURSOR POSITION|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 9 ; 42 H
+: Esc [ 32 m
+|" Move the cursor to line 24, column 1.|
+: Esc ( B
+: Esc [ m
+: Esc [ 9 ; 80 H
+: Esc [ 10 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 1 l|
+: Esc ( B
+: Esc [ m
+|                          |
+: Esc [ 11 ; 42 H
+: Esc [ 35 m
+|& RM: RESET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|      |
+: Esc [ 12 ; 42 H
+: Esc [ 32 m
+|" (DEC) Cursor key mode off.|
+: Esc ( B
+: Esc [ m
+|           |
+: Esc [ 13 ; 42 H
+: Esc [ 33 m
+|: Esc >|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 14 ; 42 H
+: Esc [ 35 m
+|& DECKPNM: KEYPAD NORMAL MODE|
+: Esc ( B
+: Esc [ m
+|          |
+: Esc [ 15 ; 42 H
+: Esc [ 33 m
+|: Esc [ 34 h|
+: Esc ( B
+: Esc [ m
+|                           |
+: Esc [ 16 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE|
+: Esc ( B
+: Esc [ m
+|                |
+@ 0.000585
+|         |
+: Esc [ 17 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 25 h|
+: Esc ( B
+: Esc [ m
+|                         |
+: Esc [ 18 ; 42 H
+: Esc [ 35 m
+|& SM: SET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 19 ; 42 H
+: Esc [ 32 m
+|" (DEC) Show cursor.|
+: Esc ( B
+: Esc [ m
+|                   |
+: Esc [ 20 ; 42 H
+: Esc [ 33 m
+|: Esc [ ? 1049 l|
+: Esc ( B
+: Esc [ m
+|                       |
+: Esc [ 21 ; 42 H
+: Esc [ 35 m
+|& RM: RESET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|      |
+: Esc [ 22 ; 42 H
+: Esc [ 32 m
+|" (Xterm) Leave the alternate screen bu|
+: Esc ( B
+: Esc [ m
+: Esc [ 22 ; 80 H
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|ffer and restore the cursor.|
+: Esc ( B
+: Esc [ m
+|           |
+: Esc [ 24 ; 42 H
+|                                       |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 5 B
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.081333
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 5 B
+: Esc [ 38 ; 5 ; 103 m
+|micah$ |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 6 ; 8 H
+: Esc ( B
+: Esc [ m
+
+    BREATHE(`alt screen')
+
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc [ ? 25 l
+: Esc [ 1 ; 42 H
+|: Esc [ ? 1049 l|
+: Esc ( B
+: Esc [ m
+|                       |
+: Esc [ 2 ; 42 H
+: Esc [ 35 m
+|& RM: RESET MODE (private params)|
+: Esc ( B
+: Esc [ m
+|      |
+: Esc [ 3 ; 42 H
+: Esc [ 32 m
+|" (Xterm) Leave the alternate screen bu|
+: Esc ( B
+: Esc [ m
+: Esc [ 3 ; 80 H
+: Esc [ 4 ; 42 H
+: Esc [ 32 m
+|ffer and restore the cursor.|
+: Esc ( B
+: Esc [ m
+|           |
+: Esc [ 5 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 6 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 7 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 8 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 9 ; 42 H
+: Esc [ 33 m
+|: Esc [ 38 ; 5 ; 103 m|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 10 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 11 ; 42 H
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 12 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|micah|
+: Esc ( B
+: Esc [ m
+||                                |
+: Esc [ 13 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 14 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 15 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 16 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 17 ; 42 H
+: Esc [ 33 m
+|: Esc [ 38 ; 5 ; 103 m|
+: Esc ( B
+: Esc [ m
+|                 |
+: Esc [ 18 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 19 ; 42 H
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc ( B
+: Esc [ m
+|   |
+: Esc [ 20 ; 42 H
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|$ |
+: Esc ( B
+: Esc [ m
+||                                   |
+: Esc [ 21 ; 42 H
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+|                              |
+: Esc [ 22 ; 42 H
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+|        |
+: Esc [ 23 ; 42 H
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+| |
+: Esc [ 24 ; 42 H
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+|                                |
+: Esc [ 24 ; 1 H
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 6 ; 8 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 0.212663
+: Esc [ ? 25 l
+: Esc [ 25 ; 1 H
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|0:bash*|
+: Esc [ 38 ; 5 ; 105 m
+: Esc [ 48 ; 5 ; 17 m
+|                                                                         |
+: Esc ( B
+: Esc [ m
+: Esc [ 6 ; 8 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+@ 3.277695
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 6 ; 8 H
+|exit|
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 6 B
+@ 0.001361
+: Esc [ ? 25 l
+: Esc [ H
+: Esc [ 33 m
+|: Esc [ ? 1049 l|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 35 m
+|& RM: RESET MODE (private params)|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 32 m
+|" (Xterm) Leave the alternate screen bu|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 32 m
+|ffer and restore the cursor.|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 33 m
+|: Esc [ 38 ; 5 ; 103 m|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|micah|
+: Esc ( B
+: Esc [ m
+|||
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 33 m
+|: Esc [ 38 ; 5 ; 103 m|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 32 m
+|" Set foreground color to index 103.|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|$ |
+: Esc ( B
+: Esc [ m
+|||
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 33 m
+|: Esc [ m|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 35 m
+|& SGR: SELECT GRAPHIC RENDITION|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 32 m
+|" Clear graphic rendition to defaults.|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 31 m
+|. SI/^O|
+: Esc ( B
+: Esc [ m
+: Esc [ K
+. CR/^M LF/^J
+: Esc [ 38 ; 5 ; 17 m
+: Esc [ 48 ; 5 ; 147 m
+|0:bash*|
+: Esc [ 38 ; 5 ; 105 m
+: Esc [ 48 ; 5 ; 17 m
+|                                                                         |
+: Esc ( B
+: Esc [ m
+: Esc [ 24 ; 8 H
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 d
+. LF/^J
+|||
+: Esc [ 36 m
+: Esc [ 7 m
+|exit|
+: Esc ( B
+: Esc [ m
+|||
+. CR/^M LF/^J
+: Esc [ 31 m
+|. CR/^M LF/^J|
+: Esc ( B
+: Esc [ m
+. CR/^M LF/^J
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 24 d
+@ 0.073633
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 d
+: Esc [ 38 ; 5 ; 103 m
+|micah$ |
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 24 ; 8 H
+: Esc ( B
+: Esc [ m
+@ 0.257093
+: Esc [ 1 ; 24 r
+: Esc [ H
+: Esc [ 24 ; 8 H
+|exit|
+. CR/^M LF/^J
+: Esc [ 1 ; 25 r
+: Esc [ H
+: Esc [ 24 d
+@ 0.001413
+: Esc [ 1 ; 25 r
+: Esc ( B
+: Esc [ m
+: Esc [ ? 1 l
+: Esc >
+: Esc [ H
+: Esc [ 2 J
+: Esc ]
+|112|
+. BEL/^G
+: Esc [ ? 12 l
+: Esc [ ? 25 h
+: Esc [ ? 1000 l
+: Esc [ ? 1049 l
+@ 0.001323
+|[exited]|
+. CR/^M LF/^J
+@ 0.079946
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|micah|
+: Esc ( B
+: Esc [ m
+: Esc [ 38 ; 5 ; 103 m
+|$ |
+: Esc ( B
+: Esc [ m
+@ 0.000000
+|exit|
+. CR/^M LF/^J LF/^J

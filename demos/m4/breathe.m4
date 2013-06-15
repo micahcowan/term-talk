@@ -20,3 +20,17 @@ ifelse(`$#', `0', `', ` `$1' ###')'dnl
 
   end breathe
 '')
+
+  define(`TBREATHE',``
+  start tbreathe
+
+. xC2 xB7
+. BS/^H
+@@@
+|'dnl
+ifelse(`$#', `0', `` '', ``$1'')dnl
+`|
+. BS/^H
+
+  end tbreathe
+'')

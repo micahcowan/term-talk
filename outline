@@ -57,7 +57,6 @@ TODO:
     - tput cdd1; printf 'a\b' # Works now!
     [ Interactive demo: demos/interact/tmux.sh ]
   - terminfo(5) is where to find various features and descriptions
-  - The TERM environment variable
 - ASCII / Ecma-6 / ISO-646
   - Comes from background of punchtape, teletypes (ttys)
   - Your computer understands Ctrl+Anything, but terms are much more
@@ -110,8 +109,14 @@ TODO:
     [ note from relevant Ecma standard - Ecma 6 § 7 ]
 - Why can't I do the man example directly to terminal? Because video
   terminals and emulators aren't like teletypes: they don't do
-  overstrikes. What they use is escape sequences, like the ones we saw
-  before.
+  overstrikes. What they use is escape sequences.
+- Intro to escape sequences
+  - See what actual codes will be output to the terminal (also try tput
+    | cat -A)
+  - The TERM environment variable tells tput (and all other curses
+    apps!) what terminal we're running on, which affects which codes
+    sent
+    [ TERM=atari-color tput setaf 1 ]
 - teseq:
   - tmux pipe-pane example with teseq, with prompt first, then vim or
     something
@@ -161,11 +166,6 @@ TODO:
 
 
 (At end, if there's time:)
-- prompt-jobs.sh
-  [ Interactive demo for this ]
-  - Simple example
-  - configuring .pjobsrc with tput commands
-  - prompt-jobs: treating your existing complex prompt with respect.
 - Other 7-bit Ecma encodings/ASCII variants, and which chars were
   allowed to change, which aren't. ISO 646 / Ecma 6
   - Did you ever visit a text documenton a web page, and it had funky
