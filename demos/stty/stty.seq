@@ -430,8 +430,10 @@
 @ 0.645167
 |^|
 @ 0.896626
-|H|
-@ 1.941343
+|H |
+
+    BREATHE
+
 . CR/^M LF/^J
 @ 0.086201
 : Esc ( B
@@ -549,7 +551,9 @@
 . DEL/^? DEL/^? DEL/^? DEL/^?
 | <-- when I type backspace|
 . CR/^M LF/^J
-@ 0.247632
+
+    BREATHE
+
 |a|
 @ 0.045236
 |w|
@@ -1677,7 +1681,7 @@
 @ 0.005337
 |Char: |
 
-    BREATHE
+@@@
 
 . CR/^M LF/^J
 |char was y|
@@ -1709,7 +1713,9 @@
 . CR/^M LF/^J CR/^M CR/^M LF/^J
 @ 0.003645
 |Char: |
-@ 1.078223
+
+@@@
+
 . CR/^M LF/^J
 |char was n|
 . CR/^M LF/^J
