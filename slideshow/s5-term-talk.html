@@ -45,7 +45,7 @@
 <h3>Micah Cowan &lt;<a
         href="mailto:micah@cowan.name">micah@cowan.name</a>&gt;</h3>
 <!-- <h4>[affiliation of presenter]</h4> -->
-<h4>All resources and materials used for this presentation at <a href="http://micah.cowan.name/term-talk/">micah.cowan.name/term-talk/</a></h4>
+<h4>All resources and materials used for this presentation at <a href="http://micah.cowan.name/projects/term-talk/">micah.cowan.name/projects/term-talk/</a></h4>
 </div>
 
 <!--
@@ -61,6 +61,20 @@
 </ul>
 </div>
 -->
+
+<div class="slide">
+    <h1>About this Talk</h1>
+
+    <ul>
+        <li>This talk is available online at <a href="http://micah.cowan.name/projects/term-talk/">micah.cowan.name/projects/term-talk/</a></li>
+        <li>Most of the terminal examples I give, are recordings that you can download and play back at your leisure.</li>
+        <li>I'll be covering details; you won't remember the details.<br />
+        The important thing is to know <em>what's possible</em>.<br />
+        To remember the <em>hows</em>, review the slides online, play the demos, read the manpages, and try the commands out for yourself.</li>
+        <li>When viewing these slides online, type "C" or "T" to toggle navigation controls or outline views.</li>
+        <li>Questions welcome, just blurt them out; but I may save answering until later if I can't answer briefly.</li>
+    </ul>
+</div>
 
 <div class="slide">
 <h1>Brief Intro to Terminal Multiplexers</h1>
@@ -438,11 +452,9 @@
 
     <p class="mjc-demo">[ demos/pjobs/cmd.sh ]</p>
     <ul class="incremental">
-        <li>Find the latest at <a href="http://micah.cowan.name/hg/promptjobs/raw-file/tip/prompt-jobs.sh">http://micah.cowan.name/hg/promptjobs/raw-file/tip/prompt-jobs.sh</a></li>
-        <li>(Unlike the demo, you shouldn't just blindly wget and run scripts. I need to package it up better...)</li>
+        <li>Find the latest at <a href="http://micah.cowan.name/projects/promptjobs/">http://micah.cowan.name/projects/promptjobs/</a></li>
+        <li>Unlike the demo, you shouldn't just blindly wget and run scripts. Grab the script from the link above, and verify the GPG signature (I'm happy to verify fingerprints in person today).</li>
         <li>Tested on bash, ksh, zsh and dash.</li>
-        <li>Places copious control sequences into the prompt. Many shells, including bash and ksh, have smallish static-sized buffers for holding the prompt in.<br />
-            This doesn't inhibit the prompt's display, but can produce odd graphical glitches when you move around in shell history. Use graphical effects very sparingly to avoid shell glitches.</li>
     </ul>
 </div>
 
@@ -581,21 +593,41 @@
 </div>
 
 <div class="slide">
-    <h1>Links</h1>
-    <ul>
-        <li>[tmux]</li>
-        <li>[screen]</li>
-        <li>[vim]</li>
-        <li>[nethack]</li>
-        <li>[starwars]</li>
-        <li>[nyan]</li>
-        <li>[script (bsdutils)</li>
-        <li>[teseq]</li>
-        <li>[terminfo]</li>
-        <li>[promptjobs]</li>
-        <li>[various ECMA stuff]</li>
-        <li>[invisibleisland.net]</li>
-    </ul>
+    <h1>Software Links</h1>
+
+    <table class="links">
+        <tr><td>bsdutils<br />(script/scriptreplay)</td><td>(no site; install package for your OS)</td></tr>
+        <tr><td>nethack (terminal RPG)</td><td><a href="http://www.nethack.org/">http://www.nethack.org/</a></td></tr>
+        <tr><td>ncurses<br />(tput, infocmp, terminfo</td><td><a href="http://www.gnu.org/software/ncurses/)">http://www.gnu.org/software/ncurses/)</a></td></tr>
+        <tr><td>promptjobs</td><td><a href="http://micah.cowan.name/projects/promptjobs/">http://micah.cowan.name/projects/promptjobs/</a></td></tr>
+        <tr><td>s5 - HTML slideshows</td><td><a href="http://meyerweb.com/eric/tools/s5/">http://meyerweb.com/eric/tools/s5/</a></td></tr>
+        <tr><td>screen</td><td><a href="http://www.gnu.org/software/screen/">http://www.gnu.org/software/screen/</a></td></tr>
+        <tr><td>teseq</td><td><a href="http://www.gnu.org/software/teseq/">http://www.gnu.org/software/teseq/</a></td></tr>
+        <tr><td>tmux</td><td><a href="http://sourceforge.net/projects/tmux/">http://sourceforge.net/projects/tmux/</a></td></tr>
+        <tr><td>vim</td><td><a href="http://www.vim.org/">http://www.vim.org/</a></td></tr>
+    </table>
+</div>
+
+<div class="slide">
+    <h1>ANSI Terminal Animations</h1>
+
+    <table class="links">
+        <tr><td>Nyan Cat</td><td>http://miku.acm.uiuc.edu/</td></tr>
+        <tr><td>Star Wars</td><td>telnet towel.blinkenlights.nl</td></tr>
+    </table>
+</div>
+
+<div class="slide">
+    <h1>Specification Links</h1>
+
+    <p>(Freely available!)</p>
+
+    <table class="links">
+        <tr><td>Xterm control sequences</td><td><a href="http://invisible-island.net/xterm/ctlseqs/ctlseqs.html">http://invisible-island.net/xterm/ctlseqs/ctlseqs.html</a></td></tr>
+        <tr><td>ASCII / ISO-646</td><td><a href="http://www.ecma-international.org/publications/standards/ECMA-006.HTM">http://www.ecma-international.org/publications/standards/ECMA-006.HTM</a></td></tr>
+        <tr><td>Control sequences for changing character sets (ISO 2022)</td><td><a href="http://www.ecma-international.org/publications/standards/ECMA-035.HTM">http://www.ecma-international.org/publications/standards/ECMA-035.HTM</a></td></tr>
+        <tr><td>“ANSI” control sequences</td><td><a href="http://www.ecma-international.org/publications/standards/ECMA-048.HTM">http://www.ecma-international.org/publications/standards/ECMA-048.HTM</a></td></tr>
+    </table>
 </div>
 
 <div class="slide">

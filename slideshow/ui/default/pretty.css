@@ -159,6 +159,19 @@ table.incremental, table.old-incremental {display: none;}
     font-size: 0.8em;
 }
 
+.links {
+    font-size: 0.8em;
+    border-spacing: 3em 0.3em;
+}
+
+.links td {
+    width: 50%;
+}
+
+.links  td:first-child {
+    text-align: right;
+}
+
 /* diagnostics
 
 li:after {content: " [" attr(class) "]"; color: #F88;}
