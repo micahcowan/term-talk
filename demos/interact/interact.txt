@@ -1,0 +1,10 @@
+
+Type string capabilities from
+terminfo(5) in the right pane
+to try them out.
+Empty lines repeat last command.
+Try: "cuf1", "cub1", "cud1", "cuu1"
+"bold", and "setaf 1"!
+Type Ctrl-D to exit.
+
+              

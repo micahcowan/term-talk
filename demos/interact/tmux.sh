@@ -1,3 +1,3 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-tmux -Ldemo -f interact.tmux attach
+tmux -Lmjc-term-demo -f interact.tmux attach

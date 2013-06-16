@@ -25,6 +25,11 @@ fi
 
 cmd=
 prompt='> '
+
+tput smso > "$tty"
+printf 'x\b' > "$tty"
+tput rmso > "$tty"
+
 printf -- '%s' "$prompt"
 while read -r newcmd
 do
