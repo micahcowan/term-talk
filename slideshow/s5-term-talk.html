@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
@@ -120,6 +121,7 @@
         screen adding scriptability via bindings for Python, Ruby, etc.</li>
     <li>tmux can handle non-ASCII characters in the status line</li>
     <li>screen has built in “digraph” support (can't be used for status bar/window list)</li>
+</ul>
 </div>
 
 <div class="slide">
@@ -136,7 +138,7 @@
 
     <p class="mjc-demo">[ demos/ansi/all.sh ]</p>
 
-    <p>(links to these on final slide)</pl>
+    <p>(links to these on final slide)</p>
 </div>
 
 <div class="slide">
@@ -157,8 +159,9 @@
         <li>Most of these are fixed by <span class="mjc-cmd">reset</span></li>
         <li>In extreme cases, you may have to type <span class="mjc-cmd">^J reset ^J</span></li>
         <li>flow control can't be fixed that way (since you can't type); ^Q to break out of it; use stty to prevent it (more later).</li>
-        <p>(15 mins?)</p>
     </ul>
+
+    <p>(15 mins?)</p>
 </div>
 
 <!--
@@ -233,9 +236,9 @@
 <div class="slide show-first">
     <h1>A Look at the ASCII Table</h1>
 
-    <table class="split">
+    <table class="split" summary="a left-right split">
         <tr><td class="splitcol">
-    <table class="ascii">
+    <table class="ascii" summary="The ASCII table of characters (hex)">
         <tr>
             <th>&nbsp;</th>
             <th>0</th>
@@ -483,10 +486,10 @@
 <div class="slide">
     <h1>Carriage Return (^M) and Line Feed (New Line) (^J)</h1>
 
-    <table class="split">
+    <table class="split" summary="a left/right split table">
         <tr>
             <td class="splitcol">
-                <img src="../images/crlf.gif" />
+                <img src="../images/crlf.gif" alt="Animation of a teletype machine illustrating carriage-return and line-feed"/>
             </td>
             <td class="splitcol reduced">
 
@@ -527,7 +530,8 @@
 
     <div class="incremental">
         <p>Excerpt from ECMA 6 (ASCII):</p>
-    <img id="img-composite" src="../images/composite-chars.svg" />
+        <img id="img-composite" src="../images/composite-chars.svg"
+        alt="An image snapshot of section 7 of the ECMA 6 (ASCII) specification"/>
     </div>
 </div>
 
@@ -594,7 +598,7 @@
 <div class="slide">
     <h1>Software Links</h1>
 
-    <table class="links">
+    <table class="links" summary="A table of software links">
         <tr><td>bsdutils<br />(script/scriptreplay)</td><td>(no site; install package for your OS)</td></tr>
         <tr><td>nethack (terminal RPG)</td><td><a href="http://www.nethack.org/">http://www.nethack.org/</a></td></tr>
         <tr><td>ncurses<br />(tput, infocmp, terminfo</td><td><a href="http://www.gnu.org/software/ncurses/)">http://www.gnu.org/software/ncurses/)</a></td></tr>
@@ -610,8 +614,8 @@
 <div class="slide">
     <h1>ANSI Terminal Animations</h1>
 
-    <table class="links">
-        <tr><td>Nyan Cat</td><td>http://miku.acm.uiuc.edu/</td></tr>
+    <table class="links" summary="A table of links to ANSI animations">
+        <tr><td>Nyan Cat</td><td><a href="http://miku.acm.uiuc.edu/">http://miku.acm.uiuc.edu/</a></td></tr>
         <tr><td>Star Wars</td><td>telnet towel.blinkenlights.nl</td></tr>
     </table>
 </div>
@@ -621,7 +625,7 @@
 
     <p>(Freely available!)</p>
 
-    <table class="links">
+    <table class="links" summary="A table of links to terminal-related specifications">
         <tr><td>Xterm control sequences</td><td><a href="http://invisible-island.net/xterm/ctlseqs/ctlseqs.html">http://invisible-island.net/xterm/ctlseqs/ctlseqs.html</a></td></tr>
         <tr><td>ASCII / ISO-646</td><td><a href="http://www.ecma-international.org/publications/standards/ECMA-006.HTM">http://www.ecma-international.org/publications/standards/ECMA-006.HTM</a></td></tr>
         <tr><td>Control sequences for changing character sets (ISO 2022)</td><td><a href="http://www.ecma-international.org/publications/standards/ECMA-035.HTM">http://www.ecma-international.org/publications/standards/ECMA-035.HTM</a></td></tr>
