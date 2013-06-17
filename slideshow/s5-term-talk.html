@@ -142,10 +142,10 @@
 <div class="slide">
     <h1>Terminal problem situations<br /> you can find yourself in</h1>
     <ul class="incremental show-first" style="margin-top: 3em;">
-        <li>Catting a binary file [ pjobs-remove; cat demos/problems/binary ]<br />
+        <li>Catting a binary file <span class="mjc-demo">[ pjobs-remove; cat demos/problems/binary ]</span><br />
         (Seems on more modern terms I have to go out of my way to produce
         this situation, but used to be a big problem.)</li>
-        <li>Flow control with ^S and ^Q [ demos/problems/infout;<br />use ^S and ^Q to pause/resume, then kill with ^C<br />
+        <li>Flow control with ^S and ^Q <span class="mjc-demo">[ demos/problems/infout ]</span><br />use ^S and ^Q to pause/resume, then kill with ^C<br />
         Try also with vim (won't work with emacs)</li>
         <li>stty -echo (sometimes left over from program crash)</li>
     </ul>
@@ -474,7 +474,7 @@
         <li>The DEL character is represented in ASCII as all-bits-set.<br />
         In punch tape, it was originally used to represent a character that you had written, then decided to erase. Like typing Xs over chars in a typewriter.</li>
         <li>It was not originally a control of any sort; it was meant to be ignored.</li>
-        <li>BS was intended to back the cursor up over the last-typed character, and that'exactly what it still does on output to a terminal.</li>
+        <li>BS was intended to back the cursor up over the last-typed character, and that's exactly what it still does on output to a terminal.</li>
         <li>On terminal input, backspace is usually one or the other of BS or DEL. Stty and term emulator have to agree which it is.</li>
         <li>DEL has never had any relation to the forward-"Delete" key on your keyboard.</li>
     </ul>
@@ -492,7 +492,7 @@
 
     <ul>
         <li>From line printer days: CR returns the carriage to type at beginning of (same) line, LF feeds one line's worth of paper in the printer.</li>
-        <li>Often called NL (for New Line) instead of LF, on terminals.</li>
+        <li>Often called NL (for New Line) instead of LF, on video terminals.</li>
         <li>Different systems have different line-ending conventions for text
         files and such.</li>
     </ul>
